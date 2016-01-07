@@ -1573,7 +1573,7 @@ body:after {
   padding-top: 10px;
 }
 /*============================================================================
-  >> 07. SECTION: FAQ
+  >> 07. SECTION:
   ============================================================================
 */
 .faq-item-content:before {
@@ -1585,6 +1585,9 @@ body:after {
 .faq-item-title {
   font-size: 14px;
   line-height: 20px;
+}
+.faq-para {
+  font-weight: bold;
 }
 /* ==========================================================
 ! 08. SECTION: Sponsors
