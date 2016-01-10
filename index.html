@@ -1807,29 +1807,12 @@ f<!DOCTYPE html>
             <div class="container">
                 <!-- Section title -->
                 <div class="section-title-wrapper">
-                    <h2 class="title-section">Faq</h2>
+                    <h2 class="title-section">FAQ's</h2>
                     <p>  If your question is not listed here, send an email to <span class="faq-para">contact@pydelhi.org </span></p>
                 </div>
                 <!-- /Section title -->
 
                 <!-- FAQ list -->
-                <!---<div class="schedule-list" -->
-
-                    <!-- FAQ items header -->
-                    <div class="schedule-item-header">
-                        <div class="row">
-                            <div class="col-sm-2">
-                                <!-- FAQ item bar -->
-                                <div class="schedule-item-block faq-item-block schedule-item-block-top">
-                                    <div class="schedule-item-bar schedule-item-bar-top"></div>
-                                </div>
-                                <!-- /FAQ item bar -->
-                            </div>
-                            <div class="col-sm-10">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /FAQ itens header -->
 
                     <script>
                         var faqs = [{
@@ -1853,23 +1836,12 @@ f<!DOCTYPE html>
                         }
                         ];
                     </script>
-                    <div class="faq-items"></div>
-
-                    <!-- FAQ itens footer -->
-                    <div class="schedule-item-footer">
-                        <div class="row">
-                            <div class="col-sm-2">
-                                <!-- FAQ item bar -->
-                                <div class="schedule-item-block faq-item-block schedule-item-block-bottom">
-                                    <div class="schedule-item-bar schedule-item-bar-bottom"></div>
-                                </div>
-                                <!-- /FAQ item bar -->
-                            </div>
-                            <div class="col-sm-10">
+                    <div class="faq-items">
+                        <div class="schedule-item">
+                            <div class="row faq-items-content">
                             </div>
                         </div>
                     </div>
-                    <!-- /FAQ itens footer -->
                 </div>
                 <!-- /FAQ list -->
             </div>
@@ -1885,7 +1857,7 @@ f<!DOCTYPE html>
                 <!-- Section title -->
                 <div class="section-title-wrapper">
                     <h2 class="title-section">Register now</h2>
-                    <p>Explara link will come here</p>
+                    <p>Explara link will come here </p>
                 </div>
                 <!-- /Section title -->
 
@@ -1999,28 +1971,14 @@ f<!DOCTYPE html>
 // Display faq items
 var faqs_html = '';
 $.each(faqs, function(index, item){
-    faqs_html += '<div class="schedule-item"><div class="row"><div class="col-sm-2"> \
-                    <div class="schedule-item-block faq-item-block"><div class="schedule-item-bar"></div></div></div> \
-                    <div class="col-sm-10 schedule-item-content-wrapper"> \
-                        <div class="schedule-item-content faq-item-content"> \
-                            <div class="row"> \
-                                <div class="col-sm-12"> \
-                                    <div class="schedule-item-infos"> \
-                                        <h3 class="schedule-item-title faq-item-title">' +item.question + '</h3> \
-                                                <div class="schedule-item-text"> \
-                                                    <p>' + item.answer + ' </p> \
-                                                </div> \
-                                            </div> \
-                                        </div> \
-                                    </div> \
-                                </div> \
-                            </div> \
-                        </div> \
-                    </div>';
+    faqs_html += ' <div class="col-md-4"> \
+            <div class="schedule-item-text"> \
+            <h3 class="schedule-item-title faq-item-title">' +item.question + '</h3> \
+                <p>' + item.answer + ' </p> \
+            </div> \
+        </div>';
 });
-$('.faq-items').html(faqs_html)
-
-
+$('.faq-items-content').html(faqs_html)
 </script>
 
 <!-- >> /JS
