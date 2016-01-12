@@ -5098,6 +5098,21 @@ $(document).ready(function(){
     }
   });
 
+  var tickets_url = "http://127.0.0.1:5000/api/tickets-left/";
+  var tickets_left = "No fetched";
+  $.ajax({
+    url: tickets_url
+  }).done(function(data) {
+    console.log("Tickets fetched");
+    tickets_left = data.tickets_left;
+    console.log(tickets_left);
+    $('#tickets-left').html(tickets_left);
+  }).fail(function(data) {
+    console.log("Failed to fetch tickets");
+    console.log(data);
+    $('#tickets-left').html(tickets_left);
+  });
+
   //Modal for Forms
   function hideModal() {
     $('.modal-wrap').fadeOut(300);
