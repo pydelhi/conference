@@ -2896,4 +2896,48 @@ html.safari:after {
 .gecko .price-ticket-item.hover .price-ticket-item-wrapper {
   transform: rotateY(0deg) !important;
 }
+.modal-content {
+  width: 900px;
+  margin-left: -125px;
+  left: 0px;
+  margin-top: 55px;
+  color: #000;
+  background-color: #fff;
+  font-size: 16px;
+}
+h4#myModalLabel.modal-title {
+  color: #029669 !important;
+}
+@media (max-width: @screen-xs-min) {
+  .modal-xs { width: @modal-sm; }
+}
+@media screen and (max-width: 980px) {
+  .modal-content {
+    width: 50em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .modal-content {
+    width: 40em;
+    left: 10em;
+  }
+}
+@media screen and (max-width: 700px) {
+  .modal-content {
+    width: 30em;
+    left: 10em;
+  }
+}
+@media screen and (max-width: 525px) {
+  .modal-content {
+    width: 25em;
+    left: 10em;
+  }
+}
+@media screen and (max-width: 360px) {
+  .modal-content {
+    width: 15em;
+    left: 10em;
+  }
+}
 /*Main stylesheet end*/
