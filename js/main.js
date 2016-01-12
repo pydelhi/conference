@@ -5110,6 +5110,7 @@ $(document).ready(function(){
   }).fail(function(data) {
     console.log("Failed to fetch tickets");
     console.log(data);
+    $('#tickets-left').html(tickets_left);
   });
 
   //Modal for Forms
