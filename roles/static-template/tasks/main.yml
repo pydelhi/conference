@@ -1,0 +1,4 @@
+- name: copy base html file.
+  template: src=index.html.j2 dest=/vagrant/index.html
+  
+
