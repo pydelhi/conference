@@ -5098,7 +5098,7 @@ $(document).ready(function(){
     }
   });
 
-  var tickets_url = "http://127.0.0.1:5000/api/tickets-left/";
+  var tickets_url = "https://pydelhi-conference.herokuapp.com/api/tickets-left/";
   var tickets_left = "No fetched";
   $.ajax({
     url: tickets_url
