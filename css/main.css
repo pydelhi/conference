@@ -2941,9 +2941,12 @@ h4#myModalLabel.modal-title {
   }
 }
 .modal-body {
-    position: relative;
-    padding: 20px;
-    height: 200px;
-    overflow-y: scroll;
+  position: relative;
+  padding: 20px;
+  height: 200px;
+  overflow-y: scroll;
+}
+a {
+  color: teal;
 }
 /*Main stylesheet end*/
