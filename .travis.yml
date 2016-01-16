@@ -5,8 +5,7 @@ sudo: true
 install:
   # Install Ansible.
   - sudo pip install ansible
-  - sudo ansible-galaxy install -r requirements.yml
-
+ 
 script:
   # Check the role/playbook's syntax.
   - ansible-playbook -i hosts playbook.yml --syntax-check
