@@ -2949,4 +2949,12 @@ h4#myModalLabel.modal-title {
 a {
   color: teal;
 }
+.event-info-col {
+  width: 33%;
+}
+@media (min-width:992px) {
+  .event-infos:hover .event-info-col {
+    width: 36%;
+  }
+}
 /*Main stylesheet end*/
