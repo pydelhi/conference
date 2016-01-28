@@ -2952,4 +2952,7 @@ a {
 .event-info-col {
   width: 33%;
 }
+.schedule-item-text p a {
+  color: #04CD8F;
+}
 /*Main stylesheet end*/
