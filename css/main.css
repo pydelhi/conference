@@ -2958,4 +2958,8 @@ a {
 #sponsorship-prospectus {
   color: #4000ff;
 }
+.sponsor-img {
+  width: 100%;
+  padding: 0.5em;
+}
 /*Main stylesheet end*/
