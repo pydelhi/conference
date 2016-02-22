@@ -1289,6 +1289,9 @@ body:after {
   font-weight: bold;
   margin-top: 20px;
 }
+.countdown-title2 > a + a {
+  margin-left: 10px;
+}
 @media (min-width: 768px) {
   .countdown-title2 {
     margin-top: 40px;
