@@ -2479,6 +2479,7 @@ body:after {
 .modal-content p {
   font-size: 14px;
   margin-bottom: 0;
+  color: #000;
 }
 #contactError .modal-title {
   color: #fff;
