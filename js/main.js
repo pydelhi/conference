@@ -4825,7 +4825,7 @@ $(window).load(function(){
         paginationSpeed : 400,
         responsiveRefreshRate : 200,
     responsiveBaseWidth: window,
-    items : 4,
+    items : 5,
     itemsMobile : [479,1],
     //autoPlay: 6000,
     stopOnHover: true,
@@ -4856,28 +4856,6 @@ $(window).load(function(){
     navigationText: ["<span class='fa fa-chevron-left'></span>","<span class='fa fa-chevron-right'></span>"],
     items : 3,
   });
-
-  $("#sponsors-carousel").owlCarousel({
-        navigation : false, // Show next and prev buttons
-        slideSpeed : 300,
-        paginationSpeed : 400,
-        items : 4,
-        itemsCustom : false,
-        itemsDesktop : [1199,4],
-        itemsDesktopSmall : [980,3],
-        itemsTablet: [768,2],
-        itemsMobile : [479,1],
-      pagination: true,
-        responsiveRefreshRate : 200,
-        responsiveBaseWidth: window,
-        navigationText: ["<span class='fa fa-chevron-left'></span>","<span class='fa fa-chevron-right'></span>"],
-          // "singleItem:true" is a shortcut for:
-          // items : 1,
-          // itemsDesktop : false,
-          // itemsDesktopSmall : false,
-          // itemsTablet: false,
-          // itemsMobile : false
-    });
 
   $("#main-carousel").owlCarousel({
     navigation : false, // Show next and prev buttons
