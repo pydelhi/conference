@@ -4825,7 +4825,7 @@ $(window).load(function(){
         paginationSpeed : 400,
         responsiveRefreshRate : 200,
     responsiveBaseWidth: window,
-    items : 5,
+    items : 4,
     itemsMobile : [479,1],
     //autoPlay: 6000,
     stopOnHover: true,
