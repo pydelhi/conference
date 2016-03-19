@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PyDelhi Conference - Volunteers</title>
+    <meta name="description" content="Volunteers for PyDelhi Conference" />
+    <!-- Favicon and Touch Icons
+    ========================================================= -->
+       <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+       <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- /Favicon
+    ========================================================= -->
+    <link href="css/main.css" rel="stylesheet">
+    <style type="text/css">
+      #header {
+        background-color: grey;
+      }
+      h1 {
+        padding: 30px;
+        text-align: center;
+        margin-top: 120px;
+      }
+      #vol-list-container {
+        margin-left: 40%;
+      }
+      li {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header" class="">
+     <div class="container">
+      <!-- logo -->
+      <div class="header-logo" id="header-logo">
+        <a href="index.html">
+        <img src="img/logo.png" alt=""/>
+        </a>
+      </div>
+     </div>
+    </header>
+
+    <h1>Here is a list of volunteers for PyDelhi Conference</h1>
+    <div id="vol-list-container">
+      <ul id="vol-list">
+      </ul>
+    </div>
+    <script type="text/javascript">
+      // Please keep the list sorted alphabetically
+      var volunteers_list = ['Akash Mishra',
+                             'Akkshay Arora',
+                             'Akul Mehra',
+                             'Amit Singh Sethi',
+                             'Amit kumar',
+                             'Aniket Maithani',
+                             'Anuj Singh',
+                             'Anuvrat Parashar',
+                             'Ashutosh Kumar Singh',
+                             'Fasih Ahmed Fakhri',
+                             'Gora Mohanty',
+                             'Hans Gogia',
+                             'Harris',
+                             'Jaidev',
+                             'Kushagara Singh',
+                             'Laksh Arora',
+                             'Manoj Pandey',
+                             'Rajat Goyal',
+                             'Rajat Saini',
+                             'Ramsevak',
+                             'Rishabh Singh',
+                             'Sanyam Khurana',
+                             'Satyakaam Goswami',
+                             'Saurabh Kumar',
+                             'Shantanu',
+                             'Shyam Saini',
+                             'Vinay Kumar Dahiya',
+                             'Vipin Rathi'];
+      var vol_list = "";
+      for (var i =0; i < volunteers_list.length; i++) {
+          vol_list += "<li>" + volunteers_list[i]+ "</li>";
+      }
+      document.getElementById("vol-list").innerHTML = vol_list;
+    </script>
+  </body>
+</html>
