@@ -3000,27 +3000,28 @@ h1{
 }
 table{
   width:100%;
-  table-layout: fixed;
+  //table-layout: fixed;
 }
 .tbl-header{
   background-color: rgba(255,255,255,0.3);
  }
 .tbl-content{
   height:300px;
-  overflow-x:auto;
+  min-width: 300px;
+  overflow-x: auto;
+  white-space: nowrap;
   margin-top: 0px;
   border: 1px solid rgba(255,255,255,0.3);
 }
 th{
   padding: 20px 15px;
   text-align: left;
-  font
   font-size: 20px;
   color: #fff;
   text-transform: uppercase;
 }
 td{
-  padding: 15px;
+  padding: 10px;
   text-align: left;
   vertical-align:middle;
   font-size: 15px;
@@ -3039,8 +3040,21 @@ section#schedule_table{
   section#schedule_table{
     margin: 0px;
   }
-  td{
+  table td{
     font-size: 13px;
+  }
+  .third_col, .fourth_col{
+    display: none;
+  }
+  .selected_tab{
+    background-color: #eee;
+    color: #25b7c4;
+    transition: all .3s ease-in 0ms;
+  }
+  .unselected_tab{
+    background-color: inherit;;
+    color: #fff;
+    transition: all .3s ease-in 0ms;
   }
 }
 

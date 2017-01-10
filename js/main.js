@@ -5107,5 +5107,41 @@ $(document).ready(function(){
 
 });
 
+//Functions To Make Schedule Tabs Work only Below 500px Screen Width
+
+$("#audi1").click(function(){
+  changetab("#audi1","#audi2","#audi3",".second_col",".third_col",".fourth_col");
+});
+
+$("#audi2").click(function(){
+  changetab("#audi2","#audi1","#audi3",".third_col",".second_col",".fourth_col");
+});
+
+$("#audi3").click(function(){
+  changetab("#audi3","#audi1","#audi2",".fourth_col",".second_col",".third_col");
+});
+
+function changetab(firsttab, secondtab, thirdtab, col1, col2, col3)
+{
+  $(firsttab).click(function(){
+      if($(window).width() <= 500){
+        if($(secondtab).hasClass("selected_tab"))
+        {
+          $(secondtab).removeClass("selected_tab");
+          $(secondtab).addClass("unselected_tab");
+          $(col2).fadeOut("fast");
+        }
+        else{
+          $(thirdtab).removeClass("selected_tab");
+          $(thirdtab).addClass("unselected_tab");
+          $(col3).fadeOut("fast");
+        }
+        $(firsttab).removeClass("unselected_tab");
+        $(firsttab).addClass("selected_tab");
+        $(col1).fadeIn("slow");
+      }
+    });
+}
+
 //End - Use Strict mode
 })(jQuery);
