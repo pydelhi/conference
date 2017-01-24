@@ -527,10 +527,10 @@ Project:  PyDelhi Conference
   color: #04cd8f;
 }
 .color2 {
-  color: #029669;
+  color: #bd6730;
 }
 .color3 {
-  color: #3e4651;
+  color: brown;
 }
 .color1l {
   color: #04cd8f;
@@ -603,7 +603,7 @@ h2,
 h3,
 h4 {
   font-family: 'Montserrat', sans-serif;
-  color: #04cd8f;
+  color: #efbd70;
 }
 /* PAGE BORDER */
 html:before,
@@ -659,8 +659,8 @@ body:after {
   font-size: 24px;
   text-align: center;
   font-weight: bold;
-  color: #3e4651;
-  border-bottom: 1px dotted #3e4651;
+  color: brown;
+  border-bottom: 1px dotted brown;
   padding-bottom: 10px;
   letter-spacing: -2px;
 }
@@ -682,7 +682,7 @@ body:after {
 }
 .title-section small {
   font-size: 18px;
-  color: #3e4651;
+  color: brown;
 }
 .inverted-section .title-section {
   border-bottom-color: #ffffff;
@@ -694,7 +694,7 @@ body:after {
 }
 .inverted-section {
   color: #ffffff !important;
-  background: url('../img/bgmask2.png') no-repeat center center #3e4651;
+  background: url('../img/bgmask2.png') no-repeat center center brown
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -718,10 +718,10 @@ body:after {
 }
 .inverted-section2 {
   color: #ffffff !important;
-  background: url('../img/bgmask2.png') no-repeat center center #3e4651;
+  background: url('../img/bgmask2.png') no-repeat center center #bd6730;
   padding-top: 30px;
   padding-bottom: 30px;
-  background: url('../img/bgmask2.png') no-repeat center center #04cd8f;
+  background: url('../img/bgmask2.png') no-repeat center center #bd6730;
 }
 .inverted-section2 .title-section {
   border-bottom-color: #ffffff;
@@ -747,7 +747,7 @@ body:after {
   transition: all 0.2s ease-in-out;
 }
 .inverted-section2 .owl-pagination .owl-page.active span {
-  background: #04cd8f !important;
+  background: #dd6730 !important;
 }
 .section-padding {
   padding-top: 30px;
@@ -814,7 +814,7 @@ body:after {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: url('../img/bgmask-btn.png') no-repeat top left #04cd8f !important;
+  background: url('../img/bgmask-btn.png') no-repeat top left #bd6730 !important;
 }
 .btn:before {
   content: '';
@@ -827,7 +827,7 @@ body:after {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: url('../img/bgmask-btn.png') #3e4651;
+  background: url('../img/bgmask-btn.png') brown;
   z-index: -1;
 }
 .btn:hover {
@@ -856,7 +856,7 @@ body:after {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: url('../img/bgmask-btn.png') no-repeat top left #3e4651 !important;
+  background: url('../img/bgmask-btn.png') no-repeat top left brown !important;
 }
 .btn2:before {
   content: '';
@@ -869,7 +869,7 @@ body:after {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #029669;
+  background: #bd6730;
   z-index: -1;
 }
 .btn2:hover {
@@ -882,8 +882,8 @@ body:after {
 }
 .btn-nobg {
   background: transparent!important;
-  color: #3e4651;
-  border: 1px solid #3e4651 !important;
+  color: brown;
+  border: 1px solid brown !important;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -902,11 +902,11 @@ body:after {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: url('../img/bgmask-btn.png') no-repeat top left #3e4651 !important;
+  background: url('../img/bgmask-btn.png') no-repeat top left brown !important;
   z-index: -1;
 }
 .btn-nobg:hover {
-  border: 1px solid #3e4651 !important;
+  border: 1px solid brown !important;
   background-color: transparent!important;
   color: #ffffff !important;
 }
@@ -936,7 +936,7 @@ body:after {
 #page-loader {
   width: 100%;
   height: 100%;
-  background: #3e4651;
+  background: #350307;
   color: #ffffff;
   opacity: 1;
   position: fixed;
@@ -1185,7 +1185,7 @@ body:after {
   max-width: 100%;
 }
 .header-stick {
-  background-color: #3e4651 !important;
+  background-color: #350307 !important;
   opacity: 0.8;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -1215,7 +1215,7 @@ body:after {
   display: inline-block;
 }
 .btn-menu {
-  background: #3e4651;
+  background: brown;
   border: 0;
   color: #ffffff;
   padding: 15px;
@@ -1334,7 +1334,7 @@ body:after {
 }
 .hd-list-menu a:hover {
   text-decoration: none;
-  color: #26efb1;
+  color: #bd6730;
 }
 .hd-list-menu li {
   margin-left: 0;
@@ -1343,7 +1343,7 @@ body:after {
   margin-top: 40px;
 }
 .mm-social-icons a {
-  color: #029669;
+  color: #bd6730;
   margin-right: 3px;
 }
 .mm-social-icons a:hover .fa {
@@ -1422,7 +1422,7 @@ body:after {
 ! 04. Intro
 ========================================================== */
 .main-intro {
-  background: #04cd8f;
+  background: #fa94b6;
   color: #ffffff;
   background: no-repeat center top;
   -webkit-background-size: cover;
@@ -1439,7 +1439,7 @@ body:after {
   display: block;
   width: 100%;
   height: 100%;
-  background: rgba(31, 81, 139, 0.9);
+  background: #350307;
   position: absolute;
   top: 0;
   left: 0;
@@ -1459,7 +1459,7 @@ body:after {
   color: #ffffff;
 }
 .main-intro-mask2:before {
-  background: #3e4651;
+  background: brown;
   opacity: 0.6;
 }
 .main-intro-mask3:before {
@@ -1516,7 +1516,7 @@ body:after {
   color: #ffffff;
 }
 .intro-content .btn-nobg:hover {
-  border-color: #029669 !important;
+  border-color: #bd6730 !important;
 }
 .intro-content p {
   font-size: 13px;
@@ -1641,7 +1641,7 @@ body:after {
   top: 15px;
   left: 25px;
   text-shadow: 0px 0px 0px rgba(10, 0, 0, 0.3);
-  color: #3e4651;
+  color: brown;
   opacity: 0.4;
 }
 .intro-bar {
@@ -1716,7 +1716,7 @@ body:after {
 }
 #countdown .countdown-type {
   display: block;
-  background: url('../img/bgmask-btn.png') no-repeat bottom left #3e4651 !important;
+  background: url('../img/bgmask-btn.png') no-repeat bottom left brown !important;
   color: #ffffff;
   padding: 5px;
   -webkit-border-radius: 6px;
@@ -1823,7 +1823,7 @@ body:after {
   padding: 20px;
   padding-top: 20px;
   padding-bottom: 0px;
-  background: url('../img/bgmask2.png') no-repeat left center #3e4651;
+  background: url('../img/bgmask2.png') no-repeat left center #350307;
   position: relative;
   overflow: hidden;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1844,7 +1844,7 @@ body:after {
     text-align: left;
   }
   .event-info-col:hover {
-    background-color: #26efb1;
+    background-color: #bd6730;
     /*width: 28%!important;*/
   }
   .event-info-col:hover .event-info-ico {
@@ -1894,7 +1894,7 @@ body:after {
 }
 
 .schedule-item-block {
-  background: url('../img/progress-bg.png') repeat-x center center fixed #3e4651;
+  background: url('../img/progress-bg.png') repeat-x center center fixed brown;
   min-height: 200px;
   overflow: hidden;
   display: none;
@@ -1939,7 +1939,7 @@ body:after {
   padding: 30px;
   padding-top: 25px;
   padding-bottom: 25px;
-  background: url('../img/bgmask2.png') no-repeat center center #029669;
+  background: url('../img/bgmask2.png') no-repeat center center #bd6730 ;
   min-height: 160px;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -1958,7 +1958,7 @@ body:after {
   content: '';
   width: 10px;
   height: 10px;
-  background: #029669;
+  background: #be7f52;
   position: absolute;
   left: -5px;
   top: 50%;
@@ -2012,14 +2012,14 @@ body:after {
 }
 .schedule-tab-links li a {
   display: block;
-  border: 1px solid #3e4651;
+  border: 1px solid brown;
   padding: 15px;
   text-transform: uppercase;
   font-weight: bold;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  color: #3e4651;
+  color: ce3a4d;
   width: 118px;
   font-size: 14px;
 }
@@ -2031,12 +2031,12 @@ body:after {
 }
 .schedule-tab-links li a:hover {
   text-decoration: none;
-  background: url('../img/bgmask-btn.png') no-repeat top left #3e4651;
+  background: url('../img/bgmask-btn.png') no-repeat top left brown;
   color: #ffffff;
 }
 .schedule-tab-links li.active a {
-  background: url('../img/bgmask-btn.png') no-repeat top left #3e4651;
-  border-color: #3e4651;
+  background: url('../img/bgmask-btn.png') no-repeat top left brown;
+  border-color: brown;
   color: #ffffff;
   text-decoration: none;
 }
@@ -2085,10 +2085,10 @@ body:after {
   ============================================================================
 */
 .faq-item-content:before {
-  background: #029669;
+  background: #bd6730;
 }
 .faq-item-block {
-  background: url('../img/progress-bg.png') repeat-x center center fixed #3e4651;
+  background: url('../img/progress-bg.png') repeat-x center center fixed brown;
 }
 .faq-item-title {
   font-size: 14px;
@@ -2150,7 +2150,7 @@ body:after {
 }
 .blog-item-wrapper {
   border: 1px solid #ddd;
-  border-top: 3px solid #3e4651;
+  border-top: 3px solid brown;
   padding: 15px;
   padding-top: 20px;
   padding-bottom: 5px;
@@ -2169,7 +2169,7 @@ body:after {
   letter-spacing: -1px;
 }
 .blog-item-title a {
-  color: #3e4651;
+  color: brown;
 }
 .blog-item-title a:hover {
   text-decoration: none;
@@ -2182,7 +2182,7 @@ body:after {
 }
 .blog-item-title-hr {
   border: 0;
-  border-top: 3px solid #029669;
+  border-top: 3px solid #bd6730;
   width: 20%;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -2263,7 +2263,7 @@ body:after {
   border-bottom: 0px;
 }
 .blog-single-title a {
-  color: #3e4651;
+  color: brown;
 }
 .blog-single-title a:hover {
   text-decoration: none;
@@ -2390,7 +2390,7 @@ body:after {
 }
 .team-member-picture-wrapper .team-member-find-overlay .block-link:hover {
   background: #ffffff;
-  color: #029669;
+  color: #bd6730;
 }
 .team-member-picture-wrapper .team-member-find-content {
   position: absolute;
@@ -2489,7 +2489,7 @@ body:after {
   padding: 10px 20px;
 }
 .modal-content .modal-title {
-  color: #029669;
+  color: #bd6730;
   font-size: 22px;
   border-bottom: 1px solid #ccc;
   margin-bottom: 5px;
@@ -2538,14 +2538,14 @@ body:after {
 .about-text-wrapper h3,
 .about-text-wrapper h4 {
   margin-top: 0;
-  color: #3e4651;
+  color: #ce3a4d;
 }
 .about-text-wrapper .title3 {
   font-size: 26px;
   letter-spacing: -1px;
   font-weight: bold;
-  color: #3e4651;
-  border-color: #3e4651;
+  color: brown;
+  border-color: brown;
 }
 .about-text-wrapper .title3 .fa {
   opacity: 0.6;
@@ -2556,7 +2556,7 @@ body:after {
   line-height: 28px;
 }
 .title-border {
-  border-bottom: 1px solid #3e4651;
+  border-bottom: 1px solid brown;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
@@ -2734,7 +2734,7 @@ body:after {
   width: 100%;
   padding: 10px;
   backface-visibility: hidden;
-  background: url('../img/bgmask2.png') no-repeat bottom center #3e4651;
+  background: url('../img/bgmask2.png') no-repeat bottom center brown;
   color: #ffffff;
 }
 @media (min-width:992px) {
@@ -2819,7 +2819,7 @@ body:after {
   text-decoration: none;
 }
 .tab-links2 li.active a {
-  background: #029669;
+  background: #bd6730;
   text-decoration: none !important;
 }
 .tabs-content2 .tab {
@@ -2834,7 +2834,7 @@ body:after {
   >> 18. Footer
   ============================================================================*/
 #footer {
-  background: #000;
+  background: black;
   color: #fff;
   padding: 40px 0;
 }
@@ -2848,7 +2848,7 @@ body:after {
   width: 40px;
   height: 40px;
   text-align: center;
-  background: #0F8863;
+  background: #bd6730;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -2859,7 +2859,7 @@ body:after {
 }
 .footer-social-icons a:hover {
   color: #ffffff;
-  background: #3e4651;
+  background: brown;
 }
 
 .footer-social-icons .fa {
@@ -2931,7 +2931,7 @@ html.safari:after {
   font-size: 16px;
 }
 h4#myModalLabel.modal-title {
-  color: #029669 !important;
+  color: #bd6730 !important;
 }
 @media (max-width: @screen-xs-min) {
   .modal-xs { width: @modal-sm; }
@@ -2972,16 +2972,16 @@ h4#myModalLabel.modal-title {
   overflow-y: scroll;
 }
 a {
-  color: teal;
+  color: #bd6730;
 }
 .event-info-col {
   width: 33%;
 }
 .schedule-item-text p a {
-  color: #81E6C7;
+  color: #ce3a4d;
 }
 #sponsorship-prospectus {
-  color: #4000ff;
+  color: black;
 }
 .sponsor-img {
   width: 100%;
