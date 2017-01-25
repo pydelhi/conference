@@ -3075,6 +3075,20 @@ section#schedule_table{
     font-size: 20px;
     cursor: pointer;
   }
+  #section-schedule{
+    padding: 0px;
+  }
+  #schedule_table h1{
+    margin-top: 0px;
+  }
+  .event-infos{
+    margin: -18px;
+  }
+  .event-infos .event-info-col{
+    min-height: 150px;
+    padding: 5px;
+    padding-top: 30px;
+  }
 }
 
 ::-webkit-scrollbar {
