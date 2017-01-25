@@ -3032,8 +3032,7 @@ td{
 }
 
 section#schedule_table{
-  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
-  background: linear-gradient(to right, #25c481, #25b7c4);
+  background: url('../img/bgmask-btn.png') top left #bd6730 !important;
 }
 section#schedule_table{
   margin: 5%;
@@ -3050,13 +3049,14 @@ section#schedule_table{
   }
   .selected_tab{
     background-color: #eee;
-    color: #25b7c4;
+    color: #bd6730;
     transition: all .3s ease-in 0ms;
   }
   .unselected_tab{
     background-color: inherit;;
     color: #fff;
     transition: all .3s ease-in 0ms;
+    cursor: pointer;
   }
   #day_divider{
     display:none;
@@ -3073,6 +3073,7 @@ section#schedule_table{
   }
   .unselected_button{
     font-size: 20px;
+    cursor: pointer;
   }
 }
 
@@ -3098,7 +3099,7 @@ section#schedule_table{
 
 .selected_button{
   background-color: #eee;
-  color: #25b7c4;
+  color: #bd6730;
   transition: all .3s ease-in 0ms;
   padding: 5px;
 }
@@ -3106,6 +3107,8 @@ section#schedule_table{
   background-color: inherit;
   color: #fff;
   transition: all .3s ease-in 0ms;
+  padding: 5px;
+  cursor: pointer;
 }
 
 #Day_1_banner, #Day_2_banner{

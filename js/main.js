@@ -5123,25 +5123,22 @@ $("#audi3").click(function(){
 
 function changetab(firsttab, secondtab, thirdtab, col1, col2, col3)
 {
-  $(firsttab).click(function(){
-      if($(window).width() <= 500){
-        if($(secondtab).hasClass("selected_tab"))
-        {
-          $(secondtab).removeClass("selected_tab");
-          $(secondtab).addClass("unselected_tab");
-          $(col2).fadeOut("fast");
-        }
-        else{
-          $(thirdtab).removeClass("selected_tab");
-          $(thirdtab).addClass("unselected_tab");
-          $(col3).fadeOut("fast");
-        }
-        $(firsttab).removeClass("unselected_tab");
-        $(firsttab).addClass("selected_tab");
-        $(col1).fadeIn("slow");
-      }
-    });
-
+  if($(window).width() <= 500){
+    if($(secondtab).hasClass("selected_tab"))
+    {
+      $(secondtab).removeClass("selected_tab");
+      $(secondtab).addClass("unselected_tab");
+      $(col2).fadeOut("fast");
+    }
+    else{
+      $(thirdtab).removeClass("selected_tab");
+      $(thirdtab).addClass("unselected_tab");
+      $(col3).fadeOut("fast");
+    }
+    $(firsttab).removeClass("unselected_tab");
+    $(firsttab).addClass("selected_tab");
+    $(col1).fadeIn("slow");
+  }
 }
 
 $('#day_1_button').click(function(){
@@ -5152,21 +5149,20 @@ $('#day_2_button').click(function(){
   changedays('#day_2_button','#day_1_button','.day_2_content','.day_1_content','#Day_1_banner','#Day_2_banner');
 });
 
-function changedays(firstdaybutton, seconddaybutton, first_day_content, second_day_content, banner1, banner2){
-  $(firstdaybutton).click(function(){
-      $(seconddaybutton).removeClass('selected_button');
-      $(firstdaybutton).removeClass('unselected_button');
-      $(seconddaybutton).addClass('unselected_button');
-      $(firstdaybutton).addClass('selected_button');
-      $(second_day_content).fadeOut('fast', function(){
-        $(first_day_content).fadeIn('fast');
-      });
-      if($(window).width()>=500){
-        $(banner1).fadeOut('fast',function() {
-          $(banner2).fadeIn('fast');
-        });
-      }
+function changedays(firstdaybutton, seconddaybutton, first_day_content, second_day_content, banner1, banner2)
+{
+  $(seconddaybutton).removeClass('selected_button');
+  $(firstdaybutton).removeClass('unselected_button');
+  $(seconddaybutton).addClass('unselected_button');
+  $(firstdaybutton).addClass('selected_button');
+  $(second_day_content).fadeOut('fast', function(){
+    $(first_day_content).fadeIn('fast');
   });
+  if($(window).width()>=500){
+    $(banner1).fadeOut('fast',function() {
+      $(banner2).fadeIn('fast');
+    });
+  }
 }
 
 //End - Use Strict mode
