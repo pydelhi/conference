@@ -5141,6 +5141,32 @@ function changetab(firsttab, secondtab, thirdtab, col1, col2, col3)
         $(col1).fadeIn("slow");
       }
     });
+
+}
+
+$('#day_1_button').click(function(){
+  changedays('#day_1_button', '#day_2_button', '.day_1_content','.day_2_content','#Day_2_banner','#Day_1_banner');
+});
+
+$('#day_2_button').click(function(){
+  changedays('#day_2_button','#day_1_button','.day_2_content','.day_1_content','#Day_1_banner','#Day_2_banner');
+});
+
+function changedays(firstdaybutton, seconddaybutton, first_day_content, second_day_content, banner1, banner2){
+  $(firstdaybutton).click(function(){
+      $(seconddaybutton).removeClass('selected_button');
+      $(firstdaybutton).removeClass('unselected_button');
+      $(seconddaybutton).addClass('unselected_button');
+      $(firstdaybutton).addClass('selected_button');
+      $(second_day_content).fadeOut('fast', function(){
+        $(first_day_content).fadeIn('fast');
+      });
+      if($(window).width()>=500){
+        $(banner1).fadeOut('fast',function() {
+          $(banner2).fadeIn('fast');
+        });
+      }
+  });
 }
 
 //End - Use Strict mode
