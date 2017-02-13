@@ -1,18 +1,13 @@
 {
-  "name": "Meetup PyDelhi",
-  "venue": "JNU SCIS",
-  "start_date": "2017-05-1T12:00:00Z",
-  "end_date": "2017-05-1T18:00:00Z",
+  "name": "PyDelhi User Group + ILUGD + LinuxChix India Meetup",
+  "venue": "Amity University, Sector 125, Nodia, UP",
+  "start_date": "2017-02-18T11:00:00Z",
+  "end_date": "2017-02-18T17:00:00Z",
   "venue_partners": [
     {
-      "name": "JNU SCIS",
-      "about": "JNU IS ...",
-      "url": "http://jnu.ac.in"
-    },
-    {
-      "name": "JNU SCIS",
-      "about": "JNU IS ...",
-      "url": "http://jnu.ac.in"
+      "name": "Amity University",
+      "about": "Amity University is a multi campus private research university in India established by an Act of the Uttar Pradesh legislature. The university has various campuses in India and across the globe.",
+      "url": "http://www.amity.edu"
     }
   ]
 }
