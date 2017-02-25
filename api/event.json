@@ -1,13 +1,13 @@
 {
-  "name": "PyDelhi@Suggest_your_space",
-  "venue": "Your Venue here",
+  "name": "PyDelhi Meetup",
+  "venue": "Ramanujan College",
   "start_date": "2017-02-25T11:00:00Z",
   "end_date": "2017-02-25T17:00:00Z",
   "venue_partners": [
     {
-      "name": "TBD",
-      "about": "TBD",
-      "url": "http://pydelhi.org"
+      "name": "Ramanujan College CompSci Department",
+      "about": "Ramanujan(Old Deshbandhu College)",
+      "url": "http://rcdu.in"
     }
   ]
 }
