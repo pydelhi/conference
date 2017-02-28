@@ -1,13 +1,13 @@
 {
-  "name": "PyDelhi Meetup",
-  "venue": "Ramanujan College",
-  "start_date": "2017-02-25T11:00:00Z",
-  "end_date": "2017-02-25T17:00:00Z",
+  "name": "PyDelhi@SouthCampus",
+  "venue": "South Campus",
+  "start_date": "2017-03-4T11:00:00Z",
+  "end_date": "2017-03-4T17:00:00Z",
   "venue_partners": [
     {
-      "name": "Ramanujan College CompSci Department",
-      "about": "Ramanujan(Old Deshbandhu College)",
-      "url": "http://rcdu.in"
+      "name": "South Campus:[Details Pending]",
+      "about": "South Campus University of Delhi",
+      "url": "www.du.ac.in/du/index.php?page=south-campus-2"
     }
   ]
 }
