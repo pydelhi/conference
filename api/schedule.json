@@ -1,7 +1,7 @@
 {
   "0.0.1": [
     {
-      "tracks": ["tracks":{'Audi 1', 'Audi 2', 'Audi 3']},
+      "tracks": ["Audi 1", "Audi 2", "Audi 3"],
       "2017-03-18": [
         {
           "talk_id": "00",
