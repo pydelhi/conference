@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+ <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Page Title -->
+    <title>PyDelhi Conference</title>
+<!-- /Page title -->
+
+<!-- Seo Tags -->
+    <meta name="description" content="PyDelhi Conference is an upcoming conference hosted by PyDelhi Community which focuses on using and developing the Python programming language." />
+    <meta name="keywords" content=""/>
+    <meta name="robots" content="index, follow">
+<!-- /Seo Tags -->
+
+<!-- Favicon and Touch Icons
+========================================================= -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<!-- /Favicon
+========================================================= -->
+
+<!-- >> CSS
+============================================================================== -->
+    <!-- Bootstrap styles -->
+    <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- /Bootstrap Styles -->
+    <!-- Google Web Fonts -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Hind:400,700' rel='stylesheet' type='text/css'> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+    <!-- /google web fonts -->
+    <!-- owl carousel -->
+    <!-- <link href="vendor/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet"> -->
+    <!-- <link href="vendor/owl.carousel/owl-carousel/owl.theme.css" rel="stylesheet"> -->
+    <!-- /owl carousel -->
+    <!-- fancybox.css -->
+    <!-- <link href="vendor/fancybox/jquery.fancybox.css" rel="stylesheet"> -->
+    <!-- /fancybox.css -->
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css"> -->
+    <!-- /Font Awesome -->
+    <!-- Main Styles -->
+    <!-- <link href="css/styles.css" rel="stylesheet"> -->
+    <!-- /Main Styles -->
+    <!-- Main stylesheet containing everything -->
+    <link href="css/main.css" rel="stylesheet">
+<!-- >> /CSS
+============================================================================== -->
+</head>
+
+<body>
+
+<!-- Page Loader
+========================================================= -->
+<div class="loader-container" id="page-loader">
+  <div class="loading-wrapper loading-wrapper-hide">
+    <div class="loader-animation" id="loader-animation">
+        <svg class="svg-loader" width=100 height=100>
+          <circle cx=50 cy=50 r=25 />
+        </svg>
+    </div>
+    <!-- Edit With Your Name -->
+    <div class="loader-name" id="loader-name">
+      <img src="img/logo.png" alt="">
+    </div>
+    <!-- /Edit With Your Name -->
+    <!-- Edit With Your Job -->
+    <p class="loader-job" id="loader-job">{{date}} @ New Delhi</p>
+    <!-- /Edit With Your Job -->
+  </div>
+</div>
+<!-- /End of Page loader
+========================================================= -->
+
+<!-- Header
+================================================== -->
+<header id="header" class="">
+    <div class="container">
+        <!-- logo -->
+        <div class="header-logo" id="header-logo">
+            <img src="img/logo.png" alt=""/>
+        </div>
+        <!-- /logo -->
+        <!-- MAIN MENU -->
+        <nav class="">
+          <ul class="hd-list-menu">
+            <li class="active"><a href="#main-carousel">Intro</a></li>
+            <li><a href="#section-event-infos">About </a></li>
+            <li><a href="#section-schedule">Schedule</a></li>
+            <li><a href="#section-speakers">Speakers</a></li>
+            <li><a href="#section-sponsors">Sponsors</a></li>
+            <li><a href="#section-faq">FAQ</a></li>
+            <li><a href="#section-register">Register</a></li>
+            <li></li>
+          </ul>
+        </nav>
+        <!-- /MAIN MENU -->
+    </div>
+</header>
+<!-- /Header
+================================================== -->
+
+
+<div class="page-wrapper">
+
+    <div id="body-content">
+
+        <!-- SECTION: Intro
+        ================================================== -->
+        <div class="owl-carousel main-carousel" id="main-carousel">
+
+            <!-- slide -->
+            <div class="main-intro" style="background-image: url('https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/11905398_10153589522921057_4119085493668764544_n.jpg?oh=bab03085da4df0bc6696395c8d10f6a3&oe=5718B019&__gda__=1460009901_c125c8780bd3e286ac9e3190399d0830');">
+                <div class="container">
+                    <div class="intro-content-wrapper viewport">
+                        <!-- Main Title -->
+                        <!-- Adjust the margin-top in css according to content to keep always centered vertically-->
+                        <div class="intro-content countdown-wrapper intro-content-slide2">
+                            <h1 class="intro-title1">PyDelhi<br/> conference</h1>
+                            <p class="countdown-title">Remaining time for the event</p>
+                            <!-- countDown -->
+                            <div id="countdown" class="row"></div>
+                            <!-- /countDown -->
+                            <p class="countdown-title2">
+
+                            <a href="https://cfp.pydelhi.org/pydelhi-conference-2016/proposals/" class="btn"><i class="fa fa-play"></i> &nbsp;Submit Proposal</a> <a href="#section-register" class="btn"><i class="fa fa-paper-plane"></i> &nbsp; Register now</a>
+
+                            </p>
+                        </div>
+                        <!-- /Main Title -->
+                    </div>
+                </div>
+            </div>
+            <!-- /slide -->
+        </div>
+        <!-- /SECTION: Intro
+        ================================================== -->
+
+        <!-- SECTION: Event Infos
+        ================================================== -->
+        <div class="section-event-infos inverted-section" id="section-event-infos">
+            <div class="container-fluid">
+                <div class="event-infos row">
+                    <!-- date -->
+                    <div class="event-info-col">
+                        <div class="event-info-ico"><span class="fa fa-calendar"></span></div>
+                        <h3 class="main-title3">Date:</h3>
+                        <p>{{date}}</p>
+                    </div>
+                    <!-- /date -->
+                    <!-- Time -->
+                    <div class="event-info-col">
+                        <div class="event-info-ico"><span class="fa fa-location-arrow"></span></div>
+                        <h3 class="main-title3">Location:</h3>
+                        <p>{{location}}</p>
+                    </div>
+                    <!-- /Time -->
+                    <!-- Time -->
+                    <div class="event-info-col">
+                        <div class="event-info-ico"><span class="fa fa-ticket"></span></div>
+                        <h3 class="main-title3">Remaining</h3>
+                        <p><strong id="tickets-left"></strong> Tickets</p>
+                    </div>
+                    <!-- /Time -->
+                    <!-- Time -->
+                    <div class="event-info-col">
+                        <div class="event-info-ico"><span class="fa fa-microphone"></span></div>
+                        <h3 class="main-title3">Speakers</h3>
+                        <p><strong>{{speaker_number}}</strong> Speakers</p>
+                    </div>
+                    <!-- /Time -->
+                </div>
+            </div>
+        </div>
+        <!-- SECTION: /Event Infos
+        ================================================== -->
+
+
+        <!-- SECTION: Event Description
+        ================================================== -->
+        <div class="section-about" id="section-about">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Left Column -->
+                    <div class="about-picture-wrapper">
+                        <div class="about-picture" id="about-picture">
+                            <img src="img/conference-about.jpg" alt="" class="responsive-image">
+                        </div>
+                    </div>
+                    <!-- /Left Column -->
+                    <!-- Right Column -->
+                    <div class="about-text-wrapper">
+                        <div class="about-text" id="about-text">
+                            <h1 class="title3 title-border"><i class="fa fa-dot-circle-o"></i> About the conference</h1>
+                            <div class="about-text-content">
+                                <p>{{about_pydelhi}}
+
+                        </p>
+                            </div>
+                            <a href="#section-schedule" class="btn btn-nobg"><i class="fa fa-calendar"></i> See Event Schedule</a> <a href="#section-register" class="btn btn-nobg"><i class="fa fa-paper-plane"></i> Register</a>
+                        </div>
+                    </div>
+                    <!-- /Right Column -->
+                </div>
+            </div>
+        </div>
+        <!-- /SECTION: Event Description
+        ================================================== -->
+
+        <!-- SECTION: Event Schedule
+        ================================================== -->
+        <div class="section-schedule section-bg-left" id="section-schedule">
+            <div class="container">
+
+                <!-- Section title -->
+                <div class="section-title-wrapper">
+                    <h2 class="title-section"><span class="title-section-bg">Event Schedule {{date}}<small></small></span></h2>
+                </div>
+                <!-- /Section title -->
+
+                <!-- TABS -->
+                <div class="tabs">
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-2 schedule-tab-links-wrapper">
+                            <!-- Tab links -->
+                            <ul class="tab-links schedule-tab-links">
+                                <li class="active"><a href="#schedule-tab1"><span class="fa fa-calendar"></span>&nbsp;&nbsp; AUDI I</a></li>
+                                <li><a href="#schedule-tab2"><span class="fa fa-calendar"></span>&nbsp;&nbsp; AUDI II</a></li>
+                                <li><a href="#schedule-tab3"><span class="fa fa-calendar"></span>&nbsp;&nbsp; AUDI III</a></li>
+                            </ul>
+                            <!-- /Tab Links -->
+                        </div>
+                    </div>
+
+
+                    <!-- Schedule Tabs -->
+                    <div class="schedule-tabs">
+                        <!-- Schedule Tab -->
+                        <div class="schedule-tab tab" id="schedule-tab1">
+                            <!-- schedule list -->
+                            <div class="schedule-list">
+
+                                <!-- Schedule itens header -->
+                                <div class="schedule-item-header">
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <!-- schedule item bar -->
+                                            <div class="schedule-item-block schedule-item-block-top">
+                                                <div class="schedule-item-bar schedule-item-bar-top"></div>
+                                            </div>
+                                            <!-- /schedule item bar -->
+                                        </div>
+                                        <div class="col-sm-10">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- fSchedule itens header -->
+
+                                <!-- Schedule item -->
+                                {% for item in items_tab1 %}
+                                <div class="schedule-item">
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <!-- schedule item bar -->
+                                            <div class="schedule-item-block">
+                                                <div class="schedule-item-bar"></div>
+                                            </div>
+                                            <!-- /schedule item bar -->
+                                        </div>
+                                        <div class="col-sm-10 schedule-item-content-wrapper">
+                                            <!-- schedule item content -->
+                                            <div class="schedule-item-content">
+                                                <div class="row">
+                                                    <!-- col -->
+                                                    <div class="col-sm-2">
+                                                        <div class="schedule-item-img">
+                                                            <img src='{{item['image']}}' alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- /col -->
+                                                    <!-- col -->
+                                                    <div class="col-sm-10">
+                                                        <div class="schedule-item-infos">
+                                                            <h4 class="schedule-item-date">{{item['time']}}</h4>
+                                                            <h3 class="schedule-item-title">{{item['subject']}}</h3>
+                                                            <div class="schedule-item-text">
+                                                                <p>{{item['discription']}}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /col -->
+                                                </div>
+                                            </div>
+                                            <!-- schedule item content -->
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                                <!-- /Schedule item -->
+                    
+
+                                <!-- Schedule items footer -->
+                                <div class="schedule-item-footer">
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <!-- schedule item bar -->
+                                            <div class="schedule-item-block schedule-item-block-bottom">
+                                                <div class="schedule-item-bar schedule-item-bar-bottom"></div>
+                                            </div>
+                                            <!-- /schedule item bar -->
+                                        </div>
+                                        <div class="col-sm-10">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Schedule itens footer -->
+                            </div>
+                            <!-- /schedule list -->
+                        </div>
+                        <!-- /Schedule Tab -->
+
+                        <!-- Schedule Tab -->
+                        <div class="schedule-tab tab" id="schedule-tab2">
+                            <!-- schedule list -->
+                            <div class="schedule-list">
+
+                                <!-- Schedule itens header -->
+                                <div class="schedule-item-header">
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <!-- schedule item bar -->
+                                            <div class="schedule-item-block schedule-item-block-top">
+                                                <div class="schedule-item-bar schedule-item-bar-top"></div>
+                                            </div>
+                                            <!-- /schedule item bar -->
+                                        </div>
+                                        <div class="col-sm-10">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Schedule itens header -->
+
+                                <!-- Schedule item -->
+                                {% for item in items_tab2 %}
+                                <div class="schedule-item">
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <!-- schedule item bar -->
+                                            <div class="schedule-item-block">
+                                                <div class="schedule-item-bar"></div>
+                                            </div>
+                                            <!-- /schedule item bar -->
+                                        </div>
+                                        <div class="col-sm-10 schedule-item-content-wrapper">
+                                            <!-- schedule item content -->
+                                            <div class="schedule-item-content">
+                                                <div class="row">
+                                                    <!-- col -->
+                                                    <div class="col-sm-2">
+                                                        <div class="schedule-item-img">
+                                                            <img src='{{item['image']}}' alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- /col -->
+                                                    <!-- col -->
+                                                    <div class="col-sm-10">
+                                                        <div class="schedule-item-infos">
+                                                            <h4 class="schedule-item-date">{{item['time']}}</h4>
+                                                            <h3 class="schedule-item-title">{{item['subject']}}</h3>
+                                                            <div class="schedule-item-text">
+                                                                <p>{{item['discription']}}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /col -->
+                                                </div>
+                                            </div>
+                                            <!-- schedule item content -->
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                                <!-- /Schedule item -->
+                                
+                                <!-- /Schedule item -->
+
+                                <!-- Schedule itens footer -->
+
+                                <div class="schedule-item-footer">
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <!-- schedule item bar -->
+                                            <div class="schedule-item-block schedule-item-block-bottom">
+                                                <div class="schedule-item-bar schedule-item-bar-bottom"></div>
+                                            </div>
+                                            <!-- /schedule item bar -->
+                                        </div>
+                                        <div class="col-sm-10">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Schedule itens footer -->
+                            </div>
+                            <!-- /schedule list -->
+                        </div>
+                        <!-- /Schedule Tab -->
+
+                        <!-- Schedule Tab -->
+                        <div class="schedule-tab tab" id="schedule-tab3">
+                            <!-- schedule list -->
+                            <div class="schedule-list">
+
+                                <!-- Schedule itens header -->
+                                <div class="schedule-item-header">
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <!-- schedule item bar -->
+                                            <div class="schedule-item-block schedule-item-block-top">
+                                                <div class="schedule-item-bar schedule-item-bar-top"></div>
+                                            </div>
+                                            <!-- /schedule item bar -->
+                                        </div>
+                                        <div class="col-sm-10">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Schedule itens header -->
+
+                                <!-- Schedule item -->
+                                 {% for item in items_tab3 %}
+                                <div class="schedule-item">
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <!-- schedule item bar -->
+                                            <div class="schedule-item-block">
+                                                <div class="schedule-item-bar"></div>
+                                            </div>
+                                            <!-- /schedule item bar -->
+                                        </div>
+                                        <div class="col-sm-10 schedule-item-content-wrapper">
+                                            <!-- schedule item content -->
+                                            <div class="schedule-item-content">
+                                                <div class="row">
+                                                    <!-- col -->
+                                                    <div class="col-sm-2">
+                                                        <div class="schedule-item-img">
+                                                            <img src='{{item['image']}}' alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- /col -->
+                                                    <!-- col -->
+                                                    <div class="col-sm-10">
+                                                        <div class="schedule-item-infos">
+                                                            <h4 class="schedule-item-date">{{item['time']}}</h4>
+                                                            <h3 class="schedule-item-title">{{item['subject']}}</h3>
+                                                            <div class="schedule-item-text">
+                                                                <p>{{item['discription']}}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /col -->
+                                                </div>
+                                            </div>
+                                            <!-- schedule item content -->
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                                <!-- /Schedule item -->
+
+                                <!-- Schedule item -->
+                                
+                                <!-- /Schedule item -->
+
+                                <!-- Schedule items footer -->
+                                <div class="schedule-item-footer">
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            <!-- schedule item bar -->
+                                            <div class="schedule-item-block schedule-item-block-bottom">
+                                                <div class="schedule-item-bar schedule-item-bar-bottom"></div>
+                                            </div>
+                                            <!-- /schedule item bar -->
+                                        </div>
+                                        <div class="col-sm-10">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /Schedule itens footer -->
+
+                            </div>
+                            <!-- /schedule list -->
+                        </div>
+                        <!-- / Schedule Tab -->
+                    </div>
+                    <!-- /Schedule Tabs -->
+
+                </div>
+                <!-- /TABS -->
+
+            </div>
+        </div>
+        <!-- /SECTION: Event Schedule
+        ================================================== -->
+
+        <!-- SECTION: Team
+        ================================================== -->
+        <div class="section-team inverted-section2 section-padding" id="section-speakers">
+            <div class="container">
+                <!-- Section title -->
+                <div class="section-title-wrapper">
+                    <h2 class="title-section">Our Speakers</h2>
+                    <p>Prominent members of python community and the tech industry</p>
+                </div>
+                <!-- /Section title -->
+                <div class="owl-carousel" id="about-team">
+                    <!-- item -->
+                    {% for speaker in speakers %}
+                    <div class="team-item">
+                        <!-- team-member wrapper-->
+                        <div class="team-item-wrapper">
+                            <!-- team-member pic -->
+                            <div class="team-member-picture-wrapper">
+                                <div class="team-item-picture">
+                                    <img src='{{speaker['image']}}' alt=""/>
+                                </div>
+                                <div class="team-member-find">
+                                    <div class="team-member-find-overlay">
+                                        <!-- overlay content -->
+                                        <div class="team-member-find-content">
+                                            <a href="#" class="block-link"><span class="fa fa-facebook"></span></a>
+                                            <a href="#" class="block-link"><span class="fa fa-twitter"></span></a>
+                                            <a href="#" class="block-link"><span class="fa fa-envelope"></span></a>
+                                            <a href="#" class="block-link"><span class="fa fa-phone"></span></a>
+                                        </div>
+                                        <!-- /overlay content -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /team-member pic -->
+                            <!-- team-member Infos -->
+                            <div class="team-item-content">
+                                <h3 class="team-item-title">{{speaker['subject']}}</h3>
+                                <p class="team-item-subtitle">{{speaker['job']}}</p>
+                            </div>
+                            <!-- team-member Infos -->
+                        </div>
+                        <!-- /team-member wrapper-->
+                    </div>
+                    {% endfor %} 
+                </div>
+            </div>
+        </div>
+        <!-- /SECTION: Team
+        ================================================== -->
+
+        <!-- SECTION: Sponsors
+        ================================================== -->
+        <div class="section-sponsors inverted-section2 section-padding " id="section-sponsors">
+            <div class="container">
+                <!-- Section title -->
+                <div class="section-title-wrapper">
+                    <h2 class="title-section">Proudly sponsored by</h2>
+                    <p>As a Sponsor for the conference you get a platform to
+                       spread the word about your product and services and
+                       interact with all the prospective leads that you would
+                       otherwise be hard pressed to find under one roof.
+                       For details regarding how to become a sponsor and the
+                       benefits for this event look at our
+                       <a href="data/SponsorshipProspectus2016.pdf">
+                         Sponsorship Prospectus
+                       </a>
+                    </p>
+                </div>
+                <!-- /Section title -->
+
+                <div class="sponsors-list-wrapper">
+                    <div class="sponsors-list" id="sponsors-carousel">
+                        <!-- item -->
+                        {% for sponser in sponsers %} 
+                        <div class="sponsor-item">
+                            <img src='{{sponser['image']}}' alt="">
+                        </div> 
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /SECTION: Sponsors
+        ================================================== -->
+
+
+
+        <!-- SECTION: FAQ
+        ================================================== -->
+
+        <div class="section-faq section-padding section-bg-right" id="section-faq">
+            <div class="container">
+                <!-- Section title -->
+                <div class="section-title-wrapper">
+                    <h2 class="title-section">FAQ's</h2>
+                    <p>  If your question is not listed here, send an email to <span class="faq-para">contact@pydelhi.org </span></p>
+                </div>
+                <!-- /Section title -->
+
+                <!-- FAQ list -->
+
+                    <div class="faq-items">
+                        <div class="schedule-item">
+                            <div class="row faq-items-content">
+                            {% for faq in faqs %}
+                                <div class="col-md-6 col-sm-12"> 
+            <div class="schedule-item-text"> 
+            <h3 class="schedule-item-title faq-item-title"> {{faq['question']}} </h3> 
+                <p>{{faq['answer']}} </p> 
+            </div> 
+        </div>
+        {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /FAQ list -->
+            </div>
+
+        </div>
+        <!-- /SECTION: FAQ
+        ================================================== -->
+
+        <!-- SECTION: Register
+        ================================================== -->
+        <div class="section-register inverted-section2 section-padding" id="section-register">
+            <div class="container">
+                <!-- Section title -->
+                <div class="section-title-wrapper">
+                    <h2 class="title-section">Register now</h2>
+                    <p>You can register and buy tickets for the conference from Explara</p>
+                    <a href="https://in.explara.com/e/pydelhi-conference" target="_blank" class="btn text-center"><i class="fa fa-paper-plane"></i> &nbsp; Buy Tickets Now</a>
+                </div>
+                <!-- /Section title -->
+
+            </div>
+        </div>
+        <!-- /SECTION: Register
+        ================================================== -->
+
+
+        <!-- SECTION: Code of Conduct
+        ================================================== -->
+        <div class="section-conduct inverted-section2 section-padding" id="section-conduct">
+            <div class="container">
+                <!-- Section title -->
+                <div class="section-title-wrapper">
+                    <h2 class="title-section">Code of Conduct</h2>
+                    <p>{{code_of_conduct}}
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#short-coc">
+                        Short Version
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="short-coc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                  <h4 class="modal-title" id="myModalLabel">Short Vesion Code of Conduct</h4>
+                                </div>
+                                <div class="modal-body">
+                                    {{short_version}}
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#long-coc">
+                        Long Version
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="long-coc" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                  <h4 class="modal-title" id="myModalLabel">Long Vesion Code of Conduct</h4>
+                                </div>
+                                <div class="modal-body">
+                                    {{long_version}}
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- /Section title -->
+            </div>
+        </div>
+        <!-- /SECTION: Code of Conduct
+        ================================================== -->
+
+        <!-- SECTION: Location
+        ================================================== -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- <div class="map" id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.374403309791!2d77.1640372151882!3d28.538537463534034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1ddb55725eaf%3A0xdf1d45bdd082aedf!2sConvention+Center!5e0!3m2!1sen!2sin!4v1450777921250" height="350"></iframe>
+                </div> -->
+                <!-- Static image of map -->
+                <!-- <div class="map" id="map"> -->
+                    <a href="https://www.google.com/maps?ll=28.538347,77.165862&z=16&t=m&hl=en-US&gl=IN&mapclient=embed&cid=16077082926331899615" target="_blank">
+                        <img class="map-img" src="img/conference-map.png" border="0" alt="Find the venue on Google Maps"/>
+                    </a>
+                <!-- </div> -->
+            </div>
+        </div>
+        <!-- /SECTION: Location
+        ================================================== -->
+    </div>
+</div>
+
+<!-- Contact Form - Ajax Messages
+========================================================= -->
+<!-- Form Sucess -->
+<div class="form-result modal-wrap" id="contactSuccess">
+  <div class="modal-bg"></div>
+  <div class="modal-content">
+    <h4 class="modal-title"><i class="fa fa-check-circle"></i> Success!</h4>
+    <p>Your message has been sent to us.</p>
+  </div>
+</div>
+<!-- /Form Sucess -->
+<!-- form-error -->
+<div class="form-result modal-wrap" id="contactError">
+  <div class="modal-bg"></div>
+  <div class="modal-content">
+    <h4 class="modal-title"><i class="fa fa-times"></i> Error</h4>
+    <p>There was an error sending your message.</p>
+  </div>
+</div>
+<!-- /form-error -->
+<!-- / Contact Form - Ajax Messages
+========================================================= -->
+
+
+<!-- Footer
+================================================== -->
+<footer id="footer" class="jumb-footer">
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <!-- col -->
+            <div class="col-sm-9">
+                <!-- Social Icons -->
+                <div class="footer-social-icons">
+                    <a href="http://github.com/pydelhi"><i class="fa fa-github"></i></a>
+                    <a href="http://bit.ly/pydelhi-fb"><i class="fa fa-facebook"></i></a>
+                    <a href="http://bit.ly/pydelhi-twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="http://bit.ly/pydelhi-google"><i class="fa fa-google-plus"></i></a>
+                    <a href="http://bit.ly/pydelhi-youtube"><i class="fa fa-youtube"></i></a>
+                </div>
+                <!-- /Social Icons -->
+            </div>
+            <!-- /col -->
+        </div>
+        <!-- /row -->
+    </div>
+</footer>
+<!-- /Footer
+================================================== -->
+
+<!-- >> JS
+============================================================================== -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- <script src="vendor/jquery-1.11.3.min.js"></script> -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
+<!-- Crossbrowser-->
+<!-- <script src="vendor/cross-browser.js"></script> -->
+<!-- /Crossbrowser-->
+<!-- CountDown -->
+<!-- <script src="vendor/jquery.countdown.min.js"></script> -->
+<!-- /CountDown -->
+<!-- Waypoints-->
+<!-- <script src="vendor/waypoints.min.js"></script> -->
+<!-- /Waypoints-->
+<!-- Validate -->
+<!-- <script src="vendor/validate.js"></script> -->
+<!-- / Validate -->
+<!-- Fancybox -->
+<!-- <script src="vendor/fancybox/jquery.fancybox.js"></script> -->
+<!-- /fancybox -->
+<!-- Owl Caroulsel -->
+<!-- <script src="vendor/owl.carousel/owl-carousel/owl.carousel.js"></script> -->
+<!-- /Owl Caroulsel -->
+<!-- Main JS -->
+<script src="js/main.js"></script>
+<!-- /Main JS -->
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- /Google Analytics Script -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-72411567-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- >> /JS
+============================================================================= -->
+</body>
+</html>

@@ -1,0 +1,12 @@
+[vagrant]
+192.255.1.10
+
+[vagrant:vars]
+user=vagrant
+vm=1
+
+[production]
+pydelhi
+
+[production:vars]
+user=root
