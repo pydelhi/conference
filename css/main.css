@@ -3031,9 +3031,6 @@ td{
   border-bottom: solid 1px rgba(255,255,255,0.1);
 }
 
-td.first_col br{
-  display: none;
-}
 
 td.first_col{
   width: 150px;
@@ -3116,9 +3113,6 @@ section#schedule_table{
     min-height: 150px;
     padding: 5px;
     padding-top: 30px;
-  }
-  td.first_col br{
-  display: block;
   }
 
   td.first_col{
