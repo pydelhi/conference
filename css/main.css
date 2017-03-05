@@ -3002,7 +3002,6 @@ h1{
 }
 table{
   width:100%;
-  //table-layout: fixed;
 }
 .tbl-header{
   background-color: rgba(255,255,255,0.3);
@@ -3022,6 +3021,7 @@ th{
   color: #fff;
   text-transform: uppercase;
 }
+
 td{
   padding: 10px;
   text-align: left;
@@ -3029,6 +3029,34 @@ td{
   font-size: 15px;
   color: #fff;
   border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+td.first_col br{
+  display: none;
+}
+
+td.first_col{
+  width: 150px;
+  white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  white-space: pre-wrap;       /* css-3 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+  word-break: break-all;
+  white-space: normal;
+}
+
+td.second_col, td.third_col, td.fourth_col{
+  width: 250px;
+  white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  white-space: pre-wrap;       /* css-3 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+  word-break: break-all;
+  white-space: normal;
 }
 
 section#schedule_table{
@@ -3089,6 +3117,13 @@ section#schedule_table{
     padding: 5px;
     padding-top: 30px;
   }
+  td.first_col br{
+  display: block;
+  }
+
+  td.first_col{
+  width: 80px;
+  }
 }
 
 ::-webkit-scrollbar {
@@ -3108,6 +3143,7 @@ section#schedule_table{
   .hide_on_full{
     display: none;
   }
+
 
 }
 
