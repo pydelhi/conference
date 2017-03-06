@@ -3040,7 +3040,6 @@ td.first_col{
   white-space: pre-wrap;       /* css-3 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
   white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
-  word-break: break-all;
   white-space: normal;
 }
 
@@ -3052,7 +3051,6 @@ td.second_col, td.third_col, td.fourth_col{
   white-space: pre-wrap;       /* css-3 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
   white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
-  word-break: break-all;
   white-space: normal;
 }
 
