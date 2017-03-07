@@ -4,66 +4,25 @@ GET /api/schedule.json
 
 ```
 {
-  "results": [
+  "0.0.1": [
     {
-      "2017-05-1": [
+      "tracks": ["Audi 1", "Audi 2", "Audi 3"],
+      "2017-03-18": [
         {
-          "title": "Introductions",
-          "speaker_name": "",
-          "start_time": "12:00",
-          "end_time": "12:30",
-          "venue": "Lecture Hall 1",
-          "type": "talk"
+          "talk_id": "00",
+          "title": "Registration",
+          "start_time": "08:00",
+          "end_time": "09:00",
+          "track": "all"
         },
         {
-          "title": "Introductions",
-          "speaker_name": "",
-          "start_time": "12:00",
-          "end_time": "12:30",
-          "venue": "Lecture Hall 1",
-          "type": "talk"
-        },
-        {
-          "title": "Introductions",
-          "speaker_name": "",
-          "start_time": "12:00",
-          "end_time": "12:30",
-          "venue": "Lecture Hall 1",
-          "type": "talk"
-        }
-      ],
-      "2017-05-02": [
-        {
-          "title": "Introductions",
-          "speaker_name": "",
-          "start_time": "12:00",
-          "end_time": "12:30",
-          "venue": "Lecture Hall 1",
-          "type": "talk"
-        }
-      ],
-      "2017-05-03": [
-        {
-          "title": "Introductions",
-          "speaker_name": "",
-          "start_time": "12:00",
-          "end_time": "12:30",
-          "venue": "Lecture Hall 1",
-          "type": "talk"
-        }
-      ],
-      "2017-05-04": [
-        {
-          "title": "Introductions",
-          "speaker_name": "",
-          "start_time": "12:00",
-          "end_time": "12:30",
-          "venue": "Lecture Hall 1",
-          "type": "talk"
-        }
-      ]
-    }
-  ]
+          "talk_id": "01",
+          "title": "Introductions & Opening Ceremony",
+          "start_time": "09:00",
+          "end_time": "09:30",
+          "track": "all"
+        }]
+    }]
 }
 ```
 
@@ -72,22 +31,17 @@ GET /api/event.json
 ```
 ```
 {
-  "name": "Meetup PyDelhi",
-  "venue": "JNU SCIS",
-  "start_date": "2017-05-1T12:00:00Z",
-  "end_date": "2017-05-1T18:00:00Z",
-  "venue_partners": [
-    {
-      "name": "JNU SCIS",
-      "about": "JNU IS ...",
-      "url": "http://jnu.ac.in"
-    },
-    {
-      "name": "JNU SCIS",
-      "about": "JNU IS ...",
-      "url": "http://jnu.ac.in"
-    }
-  ]
+  "0.0.1":[{
+  "name": "Event Name Here",
+  "venue": "Venue Name here",
+  "start_date": "2017-03-18T8:00:00Z",
+  "end_date": "2017-03-19T18:00:00Z",
+  "venue_partners": [{
+      "name": "Venue Details",
+      "about": "About venue",
+      "url": "http://externalurltovenue.org"
+    }]
+  }]
 }
 ```
 
@@ -96,27 +50,20 @@ GET /api/sponsors.json
 ```
 ```
 {
-  "results": [
+  "0.0.1": [
     {
-      "name": "asldkjf",
-      "type": "Gold",
-      "website": "https://google.com",
-      "logo": "http://placehold.it/400x400",
-      "about": ""
+      "name": "Sponsor Name",
+      "type": "Platinum/Gold/Silver",
+      "website": "http://sponsor_url",
+      "logo": "http://sponsor_logo.jpg",
+      "about": "details of sponsor"
     },
     {
-      "name": "asldkjf",
-      "type": "Gold",
-      "website": "https://google.com",
-      "logo": "http://placehold.it/400x400",
-      "about": ""
-    },
-    {
-      "name": "asldkjf",
-      "type": "Gold",
-      "website": "https://google.com",
-      "logo": "http://placehold.it/400x400",
-      "about": ""
+      "name": "Sponsor Name",
+      "type": "Platinum/Gold/Silver",
+      "website": "http://sponsor_url",
+      "logo": "http://sponsor_logo.jpg",
+      "about": "details of sponsor"
     }
   ]
 }
