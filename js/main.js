@@ -5167,3 +5167,84 @@ function changedays(firstdaybutton, seconddaybutton, first_day_content, second_d
 
 //End - Use Strict mode
 })(jQuery);
+
+// Containing JS for updating the schedule.
+
+function getScheduleAndTracks() {
+	schedule = {};
+	tracks = {};
+
+	$.ajax({
+	  url: "https://conference.pydelhi.org/api/schedule.json",
+	  async:false,
+	  success: function(response) {
+		schedule = response;
+	  },
+	});
+
+	$.ajax({
+	  url: "https://conference.pydelhi.org/api/tracks.json",
+	  async:false,
+	  success: function(response) {
+		tracks = response;
+	  },
+	});
+
+	return {schedule: schedule, tracks: tracks};
+}
+
+function updateSchedule() {
+	response = getScheduleAndTracks();
+
+	schedule = response.schedule;
+	tracks = response.tracks;
+
+    var schedule = schedule["0.0.1"][0];
+    var tracks = tracks["0.0.1"][0];
+    var day_1_schedule = schedule["2017-03-18"];
+    var day_2_schedule = schedule["2017-03-19"];
+
+    updateScheduleForADay(day_1_schedule, tracks, $(".schedule-table-1 tbody"));
+    updateScheduleForADay(day_2_schedule, tracks, $(".schedule-table-2 tbody"));
+
+}
+
+function updateScheduleForADay(schedule, tracks, table_body) {
+    var schedule_rows = [];
+    for (var i = 0; i < schedule.length; i++) {
+		var talk_id = schedule[i].talk_id;
+        var entity_details = schedule[i];
+        var title = entity_details.title;
+        var speaker_name = tracks[talk_id].hasOwnProperty('speaker') ? tracks[talk_id].speaker.name : '';
+        var time_duration = entity_details.start_time + ' - ' + entity_details.end_time;
+        var display_title = speaker_name !== '' && typeof speaker_name !== 'undefined' ? title + ' by ' + speaker_name : title;
+        var current_day_track = schedule[i].track;
+
+        if (current_day_track == 'all' || typeof current_day_track == "undefined") {
+            schedule_rows.push([time_duration, display_title, '', '']);
+        } else if (current_day_track == '1') {
+            schedule_rows.push([time_duration, display_title]);
+        } else {
+            var index_of_last_row = schedule_rows.length - 1;
+            schedule_rows[index_of_last_row].push(display_title);
+        }
+    }
+    insertTableRows(table_body, schedule_rows, 0);
+}
+
+function insertTableRows(table, rows) {
+	var row_html = '';
+	$(rows).each(function() {
+        var row = $(this);
+        row_html += '<tr>' +
+                       '<td>' + row[0] +'</td>' +
+                       '<td>' + row[1] +'</td>' +
+                       '<td>' + row[2] +'</td>' +
+                       '<td>' + row[3] +'</td>' +
+                    '</tr>'
+    });
+
+	$(table).append(row_html);
+}
+
+updateSchedule();
