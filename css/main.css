@@ -3033,7 +3033,7 @@ td{
 
 
 td.first_col{
-  width: 150px;
+  width: 120px;
   white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
   white-space: -pre-wrap;      /* Opera 4-6 */
   white-space: -o-pre-wrap;    /* Opera 7 */
@@ -3060,7 +3060,7 @@ section#schedule_table{
 section#schedule_table{
   margin: 5%;
 }
-@media (max-width:500px){
+@media (max-width:700px){
   section#schedule_table{
     margin: 0px;
   }
@@ -3114,7 +3114,8 @@ section#schedule_table{
   }
 
   td.first_col{
-  width: 80px;
+  width: 50px;
+  padding-right: 0px;
   }
 }
 

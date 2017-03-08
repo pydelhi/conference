@@ -42,8 +42,8 @@
 				"description": "Telegram messenger has been a really interesting platform because of its Bot API and the cloud-based file management system. This talk will be a hands-on tutorial about Telegram Bot API and how to use it with Python. I'll be making a new bot on stage using Python Telegram Bot and Telepot.",
 				"pre": "Attendees should have a basic knowledge of Working with Python Modules and Working with APIs",
 				"speaker": {
-					"name": "Shashank Aryan",
-					"info":"Shashank is a Computer Science undergrad from Noida Institute Of Engineering and Technology. I'm a Python Enthusiast, open source contributor and like to learn about the buzz-words in this technological era. You can find out more about me by the given links.I've given a lightning talk on Telegram Bot using Python on PyDelhi where I created a bot for PyDelhi's Telegram group which you can see in action on https://telegram.me/pydelhibot",
+					"name": "Shashank Kumar",
+					"info":"Shashank is a Computer Science undergrad from Noida Institute Of Engineering and Technology. He's a Python Enthusiast, open source contributor and like to learn about the buzz-words in this technological era. You can find out more about him by the given links. He's given a lightning talk on Telegram Bot using Python on PyDelhi where Ihecreated a bot for PyDelhi's Telegram group which you can see in action on https://telegram.me/pydelhibot",
 					"photo": "https://img.clipartfest.com/adedba72cc75869856c03f60d0f2643a_male-silhouette-clipart-male-silhouette-front_1280-1024.jpeg",
 					"social": [
 						{
