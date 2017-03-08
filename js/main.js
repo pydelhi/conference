@@ -5123,7 +5123,7 @@ $("#audi3").click(function(){
 
 function changetab(firsttab, secondtab, thirdtab, col1, col2, col3)
 {
-  if($(window).width() <= 500){
+  if($(window).width() <= 700){
     if($(secondtab).hasClass("selected_tab"))
     {
       $(secondtab).removeClass("selected_tab");
@@ -5158,7 +5158,7 @@ function changedays(firstdaybutton, seconddaybutton, first_day_content, second_d
   $(second_day_content).fadeOut('fast', function(){
     $(first_day_content).fadeIn('fast');
   });
-  if($(window).width()>=500){
+  if($(window).width()>=700){
     $(banner1).fadeOut('fast',function() {
       $(banner2).fadeIn('fast');
     });
@@ -5237,10 +5237,10 @@ function insertTableRows(table, rows) {
 	$(rows).each(function() {
         var row = $(this);
         row_html += '<tr>' +
-                       '<td>' + row[0] +'</td>' +
-                       '<td>' + row[1] +'</td>' +
-                       '<td>' + row[2] +'</td>' +
-                       '<td>' + row[3] +'</td>' +
+                       '<td class="first_col">' + row[0] +'</td>' +
+                       '<td class="second_col">' + row[1] +'</td>' +
+                       '<td class="third_col">' + row[2] +'</td>' +
+                       '<td class="fourth_col">' + row[3] +'</td>' +
                     '</tr>'
     });
 
