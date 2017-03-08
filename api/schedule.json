@@ -78,7 +78,7 @@
           "title": "Lunch",
           "start_time": "01:40",
           "end_time": "02:40",
-          track: 'all'
+          track: "all"
         },
         {
           "talk_id": "11",
