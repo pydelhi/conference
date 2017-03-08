@@ -5107,5 +5107,144 @@ $(document).ready(function(){
 
 });
 
+//Functions To Make Schedule Tabs Work only Below 500px Screen Width
+
+$("#audi1").click(function(){
+  changetab("#audi1","#audi2","#audi3",".second_col",".third_col",".fourth_col");
+});
+
+$("#audi2").click(function(){
+  changetab("#audi2","#audi1","#audi3",".third_col",".second_col",".fourth_col");
+});
+
+$("#audi3").click(function(){
+  changetab("#audi3","#audi1","#audi2",".fourth_col",".second_col",".third_col");
+});
+
+function changetab(firsttab, secondtab, thirdtab, col1, col2, col3)
+{
+  if($(window).width() <= 500){
+    if($(secondtab).hasClass("selected_tab"))
+    {
+      $(secondtab).removeClass("selected_tab");
+      $(secondtab).addClass("unselected_tab");
+      $(col2).fadeOut("fast");
+    }
+    else{
+      $(thirdtab).removeClass("selected_tab");
+      $(thirdtab).addClass("unselected_tab");
+      $(col3).fadeOut("fast");
+    }
+    $(firsttab).removeClass("unselected_tab");
+    $(firsttab).addClass("selected_tab");
+    $(col1).fadeIn("slow");
+  }
+}
+
+$('#day_1_button').click(function(){
+  changedays('#day_1_button', '#day_2_button', '.day_1_content','.day_2_content','#Day_2_banner','#Day_1_banner');
+});
+
+$('#day_2_button').click(function(){
+  changedays('#day_2_button','#day_1_button','.day_2_content','.day_1_content','#Day_1_banner','#Day_2_banner');
+});
+
+function changedays(firstdaybutton, seconddaybutton, first_day_content, second_day_content, banner1, banner2)
+{
+  $(seconddaybutton).removeClass('selected_button');
+  $(firstdaybutton).removeClass('unselected_button');
+  $(seconddaybutton).addClass('unselected_button');
+  $(firstdaybutton).addClass('selected_button');
+  $(second_day_content).fadeOut('fast', function(){
+    $(first_day_content).fadeIn('fast');
+  });
+  if($(window).width()>=500){
+    $(banner1).fadeOut('fast',function() {
+      $(banner2).fadeIn('fast');
+    });
+  }
+}
+
 //End - Use Strict mode
 })(jQuery);
+
+// Containing JS for updating the schedule.
+
+function getScheduleAndTracks() {
+	schedule = {};
+	tracks = {};
+
+	$.ajax({
+	  url: "https://conference.pydelhi.org/api/schedule.json",
+	  async:false,
+	  success: function(response) {
+		schedule = response;
+	  },
+	});
+
+	$.ajax({
+	  url: "https://conference.pydelhi.org/api/tracks.json",
+	  async:false,
+	  success: function(response) {
+		tracks = response;
+	  },
+	});
+
+	return {schedule: schedule, tracks: tracks};
+}
+
+function updateSchedule() {
+	response = getScheduleAndTracks();
+
+	schedule = response.schedule;
+	tracks = response.tracks;
+
+    var schedule = schedule["0.0.1"][0];
+    var tracks = tracks["0.0.1"][0];
+    var day_1_schedule = schedule["2017-03-18"];
+    var day_2_schedule = schedule["2017-03-19"];
+
+    updateScheduleForADay(day_1_schedule, tracks, $(".schedule-table-1 tbody"));
+    updateScheduleForADay(day_2_schedule, tracks, $(".schedule-table-2 tbody"));
+
+}
+
+function updateScheduleForADay(schedule, tracks, table_body) {
+    var schedule_rows = [];
+    for (var i = 0; i < schedule.length; i++) {
+		var talk_id = schedule[i].talk_id;
+        var entity_details = schedule[i];
+        var title = entity_details.title;
+        var speaker_name = tracks[talk_id].hasOwnProperty('speaker') ? tracks[talk_id].speaker.name : '';
+        var time_duration = entity_details.start_time + ' - ' + entity_details.end_time;
+        var display_title = speaker_name !== '' && typeof speaker_name !== 'undefined' ? title + ' by ' + speaker_name : title;
+        var current_day_track = schedule[i].track;
+
+        if (current_day_track == 'all' || typeof current_day_track == "undefined") {
+            schedule_rows.push([time_duration, display_title, '', '']);
+        } else if (current_day_track == '1') {
+            schedule_rows.push([time_duration, display_title]);
+        } else {
+            var index_of_last_row = schedule_rows.length - 1;
+            schedule_rows[index_of_last_row].push(display_title);
+        }
+    }
+    insertTableRows(table_body, schedule_rows, 0);
+}
+
+function insertTableRows(table, rows) {
+	var row_html = '';
+	$(rows).each(function() {
+        var row = $(this);
+        row_html += '<tr>' +
+                       '<td>' + row[0] +'</td>' +
+                       '<td>' + row[1] +'</td>' +
+                       '<td>' + row[2] +'</td>' +
+                       '<td>' + row[3] +'</td>' +
+                    '</tr>'
+    });
+
+	$(table).append(row_html);
+}
+
+updateSchedule();
