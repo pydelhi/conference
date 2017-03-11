@@ -5165,6 +5165,24 @@ function changedays(firstdaybutton, seconddaybutton, first_day_content, second_d
   }
 }
 
+$(window).resize(function(){
+    if(document.body.clientWidth>700){
+        $("#day_1_button").addClass('selected_button');
+        $("#day_1_button").removeClass('unselected_button');
+        $("#day_2_button").addClass('unselected_button');
+        $("#day_2_button").removeClass('selected_button');
+        $("#Day_2_banner").fadeOut('fast',function() {
+            $("#Day_1_banner").fadeIn('fast');
+            $(".day_2_content").fadeOut('fast', function(){
+                $(".day_1_content").fadeIn('fast');
+                $(".second_col").fadeIn("slow");
+                $(".third_col").fadeIn("slow");
+                $(".fourth_col").fadeIn("slow");
+            });
+        });
+    }
+});
+
 //End - Use Strict mode
 })(jQuery);
 
