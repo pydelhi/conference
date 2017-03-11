@@ -3,15 +3,11 @@
 		{
 			"00": {
 				"title": "Registration",
-				"description": "Register yourselves and get your goodie bag. Have a great day!"
-			},
-			"01": {
-				"title": "Opening ceremony",
-				"description": "",
+				"description": "Register yourselves and get your goodie bag. Have a great day!",
 				"speaker": {
-					"name": "Anuvrat Parashar and Sheeba Khan",
-					"info": "",
-					"photo": "",
+					"name": "Registration Team PyDelhi",
+					"info": " The team of PyDelhi would help you to get registered for the event.\\n Please lineup on the registeration counter at the entrance of the venue.",
+					"photo": "http://www.twente.com/wp-content/uploads/2015/11/registration-pic.jpg",
 					"social": [
 						{
 							"about": ""
@@ -19,9 +15,23 @@
 					]
 				}
 			},
+			"01": {
+				"title": "Opening ceremony",
+				"description": "",
+				"speaker": {
+					"name": "Anuvrat Parashar & Sheeba Khan",
+					"info": "Official opening of PyDelhiConf 2017. Our presenters Anuvrat Parashar & Sheeba Khan would be introducing our special guests to the audience and asking them to speak a few word about the event.",
+					"photo": "https://img.clipartfest.com/a1ae87d6a31268e5c37fcd4567bdf1ec_ribbon-cutting-clipart-free-ribbon-cutting-ceremony-clipart_2660-1252.jpeg"
+				}
+			},
 			"02": {
-				"title": "Tea",
-				"description": ""
+				"title": "High Tea",
+				"description": "Food & Beverages",
+				"speaker": {
+					"name": "High Tea",
+					"info": "",
+					"photo": "http://kaleidoscope.cultural-china.com/chinaWH/upload/upfiles/2009-08/05/how_to_use_leftover_green_tea_leaves68291dd53955f34d9d7a.jpg"
+				}
 			},
 			"03": {
 				"title": "Keynote: How & where python is used by scientists",

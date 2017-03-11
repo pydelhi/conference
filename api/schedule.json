@@ -1,7 +1,7 @@
 {
   "0.0.1": [
     {
-      "tracks": ["Audi 1", "Audi 2", "Audi 3"],
+      "tracks": ["Audi 1", "Lecture Hall 1", "Lecture Hall 2"],
       "2017-03-18": [
         {
           "talk_id": "00",
@@ -26,7 +26,7 @@
         },
         {
           "talk_id": "03",
-          "title": "Keynote: How & where python is used by scientists",
+          "title": "Keynote: How & Where Python is used by Scientists",
           "start_time": "10:00",
           "end_time": "10:50",
           "track": "all"
@@ -35,7 +35,7 @@
           "talk_id": "04",
           "title": "Telegram bot using Python",
           "start_time": "11:00",
-          "end_time": "11:30",
+          "end_time": "11:40",
           "track": "1"
         },
         {
@@ -47,8 +47,8 @@
         },
         {
           "talk_id": "06",
-          "title": "Sponsored slot 1",
-          "start_time": "11:10",
+          "title": "Sponsored Talk I",
+          "start_time": "11:00",
           "end_time": "11:40",
           "track": "3"
         },
@@ -175,7 +175,7 @@
         },
         {
           "talk_id": "24",
-          "title": "Sponsored Slot 2",
+          "title": "Sponsored Talk II",
           "start_time": "9:30",
           "end_time": "10:00",
           "track": "3"
