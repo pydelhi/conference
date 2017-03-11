@@ -3060,7 +3060,96 @@ section#schedule_table{
 section#schedule_table{
   margin: 5%;
 }
+
+#talk_description{
+  position: absolute;
+  z-index: 1000;
+  width: 70%;
+  padding: 20px;
+  left: 0;
+  right: 0;
+  margin-top: 300px;
+  margin-left: auto; 
+  margin-right: auto;
+  background: url('../img/bgmask-btn.png') top left #bd6730 !important;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  display: none;
+}
+
+#talk_description #cross{
+  width: 20px;
+  height: 20px;
+  margin-left: 92%;
+  cursor: pointer;
+}
+
+#talk_description #talk_title{
+  margin-top: -25px;
+  font-size: 20px;
+  width: 90%;
+}
+
+
+#talk_description #talk_desc{
+  text-align: justify;
+  margin-top: 25px;
+}
+
+#talk_description #speaker_info{
+  min-height: 200px;
+  text-align: left;
+  margin-left: 5%;
+}
+
+#talk_description #talk_speaker{
+ display: inline-block;
+ position: absolute;
+}
+
+#talk_speaker #talk_speaker_image{
+  position: relative;
+  margin-top: 35px;
+  width: 150px;
+  height: 150px;
+}
+
+#talk_description #talk_speaker_info{
+  width: 70%;
+  margin-left: 160px;
+  margin-top: 30px;
+  display: inline-block;
+  text-align: justify;
+}
+
+#talk_description #talk_name{
+  font-size: 20px;
+}
+
 @media (max-width:700px){
+  #talk_description{
+  width: 90%;
+  margin-top: 30px;
+  }
+
+  #talk_description #cross{
+  }
+  #talk_description #speaker_info{
+   display: block; 
+  }
+  #talk_speaker #talk_speaker_image{
+  position: relative;
+  margin-left: 50%;
+  margin-top: -200px;
+  }
+  #talk_description #talk_speaker_info{
+  display: block;
+  position: relative;
+  margin-left: 0px;
+  margin-top: 200px;
+  width: 100%;
+  }
   section#schedule_table{
     margin: 0px;
   }
@@ -3068,7 +3157,10 @@ section#schedule_table{
     font-size: 13px;
   }
   .tbl-content{
-    height: 300px;
+    height: 310px;
+  }
+  .track-hall{
+    font-size: 15px;
   }
   .third_col, .fourth_col{
     display: none;

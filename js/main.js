@@ -5211,6 +5211,8 @@ function getScheduleAndTracks() {
 	return {schedule: schedule, tracks: tracks};
 }
 
+var talk_count = 0;
+
 function updateSchedule() {
     var DATE_ONE = "2017-03-18";
     var DATE_TWO = "2017-03-19";
@@ -5226,7 +5228,43 @@ function updateSchedule() {
     updateScheduleForADay(day_1_schedule, tracks, $(".schedule-table-1 tbody"));
     updateScheduleForADay(day_2_schedule, tracks, $(".schedule-table-2 tbody"));
     updateTrackHall(track_halls, '.track-hall');
+
+    for(var i=0; i<talk_count; i++){
+        $("#talkno"+i).click(function(){
+            var talk_id = this.id.substring(6,this.id.length);
+            var talk_title = talk_id<10 ? tracks["0"+String(talk_id)]["title"] : tracks[String(talk_id)]["title"];
+            var talk_description = talk_id<10 ? tracks["0"+String(talk_id)]["description"] : tracks[String(talk_id)]["description"];
+            if(talk_id<10 ? tracks["0"+String(talk_id)]["speaker"] : tracks[String(talk_id)]["speaker"]){
+                var talk_speaker_name = talk_id<10 ? tracks["0"+String(talk_id)]["speaker"]["name"] : tracks[String(talk_id)]["speaker"]["name"];
+                var talk_speaker_info = talk_id<10 ? tracks["0"+String(talk_id)]["speaker"]["info"] : tracks[String(talk_id)]["speaker"]["info"];
+                var talk_speaker_image = talk_id<10 ? tracks["0"+String(talk_id)]["speaker"]["photo"] : tracks[String(talk_id)]["speaker"]["photo"];
+            }
+            $('#talk_title')[0].innerHTML = talk_title;
+            $('#talk_desc')[0].innerHTML = talk_description;
+            if(talk_speaker_name){
+                $('#talk_name')[0].innerHTML = talk_speaker_name;
+                $('#talk_info')[0].innerHTML = talk_speaker_info;
+                $('#talk_speaker_image')[0].src = talk_speaker_image;
+            }
+            $('#speaker_info').show();
+            $('#talk_speaker_image').show(function(){
+                $('#talk_description').fadeIn('fast');
+            });
+        });
+    }
 }
+
+$('#cross').click(function(){
+    $('#talk_description').fadeOut('fast', function(){
+        $('#talk_title')[0].innerHTML = '';
+        $('#talk_desc')[0].innerHTML = '';
+        $('#talk_name')[0].innerHTML = '';
+        $('#talk_info')[0].innerHTML = '';
+        $('#talk_speaker_image')[0].src = '';
+        $('#speaker_info').hide();
+        $('#talk_speaker_image').hide();
+    });
+});
 
 function updateScheduleForADay(schedule, tracks, table_body) {
     var schedule_rows = [];
@@ -5257,9 +5295,9 @@ function insertTableRows(table, rows) {
         var row = $(this);
         row_html += '<tr>' +
                        '<td class="first_col">' + row[0] +'</td>' +
-                       '<td class="second_col">' + row[1] +'</td>' +
-                       '<td class="third_col">' + row[2] +'</td>' +
-                       '<td class="fourth_col">' + row[3] +'</td>' +
+                       '<td class="second_col" id=talkno' + ((row[1]!='') ? talk_count++ : -1) + '>' + row[1] +'</td>' +
+                       '<td class="third_col" id=talkno' + ((row[2]!='') ? talk_count++ : -1) + '>' + row[2] +'</td>' +
+                       '<td class="fourth_col" id=talkno' + ((row[3]!='') ? talk_count++ : -1) + '>' + row[3] +'</td>' +
                     '</tr>'
     });
 
@@ -5272,7 +5310,7 @@ function updateTrackHall(track_halls, selector) {
     });
 }
 
+
 $( document ).ready(function() {
     updateSchedule();
 });
-c
