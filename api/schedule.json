@@ -26,7 +26,7 @@
         },
         {
           "talk_id": "03",
-          "title": "Keynote: How & Where Python is used by Scientists",
+          "title": "Keynote: How & where python is used by scientists",
           "start_time": "10:00",
           "end_time": "10:50",
           "track": "all"
@@ -47,7 +47,7 @@
         },
         {
           "talk_id": "06",
-          "title": "Sponsored Talk I",
+          "title": "Sponsored slot 1",
           "start_time": "11:00",
           "end_time": "11:40",
           "track": "3"
@@ -61,7 +61,7 @@
         },
         {
           "talk_id": "08",
-          "title": "Making IoT smarter",
+          "title": "Python 101",
           "start_time": "11:40",
           "end_time": "01:40",
           "track": "2"
@@ -175,7 +175,7 @@
         },
         {
           "talk_id": "24",
-          "title": "Sponsored Talk II",
+          "title": "Sponsored Slot 2",
           "start_time": "9:30",
           "end_time": "10:00",
           "track": "3"
