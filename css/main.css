@@ -3061,6 +3061,7 @@ td.second_col, td.third_col, td.fourth_col{
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
   white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
   white-space: normal;
+  cursor: pointer;
 }
 
 section#schedule_table{
