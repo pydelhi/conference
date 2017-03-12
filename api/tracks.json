@@ -75,16 +75,17 @@
 			}
 		},
 		"06": {
-			"title": "Sponsored slot 1",
+			"title": "Docker-izing and debugging Python applications with VS Code",
 			"description": "",
 			"type": "default",
 			"speaker": {
 				"name": "Sponsors",
-				"info": "about speaker",
+				"info": "Brij is a Tech evangelist @Microsoft",
 				"photo": "",
 				"social": [{
 					"twitter": "www.twitter.com/pydelhi",
-					"github": "www.github.com/pydelhi"
+					"github": "www.github.com/pydelhi",
+					"website": 'link to website'
 				}]
 			}
 		},
