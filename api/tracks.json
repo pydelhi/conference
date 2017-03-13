@@ -76,16 +76,16 @@
 		},
 		"06": {
 			"title": "Docker-izing and debugging Python applications with VS Code",
-			"description": "",
+			"description": "A fast paced introduction to Docker. Dockerize your first Python application, learn to debug it while running in containers.",
 			"type": "default",
 			"speaker": {
 				"name": "Brij Raj Singh",
-				"info": "Brij is a Tech evangelist @Microsoft",
-				"photo": "",
+				"info": "Brij is a Sr. Tech evangelist @Microsoft. Brij has a decade worth of experience in both Microsoft technologies as well as with open source technologies. Brij has architected Highly scalable and reliable solutions using Open source technologies. Brij works with a number of startups to help them shape their products over cloud. He tweets interesting anecdotes on OSS, IOT and Microsoft at @brijrajsingh.",
+				"photo": "http://imgur.com/dhi3eMI",
 				"social": [{
-					"twitter": "www.twitter.com/pydelhi",
-					"github": "www.github.com/pydelhi",
-					"website": "link to website"
+					"twitter": "www.twitter.com/brijrajsingh",
+					"github": "www.github.com/brijrajsingh",
+					"website": "https://blogs.msdn.microsoft.com/brijrajsingh"
 				}]
 			}
 		},
