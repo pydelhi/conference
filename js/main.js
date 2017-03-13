@@ -5223,16 +5223,12 @@ var day_1_schedule = schedule[DATE_ONE];
 var day_2_schedule = schedule[DATE_TWO];
 
 function updateSchedule() {
-
     updateScheduleForADay(day_1_schedule, tracks, $(".schedule-table-1 tbody"));
     updateScheduleForADay(day_2_schedule, tracks, $(".schedule-table-2 tbody"));
     updateTrackHall(track_halls, '.track-hall');
 }
 
 function eventDescription(){
-    var API_VERSION = "0.0.1";
-    var response = getScheduleAndTracks();
-    var tracks = response.tracks[API_VERSION][0];
     for(var i=0; i<talk_count; i++){
         $("#talkno"+i).click(function(){
             var talk_id = this.id.substring(6,this.id.length);
