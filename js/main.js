@@ -5212,17 +5212,17 @@ function getScheduleAndTracks() {
 }
 
 var talk_count = 0;
+var DATE_ONE = "2017-03-18";
+var DATE_TWO = "2017-03-19";
+var API_VERSION = "0.0.1";
+var response = getScheduleAndTracks();
+var schedule = response.schedule[API_VERSION][0];
+var track_halls = response.schedule[API_VERSION][0]["tracks"];
+var tracks = response.tracks[API_VERSION][0];
+var day_1_schedule = schedule[DATE_ONE];
+var day_2_schedule = schedule[DATE_TWO];
 
 function updateSchedule() {
-    var DATE_ONE = "2017-03-18";
-    var DATE_TWO = "2017-03-19";
-    var API_VERSION = "0.0.1";
-    var response = getScheduleAndTracks();
-    var schedule = response.schedule[API_VERSION][0];
-    var track_halls = response.schedule[API_VERSION][0]["tracks"];
-    var tracks = response.tracks[API_VERSION][0];
-    var day_1_schedule = schedule[DATE_ONE];
-    var day_2_schedule = schedule[DATE_TWO];
 
     updateScheduleForADay(day_1_schedule, tracks, $(".schedule-table-1 tbody"));
     updateScheduleForADay(day_2_schedule, tracks, $(".schedule-table-2 tbody"));
