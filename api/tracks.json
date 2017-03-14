@@ -129,7 +129,7 @@
 			"speaker": {
 				"name": "Dorai Thodla & Bhavani Ravi",
 				"info": "Dorai Thodla - Designs and builds skillbots (chatbots for skill development and assessement), conducts Chatbot workshops, Bot Sprints and other events Bhavani Ravi - A developer of Interview Bot and helps Dorai in conductig chatbot workshops and Bot Sprints.",
-				"photo": "http://static.wixstatic.com/media/2653cd_02a8474e57b5420e8ae1f5b25ce3685c.jpg",
+				"photo": "http://startupsclub.org/wp-content/uploads/2016/11/dorai-thodla-dd.jpg",
 				"social": [{
 					"website": "http://doraithodla.com/",
 					"proposal": "https://cfp.pydelhi.org/pydelhi-conference-2017/proposals/building-chatbots-with-pythondjango~dJ62d/",
@@ -252,8 +252,8 @@
 			"speaker": {
 				"name": "Everyone",
 				"info": "The best part about attending any meetups or conferences is getting a chance to converse with people with similar interests. Know about their domains of expertise, tell them about yours and if the interests meet up, collaborate for any future projects/prospects. Open Spaces are exactly for providing such environment for you. So go ahead, find a place, interact with people and make the best of this conference. Have a great time!",
-				"photo": "http://conference.pydelhi.org/img/open-spaces.jpg",
-				"social": []
+				"photo": "https://s-media-cache-ak0.pinimg.com/originals/75/71/45/7571452d437eac4801e6c490f5d2401e.jpg",
+				"social": [{}]
 			}
 		},
 		"19": {
