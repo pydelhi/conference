@@ -1,9 +1,9 @@
 {
  "0.0.1": [
    {
-    "logo": "http://bit.ly/2niBg5Y",
-    "website":"https://pydelhi.org/",
-    "details":"PyDelhi is a volunteer organization, group of technically inclined students, professionals, teachers and entrepreneurs who want to learn something new having a common primary interest in Python programming language." 
+    "logo": "https://paste.opensuse.org/images/89323686.jpg",
+    "website":"https://conference.pydelhi.org/",
+    "about":"PyDelhi Conf is the annual conference hosted by PyDelhi community. It will be bringing together developers, experts, researchers, scientists, enthusiasts and companies dealing in python. It is a completely volunteer driven event, managed by PyDelhi(https://pydelhi.org/) Python Delhi Users Group. On its maiden year PyDelhi Conf attracted a total attendance of 300 people."
    }
   ]
 }
