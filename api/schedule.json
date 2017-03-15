@@ -12,7 +12,7 @@
         },
         {
           "talk_id": "01",
-          "title": "Introductions & Opening Ceremony",
+          "title": "Introduction to PyDelhiConf 2017\\n IIM L Incubator Introduction",
           "start_time": "09:00",
           "end_time": "09:30",
           "track": "all"
@@ -175,7 +175,7 @@
         },
         {
           "talk_id": "24",
-          "title": "Sponsored Talk II",
+          "title": "Women in Tech",
           "start_time": "9:30",
           "end_time": "10:00",
           "track": "3"
