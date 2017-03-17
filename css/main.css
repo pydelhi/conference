@@ -2121,12 +2121,24 @@ body:after {
   }
 }
 
+@media (min-width: 740px) {
+  .sponsor-item.gold {
+    height: 100px;
+    width: 100px;
+    max-width: 316px;
+  }
+}
+
 .sponsors-list-wrapper {
   width: 100%;
   overflow: hidden;
 }
 .sponsors-list {
   padding-top: 20px;
+}
+
+.supporters-list {
+  padding-bottom: 40px;
 }
 /* ==========================================================
 ! 09. SECTION: Blog
@@ -2989,6 +3001,10 @@ a {
   padding: 0.5em;
 }
 
+.supporters-img {
+  width: 100%;
+  height: 100%;
+}
 
 h1{
   font-size: 30px;
@@ -3267,4 +3283,16 @@ section#schedule_table{
 
 .day_2_content, #Day_2_banner{
   display: none;
+}
+
+
+.section-padding1 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+@media (min-width: 768px) {
+  .section-padding1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
