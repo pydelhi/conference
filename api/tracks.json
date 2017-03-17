@@ -316,17 +316,13 @@
 			}
 		},
 		"24": {
-			"title": "Sponsored Slot 2",
-			"description": "about talk",
+			"title": "Women in Python World",
+			"description": "There are numerous women making big names and doing great things in Python World. We're going to appreciate all such women and have a discussion about current and future state of diversity in the community.",
 			"type": "talk",
 			"speaker": {
-				"name": "Sponsors",
-				"info": "about speaker",
-				"photo": "http://static.wixstatic.com/media/2653cd_02a8474e57b5420e8ae1f5b25ce3685c.jpg",
-				"social": [{
-					"twitter": "www.twitter.com/pydelhi",
-					"github": "www.github.com/pydelhi"
-				}]
+				"name": "Panelists",
+				"info": "",
+				"photo": "http://waysidehotel.com/wp-content/uploads/2015/08/Female-Silhouette.jpg"
 			}
 		},
 		"25": {
