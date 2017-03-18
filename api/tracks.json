@@ -316,13 +316,18 @@
 			}
 		},
 		"24": {
-			"title": "Women in Python World",
-			"description": "There are numerous women making big names and doing great things in Python World. We're going to appreciate all such women and have a discussion about current and future state of diversity in the community.",
-			"type": "talk",
+			"title": "Android app with Python",
+			"description": "What if you could avoid the hassle of writing Java code for building an app for android? What if that app could also work on other platforms? You're looking for an amazing thing called Kivy. To top it all, the cross-platform app is written in Python.",
+			"type": "workshop",
 			"speaker": {
-				"name": "Panelists",
-				"info": "",
-				"photo": "http://waysidehotel.com/wp-content/uploads/2015/08/Female-Silhouette.jpg"
+				"name": "Shivani Bhardwaj",
+				"info": "Shivani Bhardwaj is a programmer from Delhi, India. She has recently started learning kivy and has been building apps for Android and iOS using Kivy. She was also an Outreachy intern for Linux kernel's netfilter project and the recipient of Training Scholarship by The Linux Foundation.",
+				"photo": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAe5AAAAJDRhNTgxYWM1LTBjYWMtNGZmYS1hMzNmLTg1M2VjNmU3YmYwOA.jpg",
+				"social": [{
+					"twitter": "www.twitter.com/tuxish",
+					"github": "https://github.com/shivan1b",
+					"proposal": "https://cfp.pydelhi.org/pydelhi-conference-2017/proposals/android-app-with-python~dNxza/"
+				}]
 			}
 		},
 		"25": {
@@ -358,18 +363,13 @@
 			}
 		},
 		"27": {
-			"title": "Android app with Python",
-			"description": "What if you could avoid the hassle of writing Java code for building an app for android? What if that app could also work on other platforms? You're looking for an amazing thing called Kivy. To top it all, the cross-platform app is written in Python.",
-			"type": "workshop",
+			"title": "Women in Python World",
+			"description": "There are numerous women making big names and doing great things in Python World. We're going to appreciate all such women and have a discussion about current and future state of diversity in the community.",
+			"type": "talk",
 			"speaker": {
-				"name": "Shivani Bhardwaj",
-				"info": "Shivani Bhardwaj is a programmer from Delhi, India. She has recently started learning kivy and has been building apps for Android and iOS using Kivy. She was also an Outreachy intern for Linux kernel's netfilter project and the recipient of Training Scholarship by The Linux Foundation.",
-				"photo": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAe5AAAAJDRhNTgxYWM1LTBjYWMtNGZmYS1hMzNmLTg1M2VjNmU3YmYwOA.jpg",
-				"social": [{
-					"twitter": "www.twitter.com/tuxish",
-					"github": "https://github.com/shivan1b",
-					"proposal": "https://cfp.pydelhi.org/pydelhi-conference-2017/proposals/android-app-with-python~dNxza/"
-				}]
+				"name": "Panelists",
+				"info": "",
+				"photo": "http://waysidehotel.com/wp-content/uploads/2015/08/Female-Silhouette.jpg"
 			}
 		},
 		"28": {
