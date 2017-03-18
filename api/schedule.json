@@ -12,7 +12,7 @@
         },
         {
           "talk_id": "01",
-          "title": "Introduction to PyDelhiConf 2017 & L Incubator IIM Lucknow Introduction",
+          "title": "Introduction to PyDelhiConf 2017 & IIM L Incubator Introduction",
           "start_time": "09:00",
           "end_time": "09:30",
           "track": "all"
@@ -34,84 +34,84 @@
         {
           "talk_id": "04",
           "title": "Telegram bot using Python",
-          "start_time": "11:00",
-          "end_time": "11:40",
+          "start_time": "11:40",
+          "end_time": "12:20",
           "track": "1"
         },
         {
           "talk_id": "05",
           "title": "Lets talk about GIL",
-          "start_time": "11:00",
-          "end_time": "11:30",
+          "start_time": "11:40",
+          "end_time": "12:20",
           "track": "2"
         },
         {
           "talk_id": "06",
-          "title": "Docker-izing and debugging Python applications with VS Code(Sponsored)",
-          "start_time": "11:00",
-          "end_time": "11:40",
+          "title": "Docker-izing and debugging Python applications with VS Code",
+          "start_time": "11:40",
+          "end_time": "12:20",
           "track": "3"
         },
         {
           "talk_id": "07",
           "title": "Concurrency in Python 3.0 world - Oh My!",
-          "start_time": "11:40",
-          "end_time": "01:40",
+          "start_time": "12:20",
+          "end_time": "2:20",
           "track": "1"
         },
         {
           "talk_id": "08",
           "title": "Python 101",
-          "start_time": "11:40",
-          "end_time": "01:40",
+          "start_time": "12:20",
+          "end_time": "02:20",
           "track": "2"
         },
         {
           "talk_id": "09",
           "title": "Building chatbots with Python/Django",
-          "start_time": "11:40",
-          "end_time": "01:40",
+          "start_time": "12:20",
+          "end_time": "02:20",
           "track": "3"
         },
         {
           "talk_id": "10",
           "title": "Lunch",
-          "start_time": "01:40",
-          "end_time": "02:40",
+          "start_time": "02:20",
+          "end_time": "03:00",
           "track": "all"
         },
         {
           "talk_id": "11",
           "title": "Panel Discussion: Data Science Training vs Data Science in the Industry",
-          "start_time": "02:40",
-          "end_time": "03:40",
+          "start_time": "03:00",
+          "end_time": "04:00",
           "track": "all"
         },
         {
           "talk_id": "12",
           "title": "Property based testing 101",
-          "start_time": "03:50",
+          "start_time": "04:00",
           "end_time": "04:20",
           "track": "1"
         },
         {
           "talk_id": "13",
           "title": "Debugging: An art for smart",
-          "start_time": "03:50",
-          "end_time": "04:20",
+          "start_time": "04:00",
+          "end_time": "04:30",
           "track": "2"
         },
         {
           "talk_id": "14",
           "title": "Comparing word embeddings with Gensim",
-          "start_time": "03:50",
-          "end_time": "04:20",
+          "start_time": "04:00",
+          "end_time": "04:30",
           "track": "3"
         },
         {
           "talk_id": "15",
           "title": "Tea",
-          "start_time": "04:20",
+          "start_time": "04:30",
           "end_time": "04:50",
           "track": "all"
         },
