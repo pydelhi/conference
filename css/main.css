@@ -3083,9 +3083,6 @@ td.second_col, td.third_col, td.fourth_col{
 section#schedule_table{
   background: url('../img/bgmask-btn.png') top left #bd6730 !important;
 }
-section#schedule_table{
-  margin: 5%;
-}
 
 #talk_description{
   position: absolute;
