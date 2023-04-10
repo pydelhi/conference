@@ -527,10 +527,10 @@ Project:  PyDelhi Conference
   color: #04cd8f;
 }
 .color2 {
-  color: #bd6730;
+  color: #04cd8f;
 }
 .color3 {
-  color: brown;
+  color: #04cd8f;
 }
 .color1l {
   color: #04cd8f;
@@ -603,7 +603,7 @@ h2,
 h3,
 h4 {
   font-family: 'Montserrat', sans-serif;
-  color: #efbd70;
+  color: #4b5d59;
 }
 /* PAGE BORDER */
 html:before,
@@ -659,8 +659,8 @@ body:after {
   font-size: 24px;
   text-align: center;
   font-weight: bold;
-  color: brown;
-  border-bottom: 1px dotted brown;
+  color: #04cd8f;
+  border-bottom: 1px dotted #04cd8f;
   padding-bottom: 10px;
   letter-spacing: -2px;
 }
@@ -682,7 +682,7 @@ body:after {
 }
 .title-section small {
   font-size: 18px;
-  color: brown;
+  color: #04cd8f;
 }
 .inverted-section .title-section {
   border-bottom-color: #ffffff;
@@ -694,7 +694,7 @@ body:after {
 }
 .inverted-section {
   color: #ffffff !important;
-  background: url('../img/bgmask2.png') no-repeat center center brown
+  background: url('../img/bgmask2.png') no-repeat center center #04cd8f
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -718,10 +718,10 @@ body:after {
 }
 .inverted-section2 {
   color: #ffffff !important;
-  background: url('../img/bgmask2.png') no-repeat center center #bd6730;
+  background: url('../img/bgmask2.png') no-repeat center center #04cd8f;
   padding-top: 30px;
   padding-bottom: 30px;
-  background: url('../img/bgmask2.png') no-repeat center center #bd6730;
+  background: url('../img/bgmask2.png') no-repeat center center #04cd8f;
 }
 .inverted-section2 .title-section {
   border-bottom-color: #ffffff;
@@ -747,7 +747,7 @@ body:after {
   transition: all 0.2s ease-in-out;
 }
 .inverted-section2 .owl-pagination .owl-page.active span {
-  background: #dd6730 !important;
+  background: #30ddb5 !important;
 }
 .section-padding {
   padding-top: 30px;
@@ -814,7 +814,7 @@ body:after {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: url('../img/bgmask-btn.png') no-repeat top left #bd6730 !important;
+  background: url('../img/bgmask-btn.png') no-repeat top left #04cd8f !important;
 }
 .btn:before {
   content: '';
@@ -827,7 +827,7 @@ body:after {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: url('../img/bgmask-btn.png') brown;
+  background: url('../img/bgmask-btn.png') #04cd8f;
   z-index: -1;
 }
 .btn:hover {
@@ -856,7 +856,7 @@ body:after {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: url('../img/bgmask-btn.png') no-repeat top left brown !important;
+  background: url('../img/bgmask-btn.png') no-repeat top left #04cd8f !important;
 }
 .btn2:before {
   content: '';
@@ -869,7 +869,7 @@ body:after {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #bd6730;
+  background: #04cd8f;
   z-index: -1;
 }
 .btn2:hover {
@@ -882,8 +882,8 @@ body:after {
 }
 .btn-nobg {
   background: transparent!important;
-  color: brown;
-  border: 1px solid brown !important;
+  color: #04cd8f;
+  border: 1px solid #04cd8f !important;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -902,11 +902,11 @@ body:after {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: url('../img/bgmask-btn.png') no-repeat top left brown !important;
+  background: url('../img/bgmask-btn.png') no-repeat top left #04cd8f !important;
   z-index: -1;
 }
 .btn-nobg:hover {
-  border: 1px solid brown !important;
+  border: 1px solid #04cd8f !important;
   background-color: transparent!important;
   color: #ffffff !important;
 }
@@ -923,7 +923,7 @@ body:after {
 .fancybox-skin {
   position: relative;
   background: #f9f9f9;
-  color: #444;
+  color: #444444;
   text-shadow: none;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -936,7 +936,7 @@ body:after {
 #page-loader {
   width: 100%;
   height: 100%;
-  background: #350307;
+  background: #033529;
   color: #ffffff;
   opacity: 1;
   position: fixed;
@@ -1185,7 +1185,7 @@ body:after {
   max-width: 100%;
 }
 .header-stick {
-  background-color: #350307 !important;
+  background-color: #00bc7e !important;
   opacity: 0.8;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -1215,7 +1215,7 @@ body:after {
   display: inline-block;
 }
 .btn-menu {
-  background: brown;
+  background: #04cd8f;
   border: 0;
   color: #ffffff;
   padding: 15px;
@@ -1282,7 +1282,7 @@ body:after {
   display: inline-block;
 }
 .hd-list-menu a {
-  color: #ffffff;
+  color: #494949;
   display: block;
   padding: 12px;
   text-transform: uppercase;
@@ -1334,7 +1334,7 @@ body:after {
 }
 .hd-list-menu a:hover {
   text-decoration: none;
-  color: #bd6730;
+  color: #04cd8f;
 }
 .hd-list-menu li {
   margin-left: 0;
@@ -1343,7 +1343,7 @@ body:after {
   margin-top: 40px;
 }
 .mm-social-icons a {
-  color: #bd6730;
+  color: #04cd8f;
   margin-right: 3px;
 }
 .mm-social-icons a:hover .fa {
@@ -1422,7 +1422,7 @@ body:after {
 ! 04. Intro
 ========================================================== */
 .main-intro {
-  background: #fa94b6;
+  background: #94fae9;
   color: #ffffff;
   background: no-repeat center top;
   -webkit-background-size: cover;
@@ -1439,7 +1439,7 @@ body:after {
   display: block;
   width: 100%;
   height: 100%;
-  background: #350307;
+  background: #ffffff;
   position: absolute;
   top: 0;
   left: 0;
@@ -1453,13 +1453,13 @@ body:after {
 .main-intro h1,
 .main-intro h2,
 .main-intro h3 {
-  color: #ffffff;
+  color: #222C5A;
 }
 .main-intro p {
-  color: #ffffff;
+  color: #222C5A;
 }
 .main-intro-mask2:before {
-  background: brown;
+  background: #04cd8f;
   opacity: 0.6;
 }
 .main-intro-mask3:before {
@@ -1516,7 +1516,7 @@ body:after {
   color: #ffffff;
 }
 .intro-content .btn-nobg:hover {
-  border-color: #bd6730 !important;
+  border-color: #04cd8f !important;
 }
 .intro-content p {
   font-size: 13px;
@@ -1641,7 +1641,7 @@ body:after {
   top: 15px;
   left: 25px;
   text-shadow: 0px 0px 0px rgba(10, 0, 0, 0.3);
-  color: brown;
+  color: #04cd8f;
   opacity: 0.4;
 }
 .intro-bar {
@@ -1716,7 +1716,7 @@ body:after {
 }
 #countdown .countdown-type {
   display: block;
-  background: url('../img/bgmask-btn.png') no-repeat bottom left brown !important;
+  background: url('../img/bgmask-btn.png') no-repeat bottom left #04cd8f !important;
   color: #ffffff;
   padding: 5px;
   -webkit-border-radius: 6px;
@@ -1823,7 +1823,7 @@ body:after {
   padding: 20px;
   padding-top: 20px;
   padding-bottom: 0px;
-  background: url('../img/bgmask2.png') no-repeat left center #350307;
+  background: url('../img/bgmask2.png') no-repeat left center #ffffff;
   position: relative;
   overflow: hidden;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1844,7 +1844,7 @@ body:after {
     text-align: left;
   }
   .event-info-col:hover {
-    background-color: #bd6730;
+    background-color: #04cd8f;
     /*width: 28%!important;*/
   }
   .event-info-col:hover .event-info-ico {
@@ -1894,7 +1894,7 @@ body:after {
 }
 
 .schedule-item-block {
-  background: url('../img/progress-bg.png') repeat-x center center fixed brown;
+  background: url('../img/progress-bg.png') repeat-x center center fixed #04cd8f;
   min-height: 200px;
   overflow: hidden;
   display: none;
@@ -1939,12 +1939,12 @@ body:after {
   padding: 30px;
   padding-top: 25px;
   padding-bottom: 25px;
-  background: url('../img/bgmask2.png') no-repeat center center #bd6730 ;
+  background: url('../img/bgmask2.png') no-repeat center center #04cd8f ;
   min-height: 160px;
   margin-top: 0px;
   margin-bottom: 20px;
   position: relative;
-  color: #ffffff;
+  color: #009264;
 }
 @media (min-width: 768px) {
   .schedule-item-content {
@@ -1958,7 +1958,7 @@ body:after {
   content: '';
   width: 10px;
   height: 10px;
-  background: #be7f52;
+  background: #384442;
   position: absolute;
   left: -5px;
   top: 50%;
@@ -2012,7 +2012,7 @@ body:after {
 }
 .schedule-tab-links li a {
   display: block;
-  border: 1px solid brown;
+  border: 1px solid #04cd8f;
   padding: 15px;
   text-transform: uppercase;
   font-weight: bold;
@@ -2031,12 +2031,12 @@ body:after {
 }
 .schedule-tab-links li a:hover {
   text-decoration: none;
-  background: url('../img/bgmask-btn.png') no-repeat top left brown;
+  background: url('../img/bgmask-btn.png') no-repeat top left #04cd8f;
   color: #ffffff;
 }
 .schedule-tab-links li.active a {
-  background: url('../img/bgmask-btn.png') no-repeat top left brown;
-  border-color: brown;
+  background: url('../img/bgmask-btn.png') no-repeat top left #04cd8f;
+  border-color: #04cd8f;
   color: #ffffff;
   text-decoration: none;
 }
@@ -2085,10 +2085,10 @@ body:after {
   ============================================================================
 */
 .faq-item-content:before {
-  background: #bd6730;
+  background: #04cd8f;
 }
 .faq-item-block {
-  background: url('../img/progress-bg.png') repeat-x center center fixed brown;
+  background: url('../img/progress-bg.png') repeat-x center center fixed #04cd8f;
 }
 .faq-item-title {
   font-size: 14px;
@@ -2162,7 +2162,7 @@ body:after {
 }
 .blog-item-wrapper {
   border: 1px solid #ddd;
-  border-top: 3px solid brown;
+  border-top: 3px solid #04cd8f;
   padding: 15px;
   padding-top: 20px;
   padding-bottom: 5px;
@@ -2181,7 +2181,7 @@ body:after {
   letter-spacing: -1px;
 }
 .blog-item-title a {
-  color: brown;
+  color: #04cd8f;
 }
 .blog-item-title a:hover {
   text-decoration: none;
@@ -2194,7 +2194,7 @@ body:after {
 }
 .blog-item-title-hr {
   border: 0;
-  border-top: 3px solid #bd6730;
+  border-top: 3px solid #04cd8f;
   width: 20%;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -2275,7 +2275,7 @@ body:after {
   border-bottom: 0px;
 }
 .blog-single-title a {
-  color: brown;
+  color: #04cd8f;
 }
 .blog-single-title a:hover {
   text-decoration: none;
@@ -2402,7 +2402,7 @@ body:after {
 }
 .team-member-picture-wrapper .team-member-find-overlay .block-link:hover {
   background: #ffffff;
-  color: #bd6730;
+  color: #04cd8f;
 }
 .team-member-picture-wrapper .team-member-find-content {
   position: absolute;
@@ -2501,7 +2501,7 @@ body:after {
   padding: 10px 20px;
 }
 .modal-content .modal-title {
-  color: #bd6730;
+  color: #04cd8f;
   font-size: 22px;
   border-bottom: 1px solid #ccc;
   margin-bottom: 5px;
@@ -2556,8 +2556,8 @@ body:after {
   font-size: 26px;
   letter-spacing: -1px;
   font-weight: bold;
-  color: brown;
-  border-color: brown;
+  color: #04cd8f;
+  border-color: #04cd8f;
 }
 .about-text-wrapper .title3 .fa {
   opacity: 0.6;
@@ -2568,7 +2568,7 @@ body:after {
   line-height: 28px;
 }
 .title-border {
-  border-bottom: 1px solid brown;
+  border-bottom: 1px solid #04cd8f;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
@@ -2746,7 +2746,7 @@ body:after {
   width: 100%;
   padding: 10px;
   backface-visibility: hidden;
-  background: url('../img/bgmask2.png') no-repeat bottom center brown;
+  background: url('../img/bgmask2.png') no-repeat bottom center #04cd8f;
   color: #ffffff;
 }
 @media (min-width:992px) {
@@ -2831,7 +2831,7 @@ body:after {
   text-decoration: none;
 }
 .tab-links2 li.active a {
-  background: #bd6730;
+  background: #04cd8f;
   text-decoration: none !important;
 }
 .tabs-content2 .tab {
@@ -2860,7 +2860,7 @@ body:after {
   width: 40px;
   height: 40px;
   text-align: center;
-  background: #bd6730;
+  background: #04cd8f;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -2871,7 +2871,7 @@ body:after {
 }
 .footer-social-icons a:hover {
   color: #ffffff;
-  background: brown;
+  background: #04cd8f;
 }
 
 .footer-social-icons .fa {
@@ -2943,7 +2943,7 @@ html.safari:after {
   font-size: 16px;
 }
 h4#myModalLabel.modal-title {
-  color: #bd6730 !important;
+  color: #04cd8f !important;
 }
 @media (max-width: @screen-xs-min) {
   .modal-xs { width: @modal-sm; }
@@ -2984,7 +2984,7 @@ h4#myModalLabel.modal-title {
   overflow-y: scroll;
 }
 a {
-  color: #bd6730;
+  color: #04cd8f;
 }
 .event-info-col {
   width: 33%;
@@ -3081,7 +3081,7 @@ td.second_col, td.third_col, td.fourth_col{
 }
 
 section#schedule_table{
-  background: url('../img/bgmask-btn.png') top left #bd6730 !important;
+  background: url('../img/bgmask-btn.png') top left #04cd8f !important;
 }
 
 #talk_description{
@@ -3190,7 +3190,7 @@ section#schedule_table{
   }
   .selected_tab{
     background-color: #eee;
-    color: #bd6730;
+    color: #04cd8f;
     transition: all .3s ease-in 0ms;
   }
   .unselected_tab{
@@ -3260,7 +3260,7 @@ section#schedule_table{
 
 .selected_button{
   background-color: #eee;
-  color: #bd6730;
+  color: #04cd8f;
   transition: all .3s ease-in 0ms;
   padding: 5px;
 }
