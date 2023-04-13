@@ -936,7 +936,7 @@ body:after {
 #page-loader {
   width: 100%;
   height: 100%;
-  background: #033529;
+  background: #04cd8f;
   color: #ffffff;
   opacity: 1;
   position: fixed;
@@ -948,6 +948,7 @@ body:after {
 .loading-wrapper {
   width: 250px;
   position: fixed;
+  opacity: 0.8;
   top: 50%;
   margin-top: -130px;
   left: 50%;
@@ -961,7 +962,7 @@ body:after {
   -webkit-transform: translateY(0px);
 }
 .loading-wrapper-hide {
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: all 0.6s ease-in-out;
   -moz-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
@@ -975,7 +976,7 @@ body:after {
 }
 .loader-name {
   color: #ffffff;
-  opacity: 1;
+  /* opacity: 1; */
   text-align: center;
   font-size: 48px;
   letter-spacing: -2px;
@@ -983,11 +984,44 @@ body:after {
   padding-right: 2px;
   font-weight: bold;
   margin-top: 12px;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
   margin-bottom: 25px;
+  width: 50rem;
+  height: 20rem;
 }
+
+.loader-name img{
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width:900px) {
+  .loader-name {
+    color: #ffffff;
+    opacity: 1;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: -2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: bold;
+    margin-top: 12px;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    margin-bottom: 25px;
+    width: 20rem;
+    height: 10rem;
+  }
+
+  .loader-name img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .loader-job {
   border: 1px solid #ffffff;
   padding: 5px;
