@@ -4813,9 +4813,10 @@ $(window).load(function(){
   adjustViewport();
 
   $('#loader-name').addClass('loader-left');
-  $('#loader-job').addClass('loader-right');
-  $('#loader-animation').addClass('loader-hide');
-  $('#page-loader').delay(400).fadeOut(400);
+//   $('#loader-job').addClass('loader-right');
+//   $('#loader-animation').addClass('loader-hide');
+// $('.loader-left').delay(600).fadeout(600);
+  $('#page-loader').delay(1000).fadeOut(1000);
 
 
   //Owl Carousel
