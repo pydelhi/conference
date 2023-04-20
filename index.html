@@ -67,6 +67,55 @@
     .schedule-item-title a {
       color: #04cd8f;
     }
+  .dynamic-header {
+    background-color: rgba(51, 51, 51, 0.9);
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .dynamic-header:hover {
+    background-color: rgba(0, 51, 102, 1);
+  }
+
+  .vibrant-logo {
+    width: auto;
+    height: 50px;
+  }
+
+  .dynamic-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .vibrant-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-item {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-item:hover {
+    color: #306998;
+  }
+
+  @media screen and (max-width: 768px) {
+    .dynamic-menu {
+      display: none;
+    }
+
+    /* Add any mobile-specific styles here */
+  }
   </style>
   <!-- >>/CSS
 ============================================================================== -->
@@ -96,33 +145,34 @@
   <!-- /End of Page loader
 ========================================================= -->
 
-  <!-- Header
+<!-- Header
 ================================================== -->
-  <header id="header" class="">
-    <div class="container">
-      <!-- logo -->
-      <div class="header-logo" id="header-logo">
-        <img src="img/logo.png" alt="" />
-      </div>
-      <!-- /logo -->
-      <!-- MAIN MENU -->
-      <nav class="">
-        <ul class="hd-list-menu">
-          <li class="active"><a href="#main-carousel">Intro</a></li>
-          <li><a href="#section-event-infos">About</a></li>
-          <li><a href="#section-schedule">Schedule</a></li>
-          <!-- <li><a href="#section-speakers">Panelists</a></li> -->
-          <li><a href="#section-sponsors">Sponsors</a></li>
-          <!-- <li><a href="data/SponsorshipProspectus2017.pdf">Sponsorship Prospectus</a></li> -->
-          <li><a href="#section-faq">FAQ</a></li>
-          <li><a href="#section-register">Register</a></li>
-          <li></li>
-        </ul>
-      </nav>
-      <!-- /MAIN MENU -->
+<header id="header" class="dynamic-header">
+  <div class="container">
+    <!-- logo -->
+    <div class="header-logo" id="header-logo">
+      <img src="img/logo.png" alt="" class="vibrant-logo" />
     </div>
-  </header>
-  <!-- /Header
+    <!-- /logo -->
+    <!-- MAIN MENU -->
+    <nav class="dynamic-menu">
+      <ul class="hd-list-menu vibrant-menu">
+        <li><a href="#section-event-infos" class="menu-item">About</a></li>
+        <li><a href="#section-schedule" class="menu-item">Schedule</a></li>
+        <!-- <li><a href="#section-speakers" class="menu-item">Panelists</a></li> -->
+        <li><a href="#section-sponsors" class="menu-item">Sponsors</a></li>
+        <!-- <li><a href="data/SponsorshipProspectus2017.pdf" class="menu-item">Sponsorship Prospectus</a></li> -->
+        <li><a href="#section-faq" class="menu-item">FAQ</a></li>
+        <li><a href="#section-register" class="menu-item">Register</a></li>
+        <li></li>
+      </ul>
+    </nav>
+    <!-- /MAIN MENU -->
+  </div>
+</header>
+<!-- /Header -->
+<!-- Add the following CSS to your existing CSS file or create a new one and link it in your HTML file -->
+
 ================================================== -->
 
 
