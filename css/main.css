@@ -3333,3 +3333,59 @@ section#schedule_table{
     padding-bottom: 0px;
   }
 }
+
+.schedule-item-title a {
+  color: #04cd8f;
+}
+
+.highlight-link {
+  color: blue;
+}
+
+.dynamic-header {
+  background-color: rgba(51, 51, 51, 0.9);
+  transition: all 0.3s ease-in-out;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.dynamic-header:hover {
+  background-color: rgba(0, 51, 102, 1);
+}
+
+.vibrant-logo {
+  width: auto;
+  height: 50px;
+}
+
+.dynamic-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.vibrant-menu {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+  color: #306998;
+}
+
+@media screen and (max-width: 768px) {
+  .dynamic-menu {
+    display: none;
+  }
+}
