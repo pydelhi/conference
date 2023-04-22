@@ -67,6 +67,60 @@
     .schedule-item-title a {
       color: #04cd8f;
     }
+
+    strong {
+      color: blue;
+    }
+
+  .dynamic-header {
+    background-color: rgba(51, 51, 51, 0.9);
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .dynamic-header:hover {
+    background-color: rgba(0, 51, 102, 1);
+  }
+
+  .vibrant-logo {
+    width: auto;
+    height: 50px;
+  }
+
+  .dynamic-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .vibrant-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-item {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-item:hover {
+    color: #306998;
+  }
+
+  @media screen and (max-width: 768px) {
+    .dynamic-menu {
+      display: none;
+    }
+
+    /* Add any mobile-specific styles here */
+  }
   </style>
   <!-- >>/CSS
 ============================================================================== -->
@@ -96,34 +150,33 @@
   <!-- /End of Page loader
 ========================================================= -->
 
-  <!-- Header
+<!-- Header
 ================================================== -->
-  <header id="header" class="">
-    <div class="container">
-      <!-- logo -->
-      <div class="header-logo" id="header-logo">
-        <img src="img/logo.png" alt="" />
-      </div>
-      <!-- /logo -->
-      <!-- MAIN MENU -->
-      <nav class="">
-        <ul class="hd-list-menu">
-          <li class="active"><a href="#main-carousel">Intro</a></li>
-          <li><a href="#section-event-infos">About</a></li>
-          <li><a href="#section-schedule">Schedule</a></li>
-          <!-- <li><a href="#section-speakers">Panelists</a></li> -->
-          <li><a href="#section-sponsors">Sponsors</a></li>
-          <!-- <li><a href="data/SponsorshipProspectus2017.pdf">Sponsorship Prospectus</a></li> -->
-          <li><a href="#section-faq">FAQ</a></li>
-          <li><a href="#section-register">Register</a></li>
-          <li></li>
-        </ul>
-      </nav>
-      <!-- /MAIN MENU -->
+<header id="header" class="dynamic-header">
+  <div class="container">
+    <!-- logo -->
+    <div class="header-logo" id="header-logo">
+      <img src="img/logo.png" alt="" class="vibrant-logo" />
     </div>
-  </header>
-  <!-- /Header
-================================================== -->
+    <!-- /logo -->
+    <!-- MAIN MENU -->
+    <nav class="dynamic-menu">
+      <ul class="hd-list-menu vibrant-menu">
+        <li><a href="#section-event-infos" class="menu-item">About</a></li>
+        <li><a href="#section-schedule" class="menu-item">Schedule</a></li>
+        <!-- <li><a href="#section-speakers" class="menu-item">Panelists</a></li> -->
+        <li><a href="#section-sponsors" class="menu-item">Sponsors</a></li>
+        <!-- <li><a href="data/SponsorshipProspectus2017.pdf" class="menu-item">Sponsorship Prospectus</a></li> -->
+        <li><a href="#section-faq" class="menu-item">FAQ</a></li>
+        <li><a href="#section-register" class="menu-item">Register</a></li>
+        <li></li>
+      </ul>
+    </nav>
+    <!-- /MAIN MENU -->
+  </div>
+</header>
+<!-- /Header -->
+<!-- Add the following CSS to your existing CSS file or create a new one and link it in your HTML file -->
 
 
   <div class="page-wrapper">
@@ -154,8 +207,9 @@
                 <!-- <div id="countdown" class="row">March 5, 2016 @ New Delhi</div> -->
                 <!-- /countDown -->
                 <!-- <p class="countdown-title2"> -->
-
-                <a href="https://www.papercall.io/pydelhiconf2023" class="btn"><i class="fa fa-play"></i>&nbsp;Submit Proposal</a>
+                <a href="#section-schedule" class="btn"><i class="fa fa-play"></i>&nbsp;Register Yourself</a>  
+                <a href="https://www.papercall.io/pydelhiconf2023"  target="_blank" class="btn"><i class="fa fa-play"></i>&nbsp;Submit Proposal</a>
+                <a href="data/SponsorshipProspectus2023.pdf"  target="_blank" class="btn"><i class="fa fa-play"></i>&nbsp;Sponsor Prospectus</a>
                 <!-- <a href="https://in.explara.com/e/pydelhiconf-2017" class="btn" target="_blank"><i
                     class="fa fa-paper-plane"></i>&nbsp; Register now</a> -->
 
@@ -229,11 +283,10 @@
                 </h1>
                 <div class="about-text-content">
                   <p>PyDelhi conference is hosted annually by <a href="https://pydelhi.org/">PyDelhi
-                      Community</a> with an aim to promote Python programming language. We provide
-                    a single platform to users from different spheres such as students, global
-                    entrepreneurs and professionals from startups and established firms to connect
-                    and share their ideas. Experts from various domains showcase their use of Python
-                    besides discussing about the recent and upcoming trends in technology.<br>
+                      Community</a> with an aim to promote Python programming language, for all. We provide
+                    a single platform to users from different domains & experience levels such as students,                     entrepreneurs and professionals. Startups, SMEs & Enterprises can connect, showcase
+                    and hire. Experts from various domains demonstrate application of Python as a programming
+                    language, moreover discussing recent and upcoming trends in technology.<br>
                     All the participants are requested to follow <a href="#section-conduct">Code of
                       Conduct</a> and we will ensure the same.</p>
                   </p>
@@ -283,7 +336,7 @@
             For details regarding how to become a sponsor and the
             benefits for this event look at our
             <a id="sponsorship-prospectus" href="data/SponsorshipProspectus2023.pdf">
-              Sponsorship Prospectus
+              <strong> Sponsorship Prospectus </strong>
             </a>
           </p>
         </div>
