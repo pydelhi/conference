@@ -9,20 +9,17 @@ const Navbar = () => {
         setSize(window.innerWidth);
     };
     useEffect(() => {
-        // console.log('useEffect');
         window.addEventListener("resize", checkSize);
         return () => {
             console.log("cleanup");
             window.removeEventListener("resize", checkSize);
         };
     }, []);
-
     const [nav, setNav] = useState(false);
 
     const handleNav = () => {
         setNav(!nav);
     };
-
     return (
         <>
 
@@ -47,46 +44,38 @@ const Navbar = () => {
                     <li className="m-4 hover:text-[#FCBD17] cursor-pointer">
                         Register
                     </li>
-
                 </ul>
-                <div onClick={handleNav} className="block md:hidden">
-                    {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+                <div onClick={handleNav} className="block cursor-pointer md:hidden">
+                    {nav ? <AiOutlineClose fill="#000000" size={20} /> : <AiOutlineMenu fill="#000000" size={20} />}
                 </div>
                 <div
                     className={
                         nav
-                            ? "fixed z-30 left-0 top-0 w-[60%] h-full border-r border-r-grey-900 bg-[#000300] ease-in-out duration-500 "
+                            ? "fixed z-30 left-0 top-0 pt-4 w-[60%] h-full border-r border-r-grey-900 bg-white ease-in-out duration-500 "
                             : "fixed left-[-100%]"
                     }
                 >
                     <center>
-                        {/* <RiOpenSourceFill size={65} color="green" /> */}
-                        <h1 className="w-full text-3xl font-bold text-[#0DFF1C] m-4">
-                            {" "}
-                            FOSSCU
-                        </h1>
+                        <img src={logo} className="w-44" alt="" />
                     </center>
                     <ul className="uppercase p-4">
-                        <li className="p-4 border-b border-gray-600">
-                            {/* <Link to="/"> Home </Link>{" "} */}
+                        <li className="p-4 text-black   border-b border-gray-600">
+                            <span className="cursor-pointer"> Home</span>
                         </li>
-                        <li className="p-4 border-b border-gray-600">
-                            {/* <Link to="/about">About</Link> */}
+                        <li className="p-4 text-black   border-b border-gray-600">
+                            <span className="cursor-pointer">About</span>
                         </li>
-                        <li className="p-4 border-b border-gray-600">
-                            {/* <Link to="/team"> Team </Link>{" "} */}
+                        <li className="p-4 text-black   border-b border-gray-600">
+                            <span className="cursor-pointer"> Schedule</span>
                         </li>
-                        <li className="p-4 border-b border-gray-600 ">
-                            {/* <Link to="/resource">Resources</Link>{" "} */}
+                        <li className="p-4 text-black   border-b border-gray-600 ">
+                            <span className="cursor-pointer"> Sponsors</span>
                         </li>
-                        <li className="p-4 border-b border-gray-600 ">
-                            {/* <Link to="https://docs.fosscu.org">Handbook</Link>{" "} */}
+                        <li className="p-4  text-black  border-b border-gray-600 ">
+                            <span className="cursor-pointer"> FAQ</span>
                         </li>
-                        <li className="p-4 border-b border-gray-600">
-                            <a href="https://github.com/FOSS-Community">Projects</a>
-                        </li>
-                        <li className="p-4 border-b border-gray-600">
-                            {/* <Link to="/contact">Contact</Link> */}
+                        <li className="p-4 text-black   border-b border-gray-600">
+                            <span className="cursor-pointer">Register</span>
                         </li>
                     </ul>
                 </div>
