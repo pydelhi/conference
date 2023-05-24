@@ -8,10 +8,10 @@ const Hero = () => {
         <div>
             <img src={delhi} className="w-[100%]  sm:h-[36rem] h-[19rem] " alt="" />
 
-            <section class=" ">
-                <div class="flex">
-                    <div class="mr-auto pt-6  sm:pt-10 sm:mx-[3.2REM] mx-4 place-self-center lg:col-span-7">
-                        <h1 class="text-2xl  font-extrabold tracking-tight leading-none sm:text-4xl md:text-5xl ">PY<spand>DELHI</spand> CONFERENCE</h1>
+            <section className=" ">
+                <div className="flex">
+                    <div className="mr-auto pt-6  sm:pt-10 sm:mx-[3.2REM] mx-4 place-self-center lg:col-span-7">
+                        <h1 className="text-2xl  font-extrabold tracking-tight leading-none sm:text-4xl md:text-5xl ">PY<spand>DELHI</spand> CONFERENCE</h1>
                         <p className="text-sm sm:text-md tracking-tight sm:tracking-wider">CONFERENCE ON PYTHON PROGRAMMING LANGUAGE</p>
                     </div>
                     {/* <div class="hidden lg:mt-0 lg:col-span-5 lg:flex lg:justify-end">
