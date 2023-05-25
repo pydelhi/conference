@@ -10,8 +10,8 @@ const Faq = ({ data }) => {
   };
 
   return (
-    <div>
-      <section className="bg-white dark:bg-gray-900">
+    <section id="faq">
+      <div  className="bg-white pt-24  dark:bg-gray-900">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div className="flex flex-row justify-center">
             <h2 className="mb-8 text-4xl  tracking-tight font-extrabold text-[#212A5C]">Frequently asked questions</h2>
@@ -41,8 +41,8 @@ const Faq = ({ data }) => {
             })}
           </div>
         </div>
-      </section>
     </div>
+      </section>
   );
 };
 

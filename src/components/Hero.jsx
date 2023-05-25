@@ -17,7 +17,7 @@ const Hero = () => {
                     {/* <div class="hidden lg:mt-0 lg:col-span-5 lg:flex lg:justify-end">
                         <img src={fitt} className="w-20 " alt="" />
                     </div> */}
-                    <div className="animation-wrapper sm:block hidden  absolute sm:left-[4rem] sm:-mt-4">
+                    <div className="animation-wrapper sm:block hidden z-10 absolute sm:left-[4rem] sm:-mt-4">
                         <div className="ml-[1.4rem] circle"></div>
                         <div className="ml-[2.4rem] circle"></div>
                         <div className="ml-[3.4rem] circle"></div>

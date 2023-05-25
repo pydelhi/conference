@@ -6,8 +6,8 @@ import register from "../assets/register.png";
 
 const About = () => {
     return (
-        <div>
-            <div className="mt-24 mb-24 flex flex-col-reverse md:flex-row items-center justify-center w-full  mx-auto">
+        <section id="about" className="">
+            <div className="pt-40 flex flex-col-reverse md:flex-row items-center justify-center w-full  mx-auto">
                 <div className="w-full md:w-[30%] p-4">
                     <div className="shadow-lg rounded overflow-hidden">
                         <img className="w-full" src={conference} />
@@ -51,7 +51,7 @@ const About = () => {
                     </div>
                 </div>
             </div >
-        </div >
+        </section >
     )
 }
 
