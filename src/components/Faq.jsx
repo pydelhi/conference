@@ -10,16 +10,16 @@ const Faq = ({ data }) => {
   };
 
   return (
-    <section id="faq">
-      <div  className="bg-white pt-24  dark:bg-gray-900">
+    <section id="faq" >
+      <div  className="pt-12 ">
         <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div className="flex flex-row justify-center">
             <h2 className="mb-8 text-4xl  tracking-tight font-extrabold text-[#212A5C]">Frequently asked questions</h2>
           </div>
-          <div className="pt-6 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
+          <div className="pt-4 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
             {data.map((datas, index) => {
               return (
-                <div className="mb-10 pb-2 border-b" key={index}>
+                <div className="mb-4 pb-2 border-b" key={index}>
                   <div className="flex flex-row justify-between items-center">
                     <h3 className="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
                       <svg className="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

@@ -7,6 +7,7 @@ import About from "../components/About";
 import Faq from "../components/Faq"
 import faqData from "../data/faqData.json"
 // import Paint from "../components/Paint";
+import Schedule from "../components/Schedule";
 
 
 const Homepage = () => {
@@ -18,8 +19,9 @@ const Homepage = () => {
       {/* <Paint /> */}
       <Hero />
       <About />
-      <Faq data={faqData} />
+      <Schedule />
       <Sponsors />
+      <Faq data={faqData} />
       <Footer />
     </div>
   );
