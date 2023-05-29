@@ -7,9 +7,8 @@ const Schedule = () => {
                 <div class="max-w-screen-xl bg-[#DFE4EF] px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
                     <div class="max-w-3xl mx-auto text-center">
                         <h2 class="text-4xl bg-[#DFE4EF] font-extrabold leading-tight tracking-tight text-[#212A5C]">
-                        Schedule unveils after Talk Selection
+                        We will give the schedule soon ...
                         </h2>
-
                         <div class="mt-4 bg-[#DFE4EF]">
                             <a href="#" title=""
                                 class="inline-flex bg-[#DFE4EF] items-center text-lg font-medium text-primary-600 hover:underline dark:text-primary-500">
