@@ -2,9 +2,26 @@
 Python Local Conference, hosted by Python Delhi User Group (Pydelhi).
 
 # Process to Setup
+
+**To install this project**
+```
+npm install
 ```
 
-npm instalL # To install dependencies
+**To run the server**
+```
+npm run start
+```
 
-vite # to run the server
+**To build the app**
+```
+npm run build
+```
+
+---
+Additional commands:
+
+**To lint the codebase**
+```
+npm run lint
 ```
