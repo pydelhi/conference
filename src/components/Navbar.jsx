@@ -61,7 +61,9 @@ const Navbar = () => {
                         >
                             About
                         </li>
-                        <li className="m-4 hover:text-[#FCBD17] cursor-pointer">
+                        
+                        <li  onClick={() => scrollToSection("schedule")} 
+                        className="m-4 hover:text-[#FCBD17] cursor-pointer">
                             Schedule
                         </li>
                         <li
