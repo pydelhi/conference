@@ -45,7 +45,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className={`sticky z-20 bg-white top-0 w-[100%] ${isSticky ? "shadow-lg " : ""}`}>
+            <div className={`sticky z-20 top-0 w-[100%] bg-white ${isSticky ? "shadow-lg  " : ""}`}>
                 <div className="flex justify-between items-center h-[4.8rem] max-w-[1240px] mx-auto px-4 text-white">
                     <img src={logo} className="w-44" alt="" />
                     <ul className="hidden text-black -mt-2 md:flex">
@@ -61,9 +61,7 @@ const Navbar = () => {
                         >
                             About
                         </li>
-                        <li 
-                        onClick={() => scrollToSection("schedule")}
-                         className="m-4 hover:text-[#FCBD17] cursor-pointer">
+                        <li className="m-4 hover:text-[#FCBD17] cursor-pointer">
                             Schedule
                         </li>
                         <li

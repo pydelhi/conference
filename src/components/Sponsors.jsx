@@ -5,8 +5,8 @@ const Sponsors = () => {
     return (
         <section id="sponsor">
             <div className="pt-24 mx-auto w-full lg:w-4/5 text-center">
-                <p className="mt-4 text-6xl text-[#212A5C] font-semibold">Proudly sponsored by</p>
-                <p className="py-6 text-[#212A5C] tracking-">As a Sponsor for the conference one can avail and enable, you get a platform to showcase your product or service to a wide range of technology enthusiasts. You also get a chance to network and interact with all sorts of prospective leads that rarely gather under one roof at this scale. To review sponsor benefits please peruse our 
+                <p className="mt-4 text-4xl text-[#212A5C] font-extrabold tracking-tight">Proudly Sponsored By</p>
+                <p className="py-6 text-black font-medium text-lg ">As a Sponsor for the conference one can avail and enable, you get a platform to showcase your product or service to a wide range of technology enthusiasts. You also get a chance to network and interact with all sorts of prospective leads that rarely gather under one roof at this scale. To review sponsor benefits please peruse our
                     <span className="font-semibold text-[#5DB363]"> Sponsorship prospectus</span> below </p>
             </div>
             <div className="mt-6 flex flex-wrap max-w-8xl px-8 justify-center m-auto">
