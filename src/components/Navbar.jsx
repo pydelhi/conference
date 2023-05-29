@@ -61,26 +61,62 @@ const Navbar = () => {
                         >
                             About
                         </li>
-                        
-                        <li  onClick={() => scrollToSection("schedule")} 
-                        className="m-4 hover:text-[#FCBD17] cursor-pointer">
-                            Schedule
-                        </li>
                         <li
-                            onClick={() => scrollToSection("sponsor")}
-                            className="m-4 hover:text-[#FCBD17] cursor-pointer"
-                        >
-                            Sponsors
-                        </li>
-                        <li
-                            onClick={() => scrollToSection("faq")}
-                            className="m-4 hover:text-[#FCBD17] cursor-pointer"
-                        >
-                            FAQ
-                        </li>
-                        <li className="m-4 hover:text-[#FCBD17] cursor-pointer">
+                        onClick={() => scrollToSection("register")}
+                         className="m-4 hover:text-[#FCBD17] cursor-pointer">
                             Register
                         </li>
+
+                        <li
+                         onClick={() => scrollToSection("schedule")}
+                            className="m-4 hover:text-[#FCBD17] cursor-pointer">
+                            Schedule
+                        </li>
+                       
+                        <li
+                            className="m-4 hover:text-[#FCBD17] cursor-pointer"
+                        >
+
+                            <div className="relative group xl:mr-0 mr-8">
+                                <button
+                                    className=" pb-0 hover:text-[#FCBD17] flex items-center  text-black">
+                                    <span className="mr-1"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                    </svg>
+                                    </span>
+                                    <span>More</span>
+                                </button>
+                                <div
+                                    class="translate-x-[-0em] hidden absolute bg-white text-black rounded mt-1 w-36 group-hover:block hover:rounded-md ">
+                                    <li
+                                        onClick={() => scrollToSection("faq")}
+                                        className="m-4 hover:text-[#FCBD17] cursor-pointer"
+                                    >
+                                        FAQ
+                                    </li>
+                                    <li
+                                        onClick={() => scrollToSection("code")}
+                                        className="m-4 hover:text-[#FCBD17] cursor-pointer tracking-tight"
+                                    >
+                                        Code Of Conduct
+                                    </li>
+                                    <li
+                                        onClick={() => scrollToSection("community")}
+                                        className="m-4 hover:text-[#FCBD17] cursor-pointer tracking-tight"
+                                    >
+                                        Community Partnership
+                                    </li>
+                                    <li
+                                        onClick={() => scrollToSection("sponsor")}
+                                        className="m-4 hover:text-[#FCBD17] cursor-pointer tracking-tight"
+                                    >
+                                        Sponsors
+                                    </li>
+                                </div>
+                            </div>
+                        </li>
+
+
                     </ul>
                     <div onClick={handleNav} className="block cursor-pointer md:hidden">
                         {nav ? (
@@ -108,17 +144,20 @@ const Navbar = () => {
                                 <span className="cursor-pointer">About</span>
                             </li>
                             <li className="p-4 text-black   border-b border-gray-600">
+                                <span className="cursor-pointer">Register</span>
+                            </li>
+                            <li className="p-4  text-black  border-b border-gray-600 ">
+                                <span className="cursor-pointer"> FAQ</span>
+                            </li>
+
+                            <li className="p-4 text-black   border-b border-gray-600">
                                 <span className="cursor-pointer"> Schedule</span>
                             </li>
                             <li className="p-4 text-black   border-b border-gray-600 ">
                                 <span className="cursor-pointer"> Sponsors</span>
                             </li>
-                            <li className="p-4  text-black  border-b border-gray-600 ">
-                                <span className="cursor-pointer"> FAQ</span>
-                            </li>
-                            <li className="p-4 text-black   border-b border-gray-600">
-                                <span className="cursor-pointer">Register</span>
-                            </li>
+
+
                         </ul>
                     </div>
                 </div>

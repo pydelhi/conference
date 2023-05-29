@@ -2,7 +2,7 @@ import React from 'react';
 
 const Community = () => {
   return (
-    <div className=" p-8 ">
+    <div id='community' className=" p-8 ">
       <h1 className="text-4xl font-extrabold text-center text-[#212A5C] mb-4">Community Partnership</h1>
       <div className="">
       <p className="mb-4 text-lg font-medium">
