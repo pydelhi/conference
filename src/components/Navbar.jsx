@@ -101,7 +101,8 @@ const Navbar = () => {
                                         Code Of Conduct
                                     </li>
                                     <li
-                                        onClick={() => scrollToSection("community")}
+                                        onClick={() => scrollToSection("community")} 
+
                                         className="m-4 hover:text-[#FCBD17] cursor-pointer tracking-tight"
                                     >
                                         Community Partnership
@@ -137,27 +138,39 @@ const Navbar = () => {
                         </center>
                         <ul className="uppercase p-4">
 
-                            <li className="p-4 text-black   border-b border-gray-600">
+                            <li onClick={() => scrollToSection("home")} 
+                            className="p-4 text-black   border-b border-gray-600">
                                 <span className="cursor-pointer"> Home</span>
                             </li>
-                            <li className="p-4 text-black   border-b border-gray-600">
+                            <li onClick={() => scrollToSection("about")} 
+                            className="p-4 text-black   border-b border-gray-600">
                                 <span className="cursor-pointer">About</span>
                             </li>
-                            <li className="p-4 text-black   border-b border-gray-600">
+                            <li onClick={() => scrollToSection("register")} 
+                            className="p-4 text-black   border-b border-gray-600">
                                 <span className="cursor-pointer">Register</span>
                             </li>
-                            <li className="p-4  text-black  border-b border-gray-600 ">
-                                <span className="cursor-pointer"> FAQ</span>
-                            </li>
-
-                            <li className="p-4 text-black   border-b border-gray-600">
+                            <li onClick={() => scrollToSection("schedule")} 
+                            className="p-4 text-black   border-b border-gray-600">
                                 <span className="cursor-pointer"> Schedule</span>
                             </li>
-                            <li className="p-4 text-black   border-b border-gray-600 ">
+                            <li onClick={() => scrollToSection("faq")} 
+                            className="p-4  text-black  border-b border-gray-600 ">
+                                <span className="cursor-pointer"> FAQ</span>
+                            </li>
+                            <li onClick={() => scrollToSection("code")} 
+                            className="p-4 text-black   border-b border-gray-600 ">
+                                <span className="cursor-pointer">Code Of Conduct</span>
+                            </li>
+                            <li onClick={() => scrollToSection("community")} 
+                            className="p-4 text-black   border-b border-gray-600 ">
+                                <span className="cursor-pointer">Community partners</span>
+                            </li>
+                            
+                            <li onClick={() => scrollToSection("sponsor")} 
+                            className="p-4 text-black   border-b border-gray-600 ">
                                 <span className="cursor-pointer"> Sponsors</span>
                             </li>
-
-
                         </ul>
                     </div>
                 </div>
