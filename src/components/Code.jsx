@@ -1,6 +1,5 @@
 import React from "react";
 import temp from "../assets/temp.png"
-//  import './code.css'
 
 const Code = () => {
   return (

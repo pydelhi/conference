@@ -10,7 +10,6 @@ import Code from "../components/Code";
 import Community from "../components/Community";
 import Schedule from "../components/Schedule";
 import Register from "../components/Register";
-// import Paint from "../components/Paint";
 
 
 const Homepage = () => {
@@ -19,7 +18,6 @@ const Homepage = () => {
   return (
     <div id="home">
       <Navbar  />
-      {/* <Paint /> */}
       <Hero />
       <About />
       <Register />
