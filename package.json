@@ -10,11 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@lottiefiles/lottie-player": "^1.7.1",
     "flowbite": "^1.6.5",
     "flowbite-react": "^0.4.4",
+    "lottie-react": "^2.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.11.2"
+    "react-router-dom": "^6.11.2",
+    "typeface-montserrat": "^1.1.13"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

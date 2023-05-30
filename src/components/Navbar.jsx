@@ -7,6 +7,7 @@ const Navbar = () => {
         const element = document.getElementById(sectionId);
         if (element) {
             element.scrollIntoView({ behavior: "smooth" });
+            setActiveSection(sectionId);
         }
     };
 
@@ -26,6 +27,7 @@ const Navbar = () => {
 
     const [nav, setNav] = useState(false);
     const [isSticky, setIsSticky] = useState(false);
+    const [activeSection, setActiveSection] = useState("home");
 
     const handleNav = () => {
         setNav(!nav);
@@ -51,28 +53,30 @@ const Navbar = () => {
                     <ul className="hidden text-black -mt-2 md:flex">
                         <li
                             onClick={() => scrollToSection("home")}
-                            className="m-4 hover:text-[#FCBD17] cursor-pointer"
+                            className={`m-4 hover:text-[#FCBD17] cursor-pointer ${activeSection === "home" ? "text-[#FCBD17]" : ""}`}
                         >
                             Home
                         </li>
                         <li
                             onClick={() => scrollToSection("about")}
-                            className="m-4 hover:text-[#FCBD17] cursor-pointer"
+                            className={`m-4 hover:text-[#FCBD17] cursor-pointer ${activeSection === "about" ? "text-[#FCBD17]" : ""}`}
                         >
                             About
                         </li>
                         <li
-                        onClick={() => scrollToSection("register")}
-                         className="m-4 hover:text-[#FCBD17] cursor-pointer">
+                            onClick={() => scrollToSection("register")}
+                            className={`m-4 hover:text-[#FCBD17] cursor-pointer ${activeSection === "register" ? "text-[#FCBD17]" : ""}`}
+                        >
                             Register
                         </li>
 
                         <li
-                         onClick={() => scrollToSection("schedule")}
-                            className="m-4 hover:text-[#FCBD17] cursor-pointer">
+                            onClick={() => scrollToSection("schedule")}
+                            className={`m-4 hover:text-[#FCBD17] cursor-pointer ${activeSection === "schedule" ? "text-[#FCBD17]" : ""}`}
+                        >
                             Schedule
                         </li>
-                       
+
                         <li
                             className="m-4 hover:text-[#FCBD17] cursor-pointer"
                         >
@@ -96,20 +100,20 @@ const Navbar = () => {
                                     </li>
                                     <li
                                         onClick={() => scrollToSection("code")}
-                                        className="m-4 hover:text-[#FCBD17] cursor-pointer tracking-tight"
+                                        className={`m-4 hover:text-[#FCBD17] cursor-pointer ${activeSection === "code" ? "text-[#FCBD17]" : ""}`}
                                     >
                                         Code Of Conduct
                                     </li>
                                     <li
-                                        onClick={() => scrollToSection("community")} 
+                                        onClick={() => scrollToSection("community")}
 
-                                        className="m-4 hover:text-[#FCBD17] cursor-pointer tracking-tight"
+                                        className={`m-4 hover:text-[#FCBD17] cursor-pointer ${activeSection === "community" ? "text-[#FCBD17]" : ""}`}
                                     >
                                         Community Partnership
                                     </li>
                                     <li
                                         onClick={() => scrollToSection("sponsor")}
-                                        className="m-4 hover:text-[#FCBD17] cursor-pointer tracking-tight"
+                                        className={`m-4 hover:text-[#FCBD17] cursor-pointer ${activeSection === "sponsor" ? "text-[#FCBD17]" : ""}`}
                                     >
                                         Sponsors
                                     </li>
@@ -138,37 +142,45 @@ const Navbar = () => {
                         </center>
                         <ul className="uppercase p-4">
 
-                            <li onClick={() => scrollToSection("home")} 
-                            className="p-4 text-black   border-b border-gray-600">
+                            <li onClick={() => scrollToSection("home")}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "home" ? "text-[#FCBD17]" : "" }`}
+                            >
                                 <span className="cursor-pointer"> Home</span>
                             </li>
-                            <li onClick={() => scrollToSection("about")} 
-                            className="p-4 text-black   border-b border-gray-600">
+                            <li onClick={() => scrollToSection("about")}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "about" ? "text-[#FCBD17]" : "" }`}
+                            >
                                 <span className="cursor-pointer">About</span>
                             </li>
-                            <li onClick={() => scrollToSection("register")} 
-                            className="p-4 text-black   border-b border-gray-600">
+                            <li onClick={() => scrollToSection("register")}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "register" ? "text-[#FCBD17]" : "" }`}
+                            >
                                 <span className="cursor-pointer">Register</span>
                             </li>
-                            <li onClick={() => scrollToSection("schedule")} 
-                            className="p-4 text-black   border-b border-gray-600">
+                            <li onClick={() => scrollToSection("schedule")}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "schedule" ? "text-[#FCBD17]" : "" }`}
+                            >
                                 <span className="cursor-pointer"> Schedule</span>
                             </li>
-                            <li onClick={() => scrollToSection("faq")} 
-                            className="p-4  text-black  border-b border-gray-600 ">
+                            <li onClick={() => scrollToSection("faq")}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "faq" ? "text-[#FCBD17]" : "" }`}
+                            >
                                 <span className="cursor-pointer"> FAQ</span>
                             </li>
-                            <li onClick={() => scrollToSection("code")} 
-                            className="p-4 text-black   border-b border-gray-600 ">
+                            <li onClick={() => scrollToSection("code")}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "code" ? "text-[#FCBD17]" : "" }`}
+                            >
                                 <span className="cursor-pointer">Code Of Conduct</span>
                             </li>
-                            <li onClick={() => scrollToSection("community")} 
-                            className="p-4 text-black   border-b border-gray-600 ">
+                            <li onClick={() => scrollToSection("community")}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "community" ? "text-[#FCBD17]" : "" }`}
+                            >
                                 <span className="cursor-pointer">Community partners</span>
                             </li>
-                            
-                            <li onClick={() => scrollToSection("sponsor")} 
-                            className="p-4 text-black   border-b border-gray-600 ">
+
+                            <li onClick={() => scrollToSection("sponsor")}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "sponsor" ? "text-[#FCBD17]" : "" }`}
+                            >
                                 <span className="cursor-pointer"> Sponsors</span>
                             </li>
                         </ul>
