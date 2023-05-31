@@ -29,6 +29,7 @@ const Community = () => {
       </ul>
       </div>
       <div className="mt-6 flex flex-wrap max-w-8xl px-8 justify-center m-auto">
+        <div></div>
                 <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
                     <div className="w-full h-full flex justify-center items-center cursor-pointer hover:bg-gray-200">
                         <img className="" src={firstlogo} alt="Logo" />
@@ -47,7 +48,7 @@ const Community = () => {
                   
                 </div>
                 <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
-                    <div className="w-full h-full flex justify-center items-center cursor-pointer hover:bg-gray-200">
+                    <div className="w-40 h-full flex justify-center items-center cursor-pointer hover:bg-gray-200">
                         <img className="" src={fourthlogo} alt="Logo" />
                     </div>
                   
