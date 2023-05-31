@@ -53,37 +53,37 @@ const Navbar = () => {
                     <ul className="hidden text-black -mt-2 md:flex">
                         <li
                             onClick={() => scrollToSection("home")}
-                            className={`m-4 hover:text-[#FCBD17] cursor-pointer ${activeSection === "home" ? "text-[#FCBD17]" : ""}`}
+                            className={`m-4 hover:text-[#5db363] font-medium cursor-pointer ${activeSection === "home" ? "text-[#5db363]" : ""}`}
                         >
                             Home
                         </li>
                         <li
                             onClick={() => scrollToSection("about")}
-                            className={`m-4 hover:text-[#FCBD17] cursor-pointer ${activeSection === "about" ? "text-[#FCBD17]" : ""}`}
+                            className={`m-4 hover:text-[#5db363] font-medium cursor-pointer ${activeSection === "about" ? "text-[#5db363]" : ""}`}
                         >
                             About
                         </li>
                         <li
                             onClick={() => scrollToSection("register")}
-                            className={`m-4 hover:text-[#FCBD17] cursor-pointer ${activeSection === "register" ? "text-[#FCBD17]" : ""}`}
+                            className={`m-4 hover:text-[#5db363] font-medium cursor-pointer ${activeSection === "register" ? "text-[#5db363]" : ""}`}
                         >
                             Register
                         </li>
 
                         <li
                             onClick={() => scrollToSection("schedule")}
-                            className={`m-4 hover:text-[#FCBD17] cursor-pointer ${activeSection === "schedule" ? "text-[#FCBD17]" : ""}`}
+                            className={`m-4 hover:text-[#5db363] font-medium cursor-pointer ${activeSection === "schedule" ? "text-[#5db363]" : ""}`}
                         >
                             Schedule
                         </li>
 
                         <li
-                            className="m-4 hover:text-[#FCBD17] cursor-pointer"
+                            className="m-4 hover:text-[#5db363]  font-medium cursor-pointer"
                         >
 
-                            <div className="relative group xl:mr-0 mr-8">
+                            <div className="relative group  xl:mr-0 mr-8">
                                 <button
-                                    className=" pb-0 hover:text-[#FCBD17] flex items-center  text-black">
+                                    className=" pb-0 hover:text-[#5db363] flex items-center  text-black">
                                     <span className="mr-1"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
                                     </svg>
@@ -91,32 +91,33 @@ const Navbar = () => {
                                     <span>More</span>
                                 </button>
                                 <div
-                                    class="translate-x-[-0em] hidden absolute bg-white text-black rounded mt-1 w-36 group-hover:block hover:rounded-md ">
+                                    class="translate-x-[-0em] shadow-sm hidden absolute bg-white text-black rounded mt-1 w-56 group-hover:block hover:rounded-md ">
                                     <li
                                         onClick={() => scrollToSection("faq")}
-                                        className="m-4 hover:text-[#FCBD17] cursor-pointer"
+                                        className={`m-4 hover:text-[#5db363]  font-medium cursor-pointer ${activeSection === "faq" ? "text-[#5db363]" : ""}`}
                                     >
                                         FAQ
                                     </li>
                                     <li
+                                        onClick={() => scrollToSection("sponsor")}
+                                        className={`m-4 hover:text-[#5db363] font-medium cursor-pointer ${activeSection === "sponsor" ? "text-[#5db363]" : ""}`}
+                                    >
+                                        Sponsors
+                                    </li>
+                                    <li
                                         onClick={() => scrollToSection("code")}
-                                        className={`m-4 hover:text-[#FCBD17] cursor-pointer ${activeSection === "code" ? "text-[#FCBD17]" : ""}`}
+                                        className={`m-4 hover:text-[#5db363] font-medium cursor-pointer ${activeSection === "code" ? "text-[#5db363]" : ""}`}
                                     >
                                         Code Of Conduct
                                     </li>
                                     <li
                                         onClick={() => scrollToSection("community")}
 
-                                        className={`m-4 hover:text-[#FCBD17] cursor-pointer ${activeSection === "community" ? "text-[#FCBD17]" : ""}`}
+                                        className={`m-4 hover:text-[#5db363] font-medium cursor-pointer  ${activeSection === "community" ? "text-[#5db363]" : ""}`}
                                     >
                                         Community Partnership
                                     </li>
-                                    <li
-                                        onClick={() => scrollToSection("sponsor")}
-                                        className={`m-4 hover:text-[#FCBD17] cursor-pointer ${activeSection === "sponsor" ? "text-[#FCBD17]" : ""}`}
-                                    >
-                                        Sponsors
-                                    </li>
+                                   
                                 </div>
                             </div>
                         </li>
@@ -143,43 +144,43 @@ const Navbar = () => {
                         <ul className="uppercase p-4">
 
                             <li onClick={() => scrollToSection("home")}
-                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "home" ? "text-[#FCBD17]" : "" }`}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "home" ? "text-[#5db363]" : "" }`}
                             >
                                 <span className="cursor-pointer"> Home</span>
                             </li>
                             <li onClick={() => scrollToSection("about")}
-                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "about" ? "text-[#FCBD17]" : "" }`}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "about" ? "text-[#5db363]" : "" }`}
                             >
                                 <span className="cursor-pointer">About</span>
                             </li>
                             <li onClick={() => scrollToSection("register")}
-                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "register" ? "text-[#FCBD17]" : "" }`}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "register" ? "text-[#5db363]" : "" }`}
                             >
                                 <span className="cursor-pointer">Register</span>
                             </li>
                             <li onClick={() => scrollToSection("schedule")}
-                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "schedule" ? "text-[#FCBD17]" : "" }`}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "schedule" ? "text-[#5db363]" : "" }`}
                             >
                                 <span className="cursor-pointer"> Schedule</span>
                             </li>
                             <li onClick={() => scrollToSection("faq")}
-                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "faq" ? "text-[#FCBD17]" : "" }`}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "faq" ? "text-[#5db363]" : "" }`}
                             >
                                 <span className="cursor-pointer"> FAQ</span>
                             </li>
                             <li onClick={() => scrollToSection("code")}
-                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "code" ? "text-[#FCBD17]" : "" }`}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "code" ? "text-[#5db363]" : "" }`}
                             >
                                 <span className="cursor-pointer">Code Of Conduct</span>
                             </li>
                             <li onClick={() => scrollToSection("community")}
-                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "community" ? "text-[#FCBD17]" : "" }`}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "community" ? "text-[#5db363]" : "" }`}
                             >
                                 <span className="cursor-pointer">Community partners</span>
                             </li>
 
                             <li onClick={() => scrollToSection("sponsor")}
-                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "sponsor" ? "text-[#FCBD17]" : "" }`}
+                                className={`p-4 text-black   border-b border-gray-600 ${activeSection === "sponsor" ? "text-[#5db363]" : "" }`}
                             >
                                 <span className="cursor-pointer"> Sponsors</span>
                             </li>
