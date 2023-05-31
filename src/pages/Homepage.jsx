@@ -20,12 +20,12 @@ const Homepage = () => {
       <Navbar  />
       <Hero />
       <About />
-      <Register />
       <Schedule/>
       <Faq data={faqData} />
       <Code />
       <Community />
       <Sponsors />
+      <Register />
       <Footer />
     </div>
   );
