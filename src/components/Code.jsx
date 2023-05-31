@@ -5,7 +5,7 @@ const Code = () => {
   return (
 
     <div id="code" className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl  mb-8 text-[#212A5C] font-extrabold tracking-tight  text-center ">PyDelhiConf Code of Conduct</h1>
+      <h1 className="text-4xl  mb-8 text-[#212A5C] font-extrabold font-Montserrat tracking-tight  text-center ">PyDelhiConf Code of Conduct</h1>
       <p className="mb-4 text-lg font-medium">PyDelhiConf is a community organized conference intended for advocating the use and adoption of the Python programming language in India. It is also a platform for fostering networking and collaboration among the Python developer community in India. We value the participation of every member of the Python community and want all attendees to have an enjoyable and rewarding experience. Accordingly, every attendee of the conference is expected to show respect and courtesy to every other attendee throughout the conference and at all conference related events, whether officially organized by PSSI or not. To make clear what is expected, all delegates/attendees, speakers, exhibitors, organizers and volunteers at PyDelhiConf are required to conform to the following Code of Conduct. Organizers will enforce this code throughout the event.</p>
       <div className="">
         <div className="code-of-conduct bg-[#dfe4ef] border border-gray-300 p-6 mb-6">
