@@ -49,7 +49,7 @@ const Navbar = () => {
         <>
             <div className={`sticky z-20 top-0 w-[100%] bg-white ${isSticky ? "shadow-lg  " : ""}`}>
                 <div className="flex justify-between items-center h-[4.8rem] max-w-[1240px] mx-auto px-4 text-white">
-                    <img src={logo} className="w-44" alt="" />
+                    <a href="#"><img src={logo} className="w-44" alt="" /></a>
                     <ul className="hidden text-black -mt-2 md:flex">
                         <li
                             onClick={() => scrollToSection("home")}

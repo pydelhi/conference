@@ -3,6 +3,7 @@ import abouticon from "../assets/about.png";
 import conference from "../assets/conference-about.jpg";
 import schedule from "../assets/schedule.png";
 import register from "../assets/register.png";
+import submit from "../assets/submit.png";
 
 const About = () => {
     return (
@@ -48,6 +49,10 @@ const About = () => {
                                     <div className="mr-1">
                                         <img src={schedule} className="w-6 " alt="" /></div>
                                     See Event Schedule</button>
+                                    <button className="mt-4 flex ml-4  rounded border-2 uppercase  border-gray-400 hover:border-blue-500 text-md font-semibold text-blue-500 py-3 px-4">
+                                    <div className="mr-1">
+                                        <img src={submit} className="w-8" alt="" /></div>
+                                    <a href="https://www.papercall.io/pydelhiconf2023" target="blank" rel="noopener noreferrer"> Submit Proposal</a></button>
                             </div>
                         </div>
 
