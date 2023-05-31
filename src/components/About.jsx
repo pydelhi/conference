@@ -6,8 +6,8 @@ import register from "../assets/register.png";
 
 const About = () => {
     return (
-        <section id="about" className="">
-            <div className="pt-40 flex flex-col-reverse md:flex-row items-center justify-center w-full  mx-auto">
+        <section id="about" className="pt-40">
+            <div className=" flex flex-col-reverse md:flex-row items-center justify-center w-full  mx-auto">
                 <div className="w-full md:w-[30%] p-4">
                     <div className="shadow-lg rounded overflow-hidden">
                         <img className="w-full" src={conference} />
@@ -30,11 +30,14 @@ const About = () => {
                     <div className="flex flex-col justify-between w-full md:w-[70%]">
                         <div className="flex flex-col items-center md:items-start">
                             <h3 className="text-center flex items-center md:text-left text-blue-900 font-semibold text-3xl">
-                                <span className="pr-1">
+                                <span className="pr-1 font-Montserrat">
                                     <img src={abouticon} className="w-7" alt="" />
-                                </span>ABOUT THE CONFERENCE</h3>
-                            <p className="font-light text-xl pt-2 font-gray-800">PyDelhi conference is hosted annually by PyDelhi Community with an aim to promote Python programming language, for all. We provide a single platform for programmers from different domains & enthusiasts from different walks such as students, entrepreneurs and professionals. Startups, SMEs & Enterprises can also sponsor, connect, showcase and hire software professionals. Experts from various domains demonstrate their application of `Python` as a programming language, while discussion brew on recent and upcoming technologies.</p>
-                            <p className="font-light text-xl pt-2 font-gray-800 mt-4 mb-2">All the participants are requested to follow Code of Conduct and we will enforce the same.</p>
+                                </span >ABOUT THE CONFERENCE</h3>
+                            <p className="font-Roboto text-xl pt-2 font-gray-800">PyDelhi conference is hosted annually by PyDelhi Community with an aim to promote Python programming language, for all.
+                                We provide a single platform for programmers from different domains & enthusiasts from different walks such as students, entrepreneurs and professionals.
+                                Startups, SMEs & Enterprises can also sponsor, connect, showcase and hire software professionals.
+                                Experts from various domains demonstrate their application of `Python` as a programming language, while discussion brew on recent and upcoming technologies.</p>
+                            <p className=" font-Roboto text-xl pt-2 font-gray-800 mt-4 mb-2">All the participants are requested to follow Code of Conduct and we will enforce the same.</p>
 
                             <div className="flex">
                                 <button className="mt-4 flex mr-2  rounded border-2 uppercase  border-gray-400 hover:border-blue-500 text-md font-semibold text-blue-500 py-3 px-4">

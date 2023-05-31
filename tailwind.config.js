@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ['Montserrat', 'sans-serif'],
+      Montserrat: ['Montserrat', 'sans-serif'],
+      Roboto: ['Roboto', 'Arial', 'sans-serif'],
     },
   },
   plugins: [

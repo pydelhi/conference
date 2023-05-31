@@ -23,7 +23,7 @@ const Hero = () => {
             <section className=" ">
                 <div className="flex">
                     <div className="mr-auto pt-6  sm:pt-12 sm:mx-[3.2REM] mx-4 place-self-center lg:col-span-7">
-                        <h1 className="text-2xl font-sans font-extrabold tracking-tight leading-none sm:text-5xl md:text-6xl ">PY<spand>DELHI</spand> CONFERENCE</h1>
+                        <h1 className="text-2xl font-Montserrat font-extrabold tracking-tight leading-none sm:text-5xl md:text-6xl ">PY<spand>DELHI</spand> CONFERENCE</h1>
                         <p className="text-sm font-sans sm:text-lg tracking-tight sm:tracking-wider">CONFERENCE ON PYTHON PROGRAMMING LANGUAGE</p>
                     </div>
                     {/* <div class="hidden lg:mt-0 lg:col-span-5 lg:flex lg:justify-end">
