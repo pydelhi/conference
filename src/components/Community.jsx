@@ -1,5 +1,9 @@
 import React from 'react';
 
+import firstlogo from "../assets/mch_logo.jpg"
+import secondlogo from "../assets/OCD-logo.png"
+import thirdlogo from "../assets/foss-logo.jpg"
+import fourthlogo from "../assets/developersIndia.png"
 
 const Community = () => {
   return (
@@ -24,6 +28,32 @@ const Community = () => {
         <li>Feature as a Community Partner in PyDelhi Conference’s creatives.</li>
       </ul>
       </div>
+      <div className="mt-6 flex flex-wrap max-w-8xl px-8 justify-center m-auto">
+                <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
+                    <div className="w-full h-full flex justify-center items-center cursor-pointer hover:bg-gray-200">
+                        <img className="" src={firstlogo} alt="Logo" />
+                    </div>
+                </div>
+                <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
+                    <div className="w-full h-full flex relative justify-center items-center cursor-pointer hover:bg-gray-200">
+                        
+                        <img className="" src={secondlogo} alt="Logo" />
+                    </div>
+                </div>
+                <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
+                    <div className="w-full h-full flex justify-center items-center cursor-pointer hover:bg-gray-200">
+                        <img className="" src={thirdlogo} alt="Logo" />
+                    </div>
+                  
+                </div>
+                <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
+                    <div className="w-full h-full flex justify-center items-center cursor-pointer hover:bg-gray-200">
+                        <img className="" src={fourthlogo} alt="Logo" />
+                    </div>
+                  
+                </div>
+
+            </div>
     </div>
   );
 };
