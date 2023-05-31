@@ -29,33 +29,39 @@ const Community = () => {
       </ul>
       </div>
       <div className="mt-6 flex flex-wrap max-w-8xl px-8 justify-center m-auto">
-        <div></div>
+        
                 <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
-                    <div className="w-full h-full flex justify-center items-center cursor-pointer hover:bg-gray-200">
-                        <img className="" src={firstlogo} alt="Logo" />
-                    </div>
-                </div>
-                <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
-                    <div className="w-full h-full flex relative justify-center items-center cursor-pointer hover:bg-gray-200">
-                        
-                        <img className="" src={secondlogo} alt="Logo" />
-                    </div>
-                </div>
-                <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
-                    <div className="w-full h-full flex justify-center items-center cursor-pointer hover:bg-gray-200">
-                        <img className="" src={thirdlogo} alt="Logo" />
-                    </div>
-                  
-                </div>
-                <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
-                    <div className="w-40 h-full flex justify-center items-center cursor-pointer hover:bg-gray-200">
-                        <img className="" src={fourthlogo} alt="Logo" />
-                    </div>
-                  
-                </div>
 
+                    <div className="w-56 h-full flex justify-center items-center cursor-pointer hover:bg-gray-200 border-2 ">
+                       < a href="https://linktr.ee/meerutcodehub" target="_blank" rel="noopener noreferrer"> <img className="hover:bg-[#DFE4EF] w-56 h-40 p-3" src={firstlogo} alt="Logo" /></a>
+                    </div>
+                </div>
+                <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
+                    <div className="w-56 h-full flex relative justify-center items-center cursor-pointer hover:bg-gray-200 border-2 ">
+                        
+                       <a href="https://ocd-india.github.io/" target="_blank" rel="noopener noreferrer"><img className="hover:bg-[#DFE4EF] p-3" src={secondlogo} alt="Logo" /></a> 
+                    </div>
+                </div>
+                
+                <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
+                    <div className="w-56 h-full flex justify-center items-center cursor-pointer hover:bg-gray-200 border-2 ">
+                       <a href="https://fossunited.org/" target="_blank" rel="noopener noreferrer"><img className="w-54 h-46 p-4 hover:bg-[#DFE4EF]" src={thirdlogo} alt="Logo" /></a> 
+                    </div>
+                  
+                </div>
+               
+                <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
+                    <div className="w-56 h-full flex justify-center items-center cursor-pointer hover:bg-gray-200 border-2  hover:bg-[#">
+                      <a href="https://www.reddit.com/r/developersIndia/" target="_blank" rel ="noopener noreferrer"><img className="w-48 h-44  p-2 hover:bg-[#DFE4EF]" src={fourthlogo} alt="Logo" /></a> 
+                    </div>
+                  
+                </div>
+               
+               
             </div>
+            
     </div>
+    
   );
 };
 
