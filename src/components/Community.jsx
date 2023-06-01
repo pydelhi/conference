@@ -1,5 +1,9 @@
 import React from 'react';
 
+import firstlogo from "../assets/mch_logo.jpg"
+import secondlogo from "../assets/OCD-logo.png"
+import thirdlogo from "../assets/foss-logo.jpg"
+import fourthlogo from "../assets/developersIndia.png"
 
 const Community = () => {
   return (
@@ -24,7 +28,40 @@ const Community = () => {
         <li>Feature as a Community Partner in PyDelhi Conference’s creatives.</li>
       </ul>
       </div>
+      <div className="mt-6 flex flex-wrap max-w-8xl px-8 justify-center m-auto">
+        
+                <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
+
+                    <div className="w-56 h-full flex justify-center items-center cursor-pointer hover:bg-gray-200 border-2 ">
+                       < a href="https://linktr.ee/meerutcodehub" target="_blank" rel="noopener noreferrer"> <img className="hover:bg-[#DFE4EF] w-56 h-40 p-3" src={firstlogo} alt="Logo" /></a>
+                    </div>
+                </div>
+                <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
+                    <div className="w-56 h-full flex relative justify-center items-center cursor-pointer hover:bg-gray-200 border-2 ">
+                        
+                       <a href="https://ocd-india.github.io/" target="_blank" rel="noopener noreferrer"><img className="hover:bg-[#DFE4EF] p-3" src={secondlogo} alt="Logo" /></a> 
+                    </div>
+                </div>
+                
+                <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
+                    <div className="w-56 h-full flex justify-center items-center cursor-pointer hover:bg-gray-200 border-2 ">
+                       <a href="https://fossunited.org/" target="_blank" rel="noopener noreferrer"><img className="w-54 h-46 p-4 hover:bg-[#DFE4EF]" src={thirdlogo} alt="Logo" /></a> 
+                    </div>
+                  
+                </div>
+               
+                <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
+                    <div className="w-56 h-full flex justify-center items-center cursor-pointer hover:bg-gray-200 border-2  hover:bg-[#">
+                      <a href="https://www.reddit.com/r/developersIndia/" target="_blank" rel ="noopener noreferrer"><img className="w-48 h-44  p-2 hover:bg-[#DFE4EF]" src={fourthlogo} alt="Logo" /></a> 
+                    </div>
+                  
+                </div>
+               
+               
+            </div>
+            
     </div>
+    
   );
 };
 

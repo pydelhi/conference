@@ -17,7 +17,7 @@ const Sponsors = () => {
                 </div>
                 <div className="p-2 w-full md:w-1/4 lg:w-1/5 bg-gray-200 md:bg-white my-2">
                     <div className="w-full h-full flex relative justify-center items-center cursor-pointer hover:bg-gray-200">
-                        <p className="absolute top-0 left-0 p-1 rounded-tl-lg rounded-br-lg uppercase text-white text-xs tracking-wide font-semibold bg-[#212A5C]">plus</p>
+                        
                         <img className="" src={yourlogo} alt="Logo" />
                     </div>
                 </div>
