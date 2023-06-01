@@ -61,7 +61,7 @@ const About = () => {
                             showIndicators={false}
                             renderArrowPrev={renderCustomPrevArrow}
                h-full              renderArrowNext={renderCustomNextArrow}
-                            infiniteLoop interval={3000}>
+                            infiniteLoop interval={3500}>
                             {imgData.map((item) => (
                                 <div>
                                     <img src={item.link} alt="Image 1" />
