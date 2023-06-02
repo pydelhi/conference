@@ -81,10 +81,10 @@ const About = () => {
   };
 
   return (
-    <section id="about" className="pt-40">
-      <div className=" flex flex-col-reverse md:flex-row items-center justify-center w-full  mx-auto">
-        <div className="w-full md:w-[30%] p-4">
-          <div className="shadow-lg rounded overflow-hidden">
+    <section id="about" className="pt-12 xl:pt-32 px-4 ">
+      <div className=" flex flex-col-reverse lg:flex-row items-center justify-center w-full  mx-auto">
+        <div className="lg:w-[600px] md:w-[800px] mx-2 lg:pt-0 pt-10">
+          <div className="shadow-lg  rounded ">
             <Carousel
               showThumbs={false}
               autoPlay={true}
@@ -105,7 +105,7 @@ const About = () => {
           </div>
           <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <ul
-              className="hidden text-sm font-medium text-center text-gray-500 divide-x divide-gray-200 rounded-lg sm:flex dark:divide-gray-600 dark:text-gray-400"
+              className="text-sm font-medium text-center text-gray-500 divide-x divide-gray-200 rounded-lg sm:flex dark:divide-gray-600 dark:text-gray-400"
               id="fullWidthTab"
               data-tabs-toggle="#fullWidthTabContent"
               role="tablist"
@@ -152,16 +152,16 @@ const About = () => {
             </ul>
           </div>
         </div>
-        <div className="flex justify-center items-center w-full md:w-[60%] p-2">
-          <div className="flex flex-col justify-between w-full md:w-[70%]">
+        <div className="flex justify-center items-center w-full  lg:w-[60%] p-2">
+          <div className="flex flex-col justify-between w-full xl:ml-12 lg:px-8 xl:w-[70%]">
             <div className="flex flex-col items-center md:items-start">
-              <h3 className="text-center flex items-center md:text-left text-blue-900 font-semibold text-3xl">
+              <h3 className="text-center flex items-center md:text-left text-blue-900 font-semibold text-2xl sm:text-3xl">
                 <span className="pr-1 font-Montserrat">
                   <img src={abouticon} className="w-7" alt="" />
                 </span>
                 ABOUT THE CONFERENCE
               </h3>
-              <p className="font-Roboto text-xl pt-2 font-gray-800">
+              <p className="font-Roboto text-justify text-md sm:text-lg lg:text-xl pt-2 font-gray-800">
                 The PyDelhi conference is hosted annually by the PyDelhi
                 Community with the aim of promoting the Python programming
                 language for all. We provide a single platform for programmers
@@ -173,27 +173,27 @@ const About = () => {
                 a programming language, while discussions brew on recent and
                 upcoming technologies.
               </p>
-              <p className=" font-Roboto text-xl pt-2 font-gray-800 mt-4 mb-2">
+              <p className=" font-Roboto text-md sm:text-lg lg:text-xl pt-2 font-gray-800 mt-4 mb-2">
                 All participants are requested to follow the Code of Conduct,
                 and we will enforce it accordingly.
               </p>
 
-              <div className="flex">
-                <button className="mt-4 flex mr-2  rounded border-2 uppercase  border-gray-400 hover:border-blue-500 text-md font-semibold text-blue-500 py-3 px-4">
+              <div className="flex flex-wrap sm:flex-wrap-none">
+                <button className="mt-4 flex justify-between mr-2  rounded border-2 uppercase  border-gray-400 hover:border-blue-500 text-sm sm:text-md font-semibold text-blue-500 py-3 px-4 items-center">
                   <div className="mr-1">
                     <img src={register} className="w-6 " alt="" />
                   </div>
-                  Register
+                  <span>Register</span>
                 </button>
-                <button className="mt-4 flex ml-2 rounded border-2 uppercase  border-gray-400 hover:border-blue-500 text-md font-semibold text-blue-500 py-3 px-4">
+                <button className="mt-4 flex justify-between ml-2 rounded border-2 uppercase  border-gray-400 hover:border-blue-500 text-sm sm:text-md font-semibold text-blue-500 py-3 px-4 items-center">
                   <div className="mr-1">
                     <img src={schedule} className="w-6 " alt="" />
                   </div>
-                  See Event Schedule
+                  <span>See Event Schedule</span>
                 </button>
-                <button className="mt-4 flex ml-4  rounded border-2 uppercase  border-gray-400 hover:border-blue-500 text-md font-semibold text-blue-500 py-3 px-4">
+                <button className="mt-4 flex items-center justify-between ml-4  rounded border-2 uppercase  border-gray-400 hover:border-blue-500 text-sm sm:text-md font-semibold text-blue-500 py-3 px-4">
                   <div className="mr-1">
-                    <img src={submit} className="w-8" alt="" />
+                    <img src={submit} className="w-7" alt="" />
                   </div>
                   <a
                     href="https://www.papercall.io/pydelhiconf2023"
