@@ -1,10 +1,10 @@
 import React from "react";
-import abouticon from "../assets/about.png";
-import schedule from "../assets/schedule.png";
-import register from "../assets/register.png";
-import submit from "../assets/submit.png";
+import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel, Thumbs } from "react-responsive-carousel";
+import abouticon from "../assets/about.png";
+import register from "../assets/register.png";
+import schedule from "../assets/schedule.png";
+import submit from "../assets/submit.png";
 import imgData from "../data/imgData.json";
 
 const About = () => {
@@ -162,19 +162,20 @@ const About = () => {
                 ABOUT THE CONFERENCE
               </h3>
               <p className="font-Roboto text-xl pt-2 font-gray-800">
-                PyDelhi conference is hosted annually by PyDelhi Community with
-                an aim to promote Python programming language, for all. We
-                provide a single platform for programmers from different domains
-                & enthusiasts from different walks such as students,
-                entrepreneurs and professionals. Startups, SMEs & Enterprises
-                can also sponsor, connect, showcase and hire software
-                professionals. Experts from various domains demonstrate their
-                application of `Python` as a programming language, while
-                discussion brew on recent and upcoming technologies.
+                The PyDelhi conference is hosted annually by the PyDelhi
+                Community with the aim of promoting the Python programming
+                language for all. We provide a single platform for programmers
+                from different domains and enthusiasts from various walks of
+                life, such as students, entrepreneurs, and professionals.
+                Startups, SMEs, and enterprises can also sponsor, connect,
+                showcase, and hire software professionals. Experts from various
+                domains demonstrate the application of <code>'Python'</code> as
+                a programming language, while discussions brew on recent and
+                upcoming technologies.
               </p>
               <p className=" font-Roboto text-xl pt-2 font-gray-800 mt-4 mb-2">
-                All the participants are requested to follow Code of Conduct and
-                we will enforce the same.
+                All participants are requested to follow the Code of Conduct,
+                and we will enforce it accordingly.
               </p>
 
               <div className="flex">
