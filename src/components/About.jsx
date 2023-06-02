@@ -19,13 +19,13 @@ const About = () => {
         title={label}
       >
         <div
-          class="z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          className="z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
           data-carousel-prev
         >
-          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <span className="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30  group-focus:ring-4 group-focus:ring-white  group-focus:outline-none">
             <svg
               aria-hidden="true"
-              class="w-5 h-5 text-white  sm:w-6 sm:h-6 dark:text-gray-800"
+              className="w-5 h-5 text-white  sm:w-6 sm:h-6 "
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -55,13 +55,13 @@ const About = () => {
         title={label}
       >
         <div
-          class="z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          className="z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
           data-carousel-next
         >
-          <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <span className="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30  group-focus:ring-4 group-focus:ring-white  group-focus:outline-none">
             <svg
               aria-hidden="true"
-              class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+              className="w-5 h-5 text-white sm:w-6 sm:h-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -103,9 +103,9 @@ const About = () => {
               ))}
             </Carousel>{" "}
           </div>
-          <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="w-full bg-white border border-gray-200 rounded-lg shadow ">
             <ul
-              className="text-sm font-medium text-center text-gray-500 divide-x divide-gray-200 rounded-lg sm:flex dark:divide-gray-600 dark:text-gray-400"
+              className="text-sm font-medium text-center text-gray-500 divide-x divide-gray-200 rounded-lg sm:flex "
               id="fullWidthTab"
               data-tabs-toggle="#fullWidthTabContent"
               role="tablist"
@@ -118,7 +118,7 @@ const About = () => {
                   role="tab"
                   aria-controls="stats"
                   aria-selected="true"
-                  className="inline-block w-full p-4 h-full font-semibold rounded-tl-lg bg-gray-50 hover:bg-gray-100 focus:outline-none dark:bg-gray-700 dark:hover:bg-gray-600"
+                  className="inline-block w-full p-4 h-full font-semibold rounded-tl-lg bg-gray-50 hover:bg-gray-100 focus:outline-none"
                 >
                   Date: 5th & 6th August
                 </button>
@@ -131,7 +131,7 @@ const About = () => {
                   role="tab"
                   aria-controls="about"
                   aria-selected="false"
-                  className="inline-block w-full p-4 h-full font-semibold bg-gray-50 hover:bg-gray-100 focus:outline-none dark:bg-gray-700 dark:hover:bg-gray-600"
+                  className="inline-block w-full p-4 h-full font-semibold bg-gray-50 hover:bg-gray-100 focus:outline-none "
                 >
                   Venue: IIT DELHI
                 </button>
@@ -144,7 +144,7 @@ const About = () => {
                   role="tab"
                   aria-controls="faq"
                   aria-selected="false"
-                  className="inline-block w-full p-4 h-full rounded-tr-lg font-semibold bg-gray-50 hover:bg-gray-100 focus:outline-none dark:bg-gray-700 dark:hover:bg-gray-600"
+                  className="inline-block w-full p-4 h-full rounded-tr-lg font-semibold bg-gray-50 hover:bg-gray-100 focus:outline-none "
                 >
                   Speakers: CFP Live, ends June 1
                 </button>

@@ -3,7 +3,6 @@ import delhi from "../assets/herobg.png";
 import { useLottie } from "lottie-react";
 import "@lottiefiles/lottie-player";
 // import fitt from "../assets/fitt.png"
-import "./Hero.css";
 import animationData from "../lotties/LottieAnimation.json";
 
 const Hero = () => {
