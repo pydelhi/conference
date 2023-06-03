@@ -4,23 +4,20 @@ import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import Sponsors from "../components/Sponsors";
 import About from "../components/About";
-import Faq from "../components/Faq"
-import faqData from "../data/faqData.json"
+import Faq from "../components/Faq";
+import faqData from "../data/faqData.json";
 import Code from "../components/Code";
 import Community from "../components/Community";
 import Schedule from "../components/Schedule";
 import Register from "../components/Register";
 
-
 const Homepage = () => {
-  
-
   return (
     <div id="home">
-      <Navbar  />
+      <Navbar />
       <Hero />
       <About />
-      <Schedule/>
+      <Schedule />
       <Faq data={faqData} />
       <Code />
       <Community />
