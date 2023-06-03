@@ -1,16 +1,14 @@
-import Homepage from './pages/Homepage'
-import './App.css'
-import 'typeface-montserrat';
-import 'typeface-roboto';
-
+import Homepage from "./pages/Homepage";
+import "./App.css";
+import "typeface-montserrat";
+import "typeface-roboto";
 
 function App() {
-
   return (
     <>
-    <Homepage />
+      <Homepage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

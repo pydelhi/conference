@@ -8,6 +8,13 @@ import submit from "../assets/submit.png";
 import imgData from "../data/imgData.json";
 
 const About = () => {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      setActiveSection(sectionId);
+    }
+  };
   const renderCustomPrevArrow = (onClickHandler, hasPrev, label) => {
     if (!hasPrev) {
       return null;
@@ -179,13 +186,19 @@ const About = () => {
               </p>
 
               <div className="flex flex-wrap sm:flex-wrap-none">
-                <button className="mt-4 flex justify-between mr-2  rounded border-2 uppercase  border-gray-400 hover:border-blue-500 text-sm sm:text-md font-semibold text-blue-500 py-3 px-4 items-center">
+                <button
+                  onClick={() => scrollToSection("register")}
+                  className="mt-4 flex justify-between mr-2  rounded border-2 uppercase  border-gray-400 hover:border-blue-500 text-sm sm:text-md font-semibold text-blue-500 py-3 px-4 items-center"
+                >
                   <div className="mr-1">
                     <img src={register} className="w-6 " alt="" />
                   </div>
                   <span>Register</span>
                 </button>
-                <button className="mt-4 flex justify-between ml-2 rounded border-2 uppercase  border-gray-400 hover:border-blue-500 text-sm sm:text-md font-semibold text-blue-500 py-3 px-4 items-center">
+                <button
+                  onClick={() => scrollToSection("schedule")}
+                  className="mt-4 flex justify-between ml-2 rounded border-2 uppercase  border-gray-400 hover:border-blue-500 text-sm sm:text-md font-semibold text-blue-500 py-3 px-4 items-center"
+                >
                   <div className="mr-1">
                     <img src={schedule} className="w-6 " alt="" />
                   </div>
