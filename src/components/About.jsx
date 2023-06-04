@@ -6,6 +6,8 @@ import register from "../assets/register.png";
 import schedule from "../assets/schedule.png";
 import submit from "../assets/submit.png";
 import imgData from "../data/imgData.json";
+import fitt from "../assets/fitt.png";
+
 
 const About = () => {
   const scrollToSection = (sectionId) => {
@@ -88,8 +90,8 @@ const About = () => {
   };
 
   return (
-    <section id="about" className="pt-12 xl:pt-24 px-4 ">
-      <div className=" flex flex-col-reverse lg:flex-row items-center justify-center w-full  mx-auto">
+    <section id="about" className="pt-12 xl:pt-36  ">
+      <div className=" flex flex-col-reverse px-4 lg:flex-row items-center justify-center w-full  mx-auto">
         <div className="lg:w-[600px] md:w-[800px] mx-2 lg:pt-0 pt-10">
           <div className="shadow-lg  rounded ">
             <Carousel
@@ -222,6 +224,18 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className="mt-12 bg-[#DFE4EF] flex justify-center items-center">
+          <div>
+            <h1 className="text-xl font-Roboto  tracking- leading-none">
+              Venue Partner :
+            </h1>
+          </div>
+          <p className="text-lg mt-[0.1rem] font font-Montserrat ml-2 ">
+            {" "}
+           August 5th @ Indian Institute of Technology, Delhi
+          </p>
+          <img src={fitt} className="w-36 h-36" alt="" />
+        </div>
     </section>
   );
 };

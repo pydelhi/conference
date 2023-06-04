@@ -6,7 +6,7 @@ import "typeface-roboto";
 function App() {
   return (
     <>
-      <Homepage />
+      <Homepage  />
     </>
   );
 }

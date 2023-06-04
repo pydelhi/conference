@@ -89,6 +89,11 @@ const Footer = () => {
             </div>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
+          <div className="-translate-y-6 font-Montserrat tracking-tight font-medium">
+            <p>
+              Made with 💚 &<span className="font-semibold cursor-pointer hover:underline"> FOSSCU</span>
+            </p>
+          </div>
           <div className="lg:w-1/2 md:w-2/3  mx-auto mb-8">
             <div className="flex justify-center  md:space-x-12 lg:space-x-14 xl:space-x-20 space-x-6">
               <div className="w-12 h-10  flex flex-col items-center">

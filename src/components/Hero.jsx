@@ -2,7 +2,6 @@ import React from "react";
 import delhi from "../assets/herobg.png";
 import { useLottie } from "lottie-react";
 import "@lottiefiles/lottie-player";
-import fitt from "../assets/fitt.png";
 import animationData from "../lotties/LottieAnimation.json";
 
 const Hero = () => {
@@ -32,18 +31,6 @@ const Hero = () => {
             </p>
           </div>
           <div className="lg:w-52 md:w-44 sm:w-40 w-28">{View}</div>
-        </div>
-        <div className="mt-12 bg-[#DFE4EF]  flex justify-center items-center">
-          <div>
-            <h1 className="text-xl font-Roboto  tracking- leading-none">
-              Venue Partner :
-            </h1>
-          </div>
-          <p className="text-lg mt-[0.1rem] font font-Montserrat ml-2 ">
-            {" "}
-           August 5th @ Indian Institute of Technology, Delhi
-          </p>
-          <img src={fitt} className="w-36 h-36" alt="" />
         </div>
       </section>
     </div>
