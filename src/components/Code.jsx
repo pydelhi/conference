@@ -56,17 +56,17 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
           </div>
         </div>
 
-        <div class="flex gap-2">
+        <div className="flex gap-2">
           <button
             onClick={() => handleShortCoc(true)}
-            class="block  bg-[#5DB363] text-white font-Roboto lg:text-lg focus:ring-4 focus:outline-none focus:ring-[#5DB363] font-medium rounded text-md px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            className="block  bg-[#5DB363] text-white font-Roboto lg:text-lg focus:ring-4 focus:outline-none focus:ring-[#5DB363] font-medium rounded text-md px-5 py-2.5 text-center "
             type="button"
           >
             Short Version
           </button>
           <button
             onClick={() => handleLongCoc(true)}
-            class="block  bg-[#5DB363] text-white font-Roboto lg:text-lg focus:ring-4 focus:outline-none focus:ring-[#5DB363] font-medium rounded text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            className="block  bg-[#5DB363] text-white font-Roboto lg:text-lg focus:ring-4 focus:outline-none focus:ring-[#5DB363] font-medium rounded text-sm px-5 py-2.5 text-center "
             type="button"
           >
             Long Version
@@ -74,7 +74,7 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
         </div>
       </div>
       <div
-        class={`fixed ${
+        className={`fixed ${
           shortCoc ? "inset-0" : ""
         } bg-black bg-opacity-70 flex items-center justify-center z-50 overflow-hidden`}
       >
@@ -82,31 +82,31 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
           id="readProductModal"
           tabindex="-1"
           aria-hidden="true"
-          class={`${
+          className={`${
             shortCoc ? "block" : "hidden"
           } overflow-y-auto overflow-x-hidden flex justify-center mt-32 h-full`}
         >
-          <div class="relative p-4 w-full max-w-[59rem] md:h-auto">
-            <div class="relative p-4 bg-white rounded-lg shadow-lg dark:bg-gray-800 sm:p-5">
-              <div class="flex justify-between mb-4 rounded-t sm:mb-5">
-                <div class="text-sm text-black sm:text-md dark:text-white">
+          <div className="relative p-4 w-full max-w-[59rem] md:h-auto">
+            <div className="relative p-4 bg-white rounded-lg shadow-lg sm:p-5">
+              <div className="flex justify-between mb-4 rounded-t sm:mb-5">
+                <div className="text-sm text-black sm:text-md ">
                   <div
-                    class="modal fade"
+                    className="modal fade"
                     id="short-coc"
                     tabindex="-1"
                     role="dialog"
                     aria-labelledby="myModalLabel"
                   >
-                    <div class="modal-dialog max-h-[300px] overflow-y-scroll">
-                      <div class="modal-content">
-                        <div class="modal-header absolute w-full overflow-hidden pt-6 left-0 border-b top-0 bg-white z-10">
+                    <div className="modal-dialog max-h-[300px] overflow-y-scroll">
+                      <div className="modal-content">
+                        <div className="modal-header absolute w-full overflow-hidden pt-6 left-0 border-b top-0 bg-white z-10">
                           <div className="border-b pb-4 pr-12">
-                            <h4 class="font-semibold  text-[#5DB363] text-xl  border-b border-gray-300 ml-4 ">
+                            <h4 className="font-semibold  text-[#5DB363] text-xl  border-b border-gray-300 ml-4 ">
                               Short Version Code of Conduct
                             </h4>
                           </div>
                         </div>
-                        <div class="pt-16 font-Roboto pr-[20px] pl-2">
+                        <div className="pt-16 font-Roboto pr-[20px] pl-2">
                           <p>
                             PyDelhiConf is dedicated to providing a
                             harassment-free conference experience for everyone,
@@ -120,13 +120,13 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
                             professional audience, including people from many
                             different backgrounds.
                           </p>
-                          <p class="font-semibold">Code for Speakers:</p>
+                          <p className="font-semibold">Code for Speakers:</p>
                           <p>
                             Sexual language or imagery is inappropriate for your
                             talks or slides. Refrain from using sexist, racist
                             or exclusionary language anywhere in your content.
                           </p>
-                          <p class="font-semibold">
+                          <p className="font-semibold">
                             Code for Exhibitors and Sponsors:
                           </p>
                           <p>
@@ -138,7 +138,7 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
                             clothing/uniforms/costumes, or otherwise create a
                             sexualized environment.
                           </p>
-                          <p class="font-semibold">Code for Participants:</p>
+                          <p className="font-semibold">Code for Participants:</p>
                           <p>
                             Be kind and sensitive to the people around you and
                             avoid any kind of offensive behavior. Sexist, racist
@@ -160,12 +160,12 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
                   <button
                     onClick={() => handleShortCoc(false)}
                     type="button"
-                    class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg  text-sm p-1.5 inline-flex dark:hover:bg-gray-600 dark:hover:text-white"
+                    className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg  text-sm p-1.5 inline-flex "
                     data-modal-toggle="readProductModal"
                   >
                     <svg
                       aria-hidden="true"
-                      class="w-5 h-5"
+                      className="w-5 h-5"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg"
@@ -176,17 +176,17 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                    <span class="sr-only">Close modal</span>
+                    <span className="sr-only">Close modal</span>
                   </button>
                 </div>
               </div>
 
-              <div class="flex border-t pt-2 justify-between items-center">
-                <div class="flex  items-center space-x-3 sm:space-x-4"></div>
+              <div className="flex border-t pt-2 justify-between items-center">
+                <div className="flex  items-center space-x-3 sm:space-x-4"></div>
                 <button
                   onClick={() => handleShortCoc(false)}
                   type="button"
-                  class="inline-flex items-center text-white bg-[#5DB363] focus:ring-4 focus:outline-none focus:ring-green-400 font-medium rounded-lg text-sm px-5 py-2 text-center dark:bg-red-500 dark:hover:bg-red-600 dark:focus:ring-red-900"
+                  className="inline-flex items-center text-white bg-[#5DB363] focus:ring-4 focus:outline-none focus:ring-green-400 font-medium rounded-lg text-sm px-5 py-2 text-center "
                 >
                   Close
                 </button>
@@ -196,7 +196,7 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
         </div>
       </div>
       <div
-        class={`fixed ${
+        className={`fixed ${
           longCoc ? "inset-0" : ""
         } bg-black bg-opacity-70 flex items-center justify-center z-50 overflow-hidden`}
       >
@@ -204,31 +204,31 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
           id="readProductModal"
           tabindex="-1"
           aria-hidden="true"
-          class={`${
+          className={`${
             longCoc ? "block" : "hidden"
           } overflow-y-auto overflow-x-hidden flex justify-center mt-32 h-full`}
         >
-          <div class="relative p-4 w-full max-w-[59rem] md:h-auto">
-            <div class="relative p-4 bg-white rounded-lg shadow-lg dark:bg-gray-800 sm:p-5">
-              <div class="flex justify-between mb-4 rounded-t sm:mb-5">
-                <div class="text-sm text-black sm:text-md dark:text-white">
+          <div className="relative p-4 w-full max-w-[59rem] md:h-auto">
+            <div className="relative p-4 bg-white rounded-lg shadow-lg  sm:p-5">
+              <div className="flex justify-between mb-4 rounded-t sm:mb-5">
+                <div className="text-sm text-black sm:text-md ">
                   <div
-                    class="modal fade"
+                    className="modal fade"
                     id="short-coc"
                     tabindex="-1"
                     role="dialog"
                     aria-labelledby="myModalLabel"
                   >
-                    <div class="modal-dialog max-h-[300px] overflow-y-scroll">
-                      <div class="modal-content">
-                        <div class="modal-header absolute w-full overflow-hidden pt-6 left-0 border-b top-0 bg-white z-10">
+                    <div className="modal-dialog max-h-[300px] overflow-y-scroll">
+                      <div className="modal-content">
+                        <div className="modal-header absolute w-full overflow-hidden pt-6 left-0 border-b top-0 bg-white z-10">
                           <div className="border-b pb-4 pr-12">
-                            <h4 class="font-semibold  text-[#5DB363] text-xl  border-b border-gray-300 ml-4 ">
+                            <h4 className="font-semibold  text-[#5DB363] text-xl  border-b border-gray-300 ml-4 ">
                               Long Version Code of Conduct
                             </h4>
                           </div>
                         </div>
-                        <div class="pt-16 font-Roboto pr-[20px] pl-2">
+                        <div className="pt-16 font-Roboto pr-[20px] pl-2">
                           <p>
                             PyDelhiConf is dedicated to providing a
                             harassment-free conference experience for everyone,
@@ -287,7 +287,7 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
                             make PyCon India a welcoming, friendly event for
                             all.
                           </p>
-                          <p class="font-semibold">Contact Information</p>
+                          <p className="font-semibold">Contact Information</p>
                           <p>
                             If you are being harassed, notice that someone else
                             is being harassed, or have any other concerns,
@@ -316,7 +316,7 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
                               attendance.
                             </p>
                           </ul>
-                          <p class="font-semibold">License</p>
+                          <p className="font-semibold">License</p>
                           <p>
                             This Code of Conduct was forked from Pycon India
                             Conference under a Creative Commons Attribution 3.0
@@ -333,12 +333,12 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
                   <button
                     onClick={() => handleLongCoc(false)}
                     type="button"
-                    class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg  text-sm p-1.5 inline-flex dark:hover:bg-gray-600 dark:hover:text-white"
+                    className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg  text-sm p-1.5 inline-flex "
                     data-modal-toggle="readProductModal"
                   >
                     <svg
                       aria-hidden="true"
-                      class="w-5 h-5"
+                      className="w-5 h-5"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg"
@@ -349,17 +349,17 @@ const Code = ({ handleShortCoc, handleLongCoc, shortCoc, longCoc }) => {
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                    <span class="sr-only">Close modal</span>
+                    <span className="sr-only">Close modal</span>
                   </button>
                 </div>
               </div>
 
-              <div class="flex border-t pt-2 justify-between items-center">
-                <div class="flex  items-center space-x-3 sm:space-x-4"></div>
+              <div className="flex border-t pt-2 justify-between items-center">
+                <div className="flex  items-center space-x-3 sm:space-x-4"></div>
                 <button
                   onClick={() => handleLongCoc(false)}
                   type="button"
-                  class="inline-flex items-center text-white bg-[#5DB363] focus:ring-4 focus:outline-none focus:ring-green-400 font-medium rounded-lg text-sm px-5 py-2 text-center dark:bg-red-500 dark:hover:bg-red-600 dark:focus:ring-red-900"
+                  className="inline-flex items-center text-white bg-[#5DB363] focus:ring-4 focus:outline-none focus:ring-green-400 font-medium rounded-lg text-sm px-5 py-2 text-center"
                 >
                   Close
                 </button>
