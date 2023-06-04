@@ -88,7 +88,7 @@ const About = () => {
   };
 
   return (
-    <section id="about" className="pt-12 xl:pt-32 px-4 ">
+    <section id="about" className="pt-12 xl:pt-24 px-4 ">
       <div className=" flex flex-col-reverse lg:flex-row items-center justify-center w-full  mx-auto">
         <div className="lg:w-[600px] md:w-[800px] mx-2 lg:pt-0 pt-10">
           <div className="shadow-lg  rounded ">

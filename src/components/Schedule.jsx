@@ -3,7 +3,10 @@ import React from "react";
 const Schedule = () => {
   return (
     <div className="pt-12 ">
-      <section id="schedule" className="bg-white py-2 dark:bg-gray-900 antialiased">
+      <section
+        id="schedule"
+        className="bg-white py-2 dark:bg-gray-900 antialiased"
+      >
         <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl font-extrabold leading-tight  text-[#212A5C] tracking-tight  dark:text-white">
@@ -103,28 +106,6 @@ const Schedule = () => {
                     </a>
                   </h3>
                 </div>
-
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right dark:text-gray-400 shrink-0">
-                    16:00 - 14:00
-                  </p>
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    <a href="#" className="hover:underline">
-                      Scaling your brand from €0 to multimillion euros
-                    </a>
-                  </h3>
-                </div>
-
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right dark:text-gray-400 shrink-0">
-                    17:00 - 14:00
-                  </p>
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    <a href="#" className="hover:underline">
-                      Drinks & networking
-                    </a>
-                  </h3>
-                </div>
               </div>
             </div>
             <div className="border mt-6"></div>
@@ -219,28 +200,6 @@ const Schedule = () => {
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                     <a href="#" className="hover:underline">
                       Keynote Speech by Speaker B
-                    </a>
-                  </h3>
-                </div>
-
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right dark:text-gray-400 shrink-0">
-                    16:00 - 14:00
-                  </p>
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    <a href="#" className="hover:underline">
-                      Panel Discussion on Topic T
-                    </a>
-                  </h3>
-                </div>
-
-                <div className="flex flex-col gap-2 py-4 sm:gap-6 sm:flex-row sm:items-center">
-                  <p className="w-32 text-lg font-normal text-gray-500 sm:text-right dark:text-gray-400 shrink-0">
-                    17:00 - 14:00
-                  </p>
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                    <a href="#" className="hover:underline">
-                      Drinks & networking
                     </a>
                   </h3>
                 </div>
