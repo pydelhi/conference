@@ -11,7 +11,7 @@ const Faq = ({ data }) => {
 
   return (
     <section id="faq">
-      <div className="pt-12">
+      <div className="pt-4">
         <div className=" px-4 sm:px-6 lg:px-12 mx-auto max-w-screen-xl sm:pt-16 lg:px-20">
           <div className="flex flex-row justify-center">
             <h2 className="mb-8 text-2xl sm:text-3xl lg:text-4xl font-Montserrat tracking-tight font-extrabold text-[#212A5C]">
