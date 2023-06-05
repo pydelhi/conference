@@ -24,7 +24,7 @@ const Schedule = () => {
                     08:00 - 08:30
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Opening remarks
                     </a>
                   </h3>
@@ -35,7 +35,7 @@ const Schedule = () => {
                   08:30 - 09:00 
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Panel Discussion on Topic W
                     </a>
                   </h3>
@@ -46,7 +46,7 @@ const Schedule = () => {
                     09:00 - 09:30
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Presentation on Topic Y
                     </a>
                   </h3>
@@ -57,7 +57,7 @@ const Schedule = () => {
                     09:30 - 10:00
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Coffee Break
                     </a>
                   </h3>
@@ -68,7 +68,7 @@ const Schedule = () => {
                    10:00 - 10:30
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Workshop on Skill Development
                     </a>
                   </h3>
@@ -79,7 +79,7 @@ const Schedule = () => {
                     10:30 - 11:00
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Updates from the Open Source Multimedia community
                     </a>
                   </h3>
@@ -90,7 +90,7 @@ const Schedule = () => {
                    11:00 - 11:30
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Panel Discussion on Topic Q
                     </a>
                   </h3>
@@ -101,7 +101,7 @@ const Schedule = () => {
                    11:30 - 12:00
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Workshop on Topic R
                     </a>
                   </h3>
@@ -121,7 +121,7 @@ const Schedule = () => {
                     12:30 - 13:00
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Opening remarks
                     </a>
                   </h3>
@@ -132,7 +132,7 @@ const Schedule = () => {
                     13:00 - 14:00
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Panel Discussion on Topic X
                     </a>
                   </h3>
@@ -143,7 +143,7 @@ const Schedule = () => {
                     14:00 - 14:30
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Keynote Speech by Speaker A
                     </a>
                   </h3>
@@ -154,7 +154,7 @@ const Schedule = () => {
                     14:30 - 15:00
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Coffee Break
                     </a>
                   </h3>
@@ -165,7 +165,7 @@ const Schedule = () => {
                     15:00 - 15:30
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Panel Discussion on Emerging Technologies
                     </a>
                   </h3>
@@ -176,7 +176,7 @@ const Schedule = () => {
                     15:30 - 16:00
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Updates from the Open Source Multimedia community
                     </a>
                   </h3>
@@ -187,7 +187,7 @@ const Schedule = () => {
                     16:00 - 16:30
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Keynote Address
                     </a>
                   </h3>
@@ -198,7 +198,7 @@ const Schedule = () => {
                     16:30 - 17:00
                   </p>
                   <h3 className="text-lg font-semibold text-gray-900 ">
-                    <a href="#" className="hover:underline">
+                    <a  className="cursor-grab">
                       Keynote Speech by Speaker B
                     </a>
                   </h3>

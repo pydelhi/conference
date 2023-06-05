@@ -18,8 +18,9 @@ const Sponsors = () => {
           enthusiasts. You also get a chance to network and interact with
           various prospective leads that rarely gather under one roof at this
           scale. To review the sponsor benefits, please peruse our
-          <span className="font-semibold text-[#5DB363]">
+          <span className="font-semibold  text-[#5DB363]">
             <a
+            target="blank"
               href="https://conference.pydelhi.org/data/SponsorshipProspectus2023.pdf"
               className="hover:text-green-500"
             >
@@ -27,7 +28,6 @@ const Sponsors = () => {
               Sponsorship prospectus
             </a>{" "}
           </span>{" "}
-          below{" "}
         </p>
       </div>
       <div className="mt-6 flex gap-4 max-w-8xl px-8 justify-center m-auto">

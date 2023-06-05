@@ -112,15 +112,16 @@ const Footer = () => {
                 target="blank"
                 rel="noopener noreferrer"
               >
-                <span className="font-semibold cursor-pointer hover:underline">
+                <span className="font-semibold cursor-pointer text-blue-700 hover:no-underline underline">
                   {" "}
                   FOSSCU
                 </span>
               </a>
             </p>
+            <a href="/volunteer" className="text-blue-700 font-semibold underline hover:no-underline">Volunteers</a>
           </div>
           <div className="lg:w-1/2 md:w-2/3  mx-auto mb-8">
-            <div className="flex justify-center  md:space-x-12 lg:space-x-14 xl:space-x-20 space-x-6">
+            <div className="flex sm:-translate-y-5 justify-center  md:space-x-12 lg:space-x-14 xl:space-x-20 space-x-6">
               <div className="w-12 h-10  flex flex-col items-center">
                 <a
                   href="https://www.facebook.com/events/664922800376669/"
@@ -141,7 +142,7 @@ const Footer = () => {
                   </svg>
                 </a>
               </div>
-              <div className="w-12 h-10 hover:fillc  flex flex-col items-center">
+              <div className="w-12 h-10  hover:fillc  flex flex-col items-center">
                 <a
                   href="https://www.youtube.com/channel/UC3QVyJ-Zt0QoYAibn4SD20A"
                   target="blank"
