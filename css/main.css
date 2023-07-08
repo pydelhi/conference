@@ -12019,7 +12019,7 @@ h4 {
 @media (min-width:992px) {
   .about-picture-wrapper {
     float: left;
-    width: 50%;
+    width: 35%;
   }
 }
 
@@ -12034,7 +12034,7 @@ h4 {
   .about-text-wrapper {
     padding: 60px;
     float: left;
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -12047,7 +12047,7 @@ h4 {
 }
 
 .about-text-wrapper .title3 {
-  font-size: 26px;
+  font-size: 42px;
   letter-spacing: -1px;
   font-weight: bold;
   color: #04cd8f;
@@ -12056,11 +12056,11 @@ h4 {
 
 .about-text-wrapper .title3 .fa {
   opacity: 0.6;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .about-text-wrapper p {
-  font-size: 14px;
+  /* font-size: 18px; */
   line-height: 28px;
 }
 
@@ -12071,7 +12071,7 @@ h4 {
 }
 
 .about-text-content {
-  font-size: 30px;
+  font-size: 23px;
   margin-bottom: 30px;
 }
 
