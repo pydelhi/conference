@@ -5189,28 +5189,28 @@ $(window).resize(function(){
 
 // Containing JS for updating the schedule.
 
-function getScheduleAndTracks() {
-	schedule = {};
-	tracks = {};
+// function getScheduleAndTracks() {
+// 	schedule = {};
+// 	tracks = {};
 
-	$.ajax({
-	  url: "https://conference.pydelhi.org/api/schedule.json",
-	  async:false,
-	  success: function(response) {
-		schedule = response;
-	  },
-	});
+// 	$.ajax({
+// 	  url: "https://conference.pydelhi.org/api/schedule.json",
+// 	  async:false,
+// 	  success: function(response) {
+// 		schedule = response;
+// 	  },
+// 	});
 
-	$.ajax({
-	  url: "https://conference.pydelhi.org/api/tracks.json",
-	  async:false,
-	  success: function(response) {
-		tracks = response;
-	  },
-	});
+// 	$.ajax({
+// 	  url: "https://conference.pydelhi.org/api/tracks.json",
+// 	  async:false,
+// 	  success: function(response) {
+// 		tracks = response;
+// 	  },
+// 	});
 
-	return {schedule: schedule, tracks: tracks};
-}
+// 	return {schedule: schedule, tracks: tracks};
+// }
 
 var talk_count = 0;
 var DATE_ONE = "2017-03-18";
