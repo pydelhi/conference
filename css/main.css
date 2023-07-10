@@ -12921,6 +12921,11 @@ section#schedule_table {
   .row {
     margin-right: -45px;
   }
+
+  .keynote {
+    width: 60%;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .schedule-item-title a {
@@ -12992,16 +12997,54 @@ section#schedule_table {
     background-repeat: no-repeat;
   }
   
-  @media screen and (max-width: 768px) {
-    .owl-carousel .owl-item{
-      background-image: none;
-    }
-    .intro-content-slide2{
-      margin-top: 0;
-    }
-  
-    .intro-content{
-      top: 0;
-    }
+@media screen and (max-width: 768px) {
+  .owl-carousel .owl-item{
+    background-image: none;
   }
-  
+  .intro-content-slide2{
+    margin-top: 0;
+  }
+
+  .intro-content{
+    top: 0;
+  }
+
+  .keynote {
+    grid-template-rows: 2fr 1fr;
+  }
+  .keynote img, .keynote .info {
+    justify-self: center;
+    text-align: center;
+  }
+}
+
+#keynote-wrapper {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.keynote {
+  display: grid;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+
+.keynote .info {
+  align-self: center;
+}
+
+.keynote .info .linkedin {
+  font-size: 20px;
+}
+
+.keynote img {
+  border-radius: 20px;
+}
+
+.keynote .title3 {
+  font-size: 28px;
+}
