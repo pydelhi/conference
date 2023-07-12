@@ -13010,7 +13010,7 @@ section#schedule_table {
   }
 
   .keynote {
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 1.6fr 1fr;
   }
   .keynote img, .keynote .info {
     justify-self: center;
@@ -13028,7 +13028,7 @@ section#schedule_table {
   gap: 20px;
   background-color: #ffffff;
   padding: 20px;
-  max-width: 800px;
+  max-width: 700px;
   border-radius: 20px;
   margin: 10px auto;
 }
@@ -13037,8 +13037,9 @@ section#schedule_table {
   align-self: center;
 }
 
-.keynote .info .linkedin {
+.keynote .info .social-icon {
   font-size: 20px;
+  margin-right: 20px;
 }
 
 .keynote img {
@@ -13047,4 +13048,12 @@ section#schedule_table {
 
 .keynote .title3 {
   font-size: 28px;
+}
+
+.designation {
+  margin: 0;
+}
+
+.designation:last-child {
+  margin-bottom: 10px;
 }
