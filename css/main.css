@@ -13057,3 +13057,12 @@ section#schedule_table {
 .designation:last-child {
   margin-bottom: 10px;
 }
+
+.faq-title {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.faq-item-title::before {
+  content: "Q: ";
+}
