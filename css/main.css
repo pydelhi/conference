@@ -13088,3 +13088,8 @@ p#vol-list, p#past-vol-list {
   text-align: center;
   line-height: 2;
 }
+
+.simple-page .container {
+  display: flex;
+  justify-content: center;
+}
