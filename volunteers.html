@@ -12,23 +12,18 @@
     <link href="css/main.css" rel="stylesheet">
     <style type="text/css">
       #header {
-        background-color: grey;
+        background-color: white;
       }
       h1 {
         padding: 30px;
         text-align: center;
         margin-top: 120px;
-      }
-      #vol-list-container {
-        margin-left: 40%;
-      }
-      li {
-        font-size: 20px;
+        color: #4b5d59
       }
     </style>
   </head>
   <body>
-    <header id="header" class="">
+    <header id="header" class="simple-page">
      <div class="container">
       <!-- logo -->
       <div class="header-logo" id="header-logo">
@@ -41,12 +36,17 @@
 
     <h1>Here is a list of volunteers for PyDelhi Conference</h1>
     <div id="vol-list-container">
-      <ul id="vol-list">
-      </ul>
+      <h2>Volunteers</h2>
+      <p id="vol-list">
+      </p>
+      <h2>Past Volunteers</h2>
+      <p id="past-vol-list">
+      </p>
     </div>
     <script type="text/javascript">
       // Please keep the list sorted alphabetically
-      var volunteers_list = ['Akash Mishra',
+      var volunteers_list = ['Animesh Ghosh', 'Ishaan Arora', 'Daksh Jain', 'Gora Mohanty', 'Akkshay Arora', 'Akshita Dixit', 'Anuvrat Parashar','Satyakam Goswami', 'Advik']
+      var past_volunteers_list = ['Akash Mishra',
                              'Akkshay Arora',
                              'Akul Mehra',
                              'Amit Singh Sethi',
@@ -77,11 +77,9 @@
                              'Shyam Saini',
                              'Vinay Kumar Dahiya',
                              'Vipin Rathi'];
-      var vol_list = "";
-      for (var i =0; i < volunteers_list.length; i++) {
-          vol_list += "<li>" + volunteers_list[i]+ "</li>";
-      }
-      document.getElementById("vol-list").innerHTML = vol_list;
+
+      document.getElementById("vol-list").innerHTML = volunteers_list.sort().join(", ");
+      document.getElementById("past-vol-list").innerHTML = past_volunteers_list.sort().join(", ");
     </script>
   </body>
 </html>
