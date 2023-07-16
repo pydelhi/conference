@@ -13089,7 +13089,15 @@ p#vol-list, p#past-vol-list {
   line-height: 2;
 }
 
+p#vol-list {
+  padding-bottom: 2rem;
+}
+
 .simple-page .container {
   display: flex;
   justify-content: center;
+}
+
+main#tos-container {
+  margin: 40px;
 }

@@ -18,6 +18,7 @@
         padding: 30px;
         text-align: center;
         margin-top: 120px;
+        color: #4b5d59
       }
     </style>
   </head>
@@ -77,8 +78,8 @@
                              'Vinay Kumar Dahiya',
                              'Vipin Rathi'];
 
-      document.getElementById("vol-list").innerHTML = volunteers_list.join(", ");
-      document.getElementById("past-vol-list").innerHTML = past_volunteers_list.join(", ");
+      document.getElementById("vol-list").innerHTML = volunteers_list.sort().join(", ");
+      document.getElementById("past-vol-list").innerHTML = past_volunteers_list.sort().join(", ");
     </script>
   </body>
 </html>
