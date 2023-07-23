@@ -244,26 +244,66 @@
         <!-- /SECTION: Keynote
         ================================================== -->
 
-
-      <div id="section-schedule"></div>
-      <div id="talk_description">
-        <img id="cross" src="img/fancybox-close.png">
-        <div id="talk_title"></div>
-        <div id="talk_desc"></div>
-        <div id="speaker_info">
-          <div id="talk_speaker">
-            <img id="talk_speaker_image" src="">
-          </div>
-          <div id="talk_speaker_info">
-            <div id="talk_name"></div>
-            <div id="talk_info"></div>
-          </div>
+       <!-- /SECTION: Schedule
+        ================================================== -->
+        <div id="section-schedule">
+        <div id="talk_description">
+            <img id="cross" src="img/fancybox-close.png">
+            <div id="talk_title"></div>
+            <div id="talk_desc"></div>
+            <div id="speaker_info">
+               <div id="talk_speaker">
+                   <img id="talk_speaker_image" src="">
+               </div>
+               <div id="talk_speaker_info">
+                   <div id="talk_name"></div>
+                   <div id="talk_info"></div>
+               </div>
+            </div>
         </div>
-      </div>
-      <section class="section-schedule" id="schedule_table">
-        <h1> Schedule unveils after Talk Selection</h1>
-      </section>
+         <section id="schedule_table">
+            <!--for demo wrap-->
+            <h1>
+              <div id="schedule_header">Schedule For</div>
+              <div id="day_1_button" class="selected_button">Day 1<span class="hide_on_full">- 19th</span></div> <span id="day_divider">|</span> <div id="day_2_button" class="unselected_button">Day 2<span class="hide_on_full"> - 20th</span></div>
+            </h1>
+            <div class="tbl-header day_banner">
+              <table cellpadding="0" cellspacing="0" border="0">
+                <thead>
+                  <tr>
+                    <th id="Day_1_banner">Day 1 - August 19th 2023</th>
+                    <th id="Day_2_banner">Day 2 - August 20th 2023</th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+            <div class="tbl-header">
+              <table cellpadding="0" cellspacing="0" border="0">
+                <thead>
+                  <tr>
+                    <th>Time</th>
+                    <th class="selected_tab track-hall" id="audi1">Main Hall</th>
+                    <!-- <th class="unselected_tab track-hall" id="audi2">Workshop Space</th> -->
+                    <th class="unselected_tab track-hall" id="audi3">Workshop Space</th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+            <div class="tbl-content day_1_content">
+              <table class="schedule-table-1" cellpadding="0" cellspacing="0" border="0">
+                <tbody></tbody>
+              </table>
+            </div>
+            <div class="tbl-content day_2_content">
+              <table class="schedule-table-2" cellpadding="0" cellspacing="0" border="0">
+                <tbody></tbody>
+              </table>
+            </div>
+          </section>
+       </div>
     </div>
+    <!-- /SECTION: Schedule
+        ================================================== -->
 
     <!-- SECTION: Sponsors
         ================================================== -->

@@ -12676,6 +12676,8 @@ td.fourth_col {
 
 section#schedule_table {
   background: url('../img/bgmask-btn.png') top left #04cd8f !important;
+  border-radius: 20px;
+  margin: 20px 10%;
 }
 
 #talk_description {
@@ -12771,7 +12773,7 @@ section#schedule_table {
   }
 
   section#schedule_table {
-    margin: 0px;
+    margin: 20px;
   }
 
   table td {

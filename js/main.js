@@ -5189,32 +5189,32 @@ $(window).resize(function(){
 
 // Containing JS for updating the schedule.
 
-// function getScheduleAndTracks() {
-// 	schedule = {};
-// 	tracks = {};
+function getScheduleAndTracks() {
+	schedule = {};
+	tracks = {};
 
-// 	$.ajax({
-// 	  url: "https://conference.pydelhi.org/api/schedule.json",
-// 	  async:false,
-// 	  success: function(response) {
-// 		schedule = response;
-// 	  },
-// 	});
+	$.ajax({
+	  url: "../api/schedule.json",
+	  async:false,
+	  success: function(response) {
+		schedule = response;
+	  },
+	});
 
-// 	$.ajax({
-// 	  url: "https://conference.pydelhi.org/api/tracks.json",
-// 	  async:false,
-// 	  success: function(response) {
-// 		tracks = response;
-// 	  },
-// 	});
+	$.ajax({
+	  url: "../api/tracks.json",
+	  async:false,
+	  success: function(response) {
+		tracks = response;
+	  },
+	});
 
-// 	return {schedule: schedule, tracks: tracks};
-// }
+	return {schedule: schedule, tracks: tracks};
+}
 
 var talk_count = 0;
-var DATE_ONE = "2017-03-18";
-var DATE_TWO = "2017-03-19";
+var DATE_ONE = "2023-08-19";
+var DATE_TWO = "2023-08-20";
 var API_VERSION = "0.0.1";
 var response = getScheduleAndTracks();
 var schedule = response.schedule[API_VERSION][0];
@@ -5280,7 +5280,7 @@ function updateScheduleForADay(schedule, tracks, table_body) {
         var current_day_track = schedule[i].track;
 
         if (current_day_track == 'all' || typeof current_day_track == "undefined") {
-            schedule_rows.push([time_duration, display_title, '', '']);
+            schedule_rows.push([time_duration, display_title, '']);
         } else if (current_day_track == '1') {
             schedule_rows.push([time_duration, display_title]);
         } else {
@@ -5299,7 +5299,6 @@ function insertTableRows(table, rows) {
                        '<td class="first_col">' + row[0] +'</td>' +
                        '<td class="second_col" id=talkno' + ((row[1]!='') ? talk_count++ : -1) + '>' + row[1] +'</td>' +
                        '<td class="third_col" id=talkno' + ((row[2]!='') ? talk_count++ : -1) + '>' + row[2] +'</td>' +
-                       '<td class="fourth_col" id=talkno' + ((row[3]!='') ? talk_count++ : -1) + '>' + row[3] +'</td>' +
                     '</tr>'
     });
 
