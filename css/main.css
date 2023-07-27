@@ -161,7 +161,7 @@ html input[type=button],
 input[type=reset],
 input[type=submit] {
   -webkit-appearance: button;
-  cursor: pointer
+  /* cursor: pointer */
 }
 
 button[disabled],
@@ -12167,16 +12167,16 @@ h4 {
   margin-bottom: 0;
   text-transform: uppercase;
 }
-
+/* 
 .owl-carousel {
   cursor: -webkit-grab;
   cursor: -moz-grab;
-}
+} */
 
 .owl-carousel * {
   will-change: transform;
 }
-
+/* 
 .owl-carousel:focus {
   cursor: -webkit-grab;
   cursor: -moz-grab;
@@ -12190,7 +12190,7 @@ h4 {
 .owl-carousel:hover {
   cursor: -webkit-grab;
   cursor: -moz-grab;
-}
+} */
 
 /* ==========================================================
 ! 15. SECTION: location
@@ -12690,9 +12690,10 @@ section#schedule_table {
   margin-top: 300px;
   margin-left: auto;
   margin-right: auto;
-  background: url('../img/bgmask-btn.png') top left #992e0e !important;
+  background: white;
   border: 1px solid white;
-  color: white;
+  border-radius: 20px;
+  color: black;
   text-align: center;
   display: none;
 }
@@ -12792,7 +12793,7 @@ section#schedule_table {
   .fourth_col {
     display: none;
   }
-
+/* 
   .selected_tab {
     background-color: #eee;
     color: #04cd8f;
@@ -12805,7 +12806,7 @@ section#schedule_table {
     color: #fff;
     transition: all .3s ease-in 0ms;
     cursor: pointer;
-  }
+  } */
 
   #day_divider {
     display: none;
@@ -12814,7 +12815,7 @@ section#schedule_table {
   #day_1_button,
   #day_2_button {
     width: 200px;
-    margin: auto;
+    margin: 10px auto;
   }
 
   .day_banner {
@@ -12870,6 +12871,8 @@ section#schedule_table {
 
   #day_1_button,
   #day_2_button,
+  #talk_button,
+  #workshop_button,
   #schedule_header {
     display: inline-block;
   }
@@ -12885,6 +12888,7 @@ section#schedule_table {
   background-color: #eee;
   color: #04cd8f;
   transition: all .3s ease-in 0ms;
+  border-radius: 8px;
   padding: 5px;
 }
 
@@ -12934,13 +12938,23 @@ section#schedule_table {
     height: calc(160px * 1.5);
     width: calc(416px *1.5);
   }
-
-  .sponsor-item.platinum.sponsor-img-gold {
-    max-width: 800px;
-    height: calc(160px * 1.25);
-    width: calc(416px *1.25);
-  }
 }
+
+#section-schedule .time {
+  text-align: center;
+  width: 30%;
+}
+
+#section-schedule #audi1 {
+  text-align: left;
+  width: 80%;
+  font-size: 20px;
+}
+
+#section-schedule td.first_col {
+  width: 30%; /*Ugly hack*/
+}
+
 
 .schedule-item-title a {
   color: #04cd8f;
@@ -13040,6 +13054,19 @@ section#schedule_table {
     max-width: 350px;
     height: calc(100px * 1.2);
   }
+  #section-schedule .time {
+    text-align: center;
+    width: 30%;
+  }
+  #section-schedule #audi1 {
+    text-align: left;
+    width: 80%;
+    font-size: 20px;
+  }
+
+  #section-schedule td.first_col {
+    width: 32%; /*Ugly hack*/
+  }
 }
 
 #keynote-wrapper {
@@ -13124,4 +13151,17 @@ p#vol-list {
 
 main#tos-container {
   margin: 40px;
+}
+
+#talk-types {
+  margin-top: 20px;
+  font-size: smaller;
+}
+
+.table-row-hidden{
+  display: none !important;
+}
+
+#section-schedule td.first_col{
+  text-align: center;
 }
