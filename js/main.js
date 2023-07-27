@@ -5254,16 +5254,27 @@ async function updateSchedule() {
     eventDescription(tracks);
 }
 
+function leftPad(input, outputLength = 2, padChar = '0'){
+    input = input.toString();
+    if (input.length >= outputLength){
+        return input;
+    }
+    else {
+        return padChar.repeat(outputLength - input.length) + input;
+    }
+}
+
 function eventDescription(tracks){
+    debugger;
     for(var i=0; i<talk_count; i++){
-        $("#talkno"+i).click(function(){
+        $("#talkno"+ leftPad(i)).click(function(){
             var talk_id = this.id.substring(6,this.id.length);
-            var talk_title = talk_id<10 ? tracks["0"+String(talk_id)]["title"] : tracks[String(talk_id)]["title"];
-            var talk_description = talk_id<10 ? tracks["0"+String(talk_id)]["description"] : tracks[String(talk_id)]["description"];
-            if(talk_id<10 ? tracks["0"+String(talk_id)]["speaker"] : tracks[String(talk_id)]["speaker"]){
-                var talk_speaker_name = talk_id<10 ? tracks["0"+String(talk_id)]["speaker"]["name"] : tracks[String(talk_id)]["speaker"]["name"];
-                var talk_speaker_info = talk_id<10 ? tracks["0"+String(talk_id)]["speaker"]["info"] : tracks[String(talk_id)]["speaker"]["info"];
-                var talk_speaker_image = talk_id<10 ? tracks["0"+String(talk_id)]["speaker"]["photo"] : tracks[String(talk_id)]["speaker"]["photo"];
+            var talk_title = tracks[String(talk_id)]["title"];
+            var talk_description = tracks[String(talk_id)]["description"];
+            if(tracks[String(talk_id)]["speaker"]){
+                var talk_speaker_name = tracks[String(talk_id)]["speaker"]["name"];
+                var talk_speaker_info = tracks[String(talk_id)]["speaker"]["info"];
+                var talk_speaker_image = tracks[String(talk_id)]["speaker"]["photo"];
             }
             $('#talk_title')[0].innerHTML = talk_title;
             $('#talk_desc')[0].innerHTML = talk_description;
@@ -5327,6 +5338,9 @@ function insertTableRows(table, rows) {
                        <td class="first_col">${row[0]}</td>
                        <td class="second_col" id=talkno${((row[1]!='') ? row[3] || '-1' : -1)}>${row[1]}</td>
                     </tr>`
+        if (row[1] != ''){
+            talk_count++; // Used for mapping the talk to its description, so incrementing is important
+        }
     });
 
 	$(table).append(row_html);
