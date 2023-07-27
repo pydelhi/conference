@@ -138,7 +138,7 @@
          },
          {
           "talk_id": "19",
-          "title": "Workshop by AWS ",
+          "title": "Scaling ML Models on SageMaker  ",
           "start_time": "03:10",
           "end_time": "05:10",
           "track": "2"
@@ -275,6 +275,7 @@
           "end_time": "12:00",
           "track": "2"
         }
+        
         {
           "talk_id": "36",
           "title": " Tata 1MG Talk  ",
