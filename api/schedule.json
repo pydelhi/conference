@@ -258,38 +258,35 @@
           "start_time": "05:00",
           "end_time": "06:00",
           "track": "all"
-        }
-
+        },
         {
           "talk_id": "36",
           "title": " To be done ",
           "start_time": "10:00",
           "end_time": "11:30",
           "track": "2"
-        }
-
+        },
         {
           "talk_id": "37",
           "title": " To be done ",
           "start_time": "11:30",
           "end_time": "12:00",
           "track": "2"
-        }
-        
+        },
         {
           "talk_id": "36",
           "title": " Tata 1MG Talk  ",
           "start_time": "02:30",
           "end_time": "03:10",
           "track": "2"
-        }
+        },
         {
           "talk_id": "37",
           "title": " Tata 1MG Talk  ",
           "start_time": "03:10",
           "end_time": "03:50",
           "track": "2"
-        }
+        },
         {
           "talk_id": "36",
           "title": " BOF ",
