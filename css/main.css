@@ -12926,6 +12926,12 @@ section#schedule_table {
     width: 60%;
     grid-template-columns: 1fr 1fr;
   }
+
+  .sponsor-item.platinum.sponsor-img-platinum {
+    max-width: 800px;
+    height: calc(160px * 1.3);
+    width: calc(416px *1.3);
+  }
 }
 
 .schedule-item-title a {
@@ -13015,6 +13021,12 @@ section#schedule_table {
   .keynote img, .keynote .info {
     justify-self: center;
     text-align: center;
+  }
+
+  .sponsor-item.platinum.sponsor-img-platinum {
+    max-width: 350px;
+    height: calc(100px * 1.2);
+    /* width: calc(416px *1.1); */
   }
 }
 
