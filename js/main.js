@@ -5189,41 +5189,31 @@ $(window).resize(function(){
 
 // Containing JS for updating the schedule.
 
-function getScheduleAndTracks() {
-	schedule = {};
-	tracks = {};
+async function getScheduleAndTracks() {
+	const scheduleResponse = await fetch('../api/schedule.json')
+    const schedule = await scheduleResponse.json()
 
-	$.ajax({
-	  url: "../api/schedule.json",
-	  async:false,
-	  success: function(response) {
-		schedule = response;
-	  },
-	});
+    const tracksResponse = await fetch('../api/tracks.json')
+    const tracks = await tracksResponse.json()
 
-	$.ajax({
-	  url: "../api/tracks.json",
-	  async:false,
-	  success: function(response) {
-		tracks = response;
-	  },
-	});
-
-	return {schedule: schedule, tracks: tracks};
+	return { 
+        schedule: schedule, 
+        tracks: tracks
+    };
 }
 
 var talk_count = 0;
-var DATE_ONE = "2023-08-19";
-var DATE_TWO = "2023-08-20";
-var API_VERSION = "0.0.1";
-var response = getScheduleAndTracks();
-var schedule = response.schedule[API_VERSION][0];
-var track_halls = response.schedule[API_VERSION][0]["tracks"];
-var tracks = response.tracks[API_VERSION][0];
-var day_1_schedule = schedule[DATE_ONE];
-var day_2_schedule = schedule[DATE_TWO];
 
-function updateSchedule() {
+async function updateSchedule() {
+    const DATE_ONE = "2023-08-19";
+    const DATE_TWO = "2023-08-20";
+    const API_VERSION = "0.0.1";
+    let response = await getScheduleAndTracks();
+    let schedule = response.schedule[API_VERSION][0];
+    let track_halls = response.schedule[API_VERSION][0]["tracks"];
+    let tracks = response.tracks[API_VERSION][0];
+    let day_1_schedule = schedule[DATE_ONE];
+    let day_2_schedule = schedule[DATE_TWO];
     updateScheduleForADay(day_1_schedule, tracks, $(".schedule-table-1 tbody"));
     updateScheduleForADay(day_2_schedule, tracks, $(".schedule-table-2 tbody"));
     updateTrackHall(track_halls, '.track-hall');
@@ -5312,6 +5302,6 @@ function updateTrackHall(track_halls, selector) {
 }
 
 
-$( document ).ready(function() {
+$(document).ready(function() {
     updateSchedule();
 });
