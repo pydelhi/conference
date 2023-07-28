@@ -5254,8 +5254,7 @@ function leftPad(input, outputLength = 2, padChar = '0'){
     }
 }
 
-function eventDescription(tracks){
-    debugger;
+function eventDescription(tracks) {
     for(var i=0; i<talk_count; i++){
         $("#talkno"+ leftPad(i)).click(function(){
             var talk_id = this.id.substring(6,this.id.length);
@@ -5299,8 +5298,7 @@ function updateScheduleForADay(schedule, tracks, table_body) {
 		var talk_id = schedule[i].talk_id;
         var entity_details = schedule[i];
         var title = entity_details.title;
-        // var speaker_name = tracks[talk_id].hasOwnProperty('speaker') ? tracks[talk_id].speaker.name : '';
-        var speaker_name =  'Ishaan';
+        var speaker_name = tracks[talk_id].hasOwnProperty('speaker') ? tracks[talk_id].speaker.name : '';
         var time_duration = entity_details.start_time + ' - ' + entity_details.end_time;
         var display_title = speaker_name !== '' && typeof speaker_name !== 'undefined' ? title + ' by ' + speaker_name : title;
         var current_day_track = schedule[i].track;
