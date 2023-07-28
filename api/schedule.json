@@ -34,6 +34,13 @@
           "track": "all"
         },
         {
+          "talk_id": "17",
+          "title": "Workshop By Coredge",
+          "start_time": "10:20",
+          "end_time": "11:40",
+          "track": "2"
+        },
+        {
           "talk_id": "04",
           "title": "Deploying Python on the edge: Mistakes, pain and learnings of scaling Python applications on millions of IoT devices",
           "start_time": "10:30",
@@ -53,6 +60,13 @@
           "start_time": "11:30",
           "end_time": "12:00",
           "track": "1"
+        },
+        {
+          "talk_id": "18",
+          "title": "Quantum Quest: Exploring Quantum Computing in Python",
+          "start_time": "11:40",
+          "end_time": "01:00",
+          "track": "2"
         },
         {
           "talk_id": "07",
@@ -90,6 +104,13 @@
           "track": "all"
         },
         {
+          "talk_id": "19",
+          "title": "Scaling ML Models on SageMaker",
+          "start_time": "03:10",
+          "end_time": "05:10",
+          "track": "2"
+        },
+        {
           "talk_id": "12",
           "title": "From chaos to order - Leveraging AWS Step Functions for Streamlined Data Processing",
           "start_time": "03:10",
@@ -123,27 +144,6 @@
           "start_time": "05:10",
           "end_time": "06:00",
           "track": "all"
-        },
-        {
-          "talk_id": "17",
-          "title": "Workshop By Coredge",
-          "start_time": "10:20",
-          "end_time": "11:40",
-          "track": "2"
-        },
-        {
-          "talk_id": "18",
-          "title": "Quantum Quest: Exploring Quantum Computing in Python",
-          "start_time": "11:40",
-          "end_time": "01:00",
-          "track": "2"
-        },
-        {
-          "talk_id": "19",
-          "title": "Scaling ML Models on SageMaker",
-          "start_time": "03:10",
-          "end_time": "05:10",
-          "track": "2"
         }
       ],
       "2023-08-20": [
@@ -169,6 +169,13 @@
           "track": "all"
         },
         {
+          "talk_id": "36",
+          "title": " To be done",
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "track": "2"
+        },
+        {
           "talk_id": "23",
           "title": "What are JIT Compilers",
           "start_time": "10:00",
@@ -181,6 +188,13 @@
           "start_time": "11:00",
           "end_time": "11:30",
           "track": "1"
+        },
+        {
+          "talk_id": "37",
+          "title": " To be done",
+          "start_time": "11:30",
+          "end_time": "12:00",
+          "track": "2"
         },
         {
           "talk_id": "25",
@@ -226,11 +240,25 @@
           "track": "1"
         },
         {
+          "talk_id": "38",
+          "title": "Sanic Unleashed: Mastering Asynchronous Unit Testing in Python",
+          "start_time": "02:30",
+          "end_time": "03:10",
+          "track": "2"
+        },
+        {
           "talk_id": "31",
           "title": "Harnessing the Power of Web Scraping: A Practical Guide with Python",
           "start_time": "03:00",
           "end_time": "03:30",
           "track": "1"
+        },
+        {
+          "talk_id": "39",
+          "title": "Best practices for continuous Integration in Python",
+          "start_time": "03:10",
+          "end_time": "03:50",
+          "track": "2"
         },
         {
           "talk_id": "32",
@@ -247,6 +275,13 @@
           "track": "1"
         },
         {
+          "talk_id": "40",
+          "title": "BOF",
+          "start_time": "04:00",
+          "end_time": "05:00",
+          "track": "2"
+        },
+        {
           "talk_id": "34",
           "title": "Introduction to the World of Research and Research Papers",
           "start_time": "04:30",
@@ -259,41 +294,6 @@
           "start_time": "05:00",
           "end_time": "06:00",
           "track": "all"
-        },
-        {
-          "talk_id": "36",
-          "title": " To be done",
-          "start_time": "10:00",
-          "end_time": "11:30",
-          "track": "2"
-        },
-        {
-          "talk_id": "37",
-          "title": " To be done",
-          "start_time": "11:30",
-          "end_time": "12:00",
-          "track": "2"
-        },
-        {
-          "talk_id": "38",
-          "title": "Sanic Unleashed: Mastering Asynchronous Unit Testing in Python",
-          "start_time": "02:30",
-          "end_time": "03:10",
-          "track": "2"
-        },
-        {
-          "talk_id": "39",
-          "title": "Best practices for continuous Integration in python",
-          "start_time": "03:10",
-          "end_time": "03:50",
-          "track": "2"
-        },
-        {
-          "talk_id": "40",
-          "title": "BOF",
-          "start_time": "04:00",
-          "end_time": "05:00",
-          "track": "2"
         }
       ]
     }
