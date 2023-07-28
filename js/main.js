@@ -5320,10 +5320,10 @@ function updateScheduleForADay(schedule, tracks, table_body) {
             schedule_rows.push([time_duration, display_title, 'schedule-common'. talk_id]);
         // Talks Track
         } else if (current_day_track == '1') {
-            schedule_rows.push([time_duration, 'Talk: ' + display_title, 'schedule-talk', talk_id]);
+            schedule_rows.push([time_duration, display_title, 'schedule-talk', talk_id]);
         // Workshops Track
         } else {
-            schedule_rows.push([time_duration, 'Workshop: ' + display_title, 'schedule-workshop', talk_id]);
+            schedule_rows.push([time_duration, display_title, 'schedule-workshop', talk_id]);
         }
     }
     insertTableRows(table_body, schedule_rows);
