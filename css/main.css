@@ -12938,6 +12938,13 @@ section#schedule_table {
     height: calc(160px * 1.5);
     width: calc(416px *1.5);
   }
+
+  #section-sponsors{
+    background: url('../img/bgmask2.png') #04cd8f;
+    background-size: 200%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 #section-schedule .time {
@@ -13066,6 +13073,11 @@ section#schedule_table {
 
   #section-schedule td.first_col {
     width: 32%; /*Ugly hack*/
+  }
+
+  #section-sponsors {
+    background: url('../img/bgmask2.png') #04cd8f;
+    background-size: 600%;
   }
 }
 
