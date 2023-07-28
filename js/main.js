@@ -5214,26 +5214,16 @@ $(window).resize(function(){
 // Containing JS for updating the schedule.
 
 async function getScheduleAndTracks() {
-
-    // WARNING: Change the urls to
-    // https://conference.pydelhi.org/api/{}.json
-    // before merging
-    // These urls are only for testing on GH Pages
-
-	// const scheduleResponse = await fetch('../api/schedule.json')
-    const scheduleResponse = await fetch('/conference/api/schedule.json')
-
+	const scheduleResponse = await fetch('../api/schedule.json')
     const schedule = await scheduleResponse.json()
 
-    // const tracksResponse = await fetch('../api/tracks.json')
-    const tracksResponse = await fetch('/conference/api/tracks.json')
-
+    const tracksResponse = await fetch('../api/tracks.json')
     const tracks = await tracksResponse.json()
 
 	return { 
         schedule: schedule, 
         tracks: tracks
-    };
+    }
 }
 
 var talk_count = 0;
