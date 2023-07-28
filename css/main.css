@@ -12929,14 +12929,14 @@ section#schedule_table {
 
   .sponsor-item.platinum.sponsor-img-platinum {
     max-width: 800px;
-    height: calc(160px * 1.3);
-    width: calc(416px *1.3);
+    height: calc(160px * 1.5);
+    width: calc(416px *1.5);
   }
 
   .sponsor-item.platinum.sponsor-img-gold {
     max-width: 800px;
-    height: calc(160px * 1.2);
-    width: calc(416px *1.2);
+    height: calc(160px * 1.25);
+    width: calc(416px *1.25);
   }
 }
 
@@ -13031,12 +13031,12 @@ section#schedule_table {
 
   .sponsor-item.platinum.sponsor-img-platinum {
     max-width: 350px;
-    height: calc(100px * 1.2);
+    height: calc(100px * 1.4);
   }
 
   .sponsor-item.platinum.sponsor-img-gold {
     max-width: 350px;
-    height: calc(100px * 1.1);
+    height: calc(100px * 1.2);
   }
 }
 
