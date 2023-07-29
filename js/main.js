@@ -5124,22 +5124,22 @@ $("#audi3").click(function(){
 
 function changetab(firsttab, secondtab, thirdtab, col1, col2, col3)
 {
-  if($(window).width() <= 700){
-    if($(secondtab).hasClass("selected_tab"))
-    {
-      $(secondtab).removeClass("selected_tab");
-      $(secondtab).addClass("unselected_tab");
-      $(col2).fadeOut("fast");
-    }
-    else{
-      $(thirdtab).removeClass("selected_tab");
-      $(thirdtab).addClass("unselected_tab");
-      $(col3).fadeOut("fast");
-    }
-    $(firsttab).removeClass("unselected_tab");
-    $(firsttab).addClass("selected_tab");
-    $(col1).fadeIn("slow");
-  }
+//   if($(window).width() <= 700){
+//     if($(secondtab).hasClass("selected_tab"))
+//     {
+//       $(secondtab).removeClass("selected_tab");
+//       $(secondtab).addClass("unselected_tab");
+//       $(col2).fadeOut("fast");
+//     }
+//     else{
+//       $(thirdtab).removeClass("selected_tab");
+//       $(thirdtab).addClass("unselected_tab");
+//       $(col3).fadeOut("fast");
+//     }
+//     $(firsttab).removeClass("unselected_tab");
+//     $(firsttab).addClass("selected_tab");
+//     $(col1).fadeIn("slow");
+//   }
 }
 
 $('#day_1_button').click(function(){
@@ -5149,6 +5149,30 @@ $('#day_1_button').click(function(){
 $('#day_2_button').click(function(){
   changedays('#day_2_button','#day_1_button','.day_2_content','.day_1_content','#Day_1_banner','#Day_2_banner');
 });
+
+$('#talk_button').click(function(){
+    changedays('#talk_button','#workshop_button','.schedule-talk','.schedule-workshop','#dummy','#dummy');
+});
+
+$('#workshop_button').click(function(){
+    changedays('#workshop_button','#talk_button','.schedule-workshop','.schedule-talk','#dummy','#dummy');
+});
+
+$('#workshop_button').click(function(){
+    // $('.schedule-workshop').fadeOut('fast', function(){
+    //     $('.schedule-talk').fadeIn('fast');
+    //   });
+    $('.schedule-talk').addClass('table-row-hidden');
+    $('.schedule-workshop').removeClass('table-row-hidden');
+});
+$('#talk_button').click(function(){
+    // $('.schedule-talk').fadeOut('fast', function(){
+    //     $('.schedule-workshop').fadeIn('fast');
+    //   });
+    $('.schedule-talk').removeClass('table-row-hidden');
+    $('.schedule-workshop').addClass('table-row-hidden');
+});
+
 
 function changedays(firstdaybutton, seconddaybutton, first_day_content, second_day_content, banner1, banner2)
 {
@@ -5189,57 +5213,57 @@ $(window).resize(function(){
 
 // Containing JS for updating the schedule.
 
-// function getScheduleAndTracks() {
-// 	schedule = {};
-// 	tracks = {};
+async function getScheduleAndTracks() {
+	const scheduleResponse = await fetch('../api/schedule.json')
+    const schedule = await scheduleResponse.json()
 
-// 	$.ajax({
-// 	  url: "https://conference.pydelhi.org/api/schedule.json",
-// 	  async:false,
-// 	  success: function(response) {
-// 		schedule = response;
-// 	  },
-// 	});
+    const tracksResponse = await fetch('../api/tracks.json')
+    const tracks = await tracksResponse.json()
 
-// 	$.ajax({
-// 	  url: "https://conference.pydelhi.org/api/tracks.json",
-// 	  async:false,
-// 	  success: function(response) {
-// 		tracks = response;
-// 	  },
-// 	});
-
-// 	return {schedule: schedule, tracks: tracks};
-// }
+	return { 
+        schedule: schedule, 
+        tracks: tracks
+    }
+}
 
 var talk_count = 0;
-var DATE_ONE = "2017-03-18";
-var DATE_TWO = "2017-03-19";
-var API_VERSION = "0.0.1";
-var response = getScheduleAndTracks();
-var schedule = response.schedule[API_VERSION][0];
-var track_halls = response.schedule[API_VERSION][0]["tracks"];
-var tracks = response.tracks[API_VERSION][0];
-var day_1_schedule = schedule[DATE_ONE];
-var day_2_schedule = schedule[DATE_TWO];
 
-function updateSchedule() {
+async function updateSchedule() {
+    const DATE_ONE = "2023-08-19";
+    const DATE_TWO = "2023-08-20";
+    const API_VERSION = "0.0.1";
+    let response = await getScheduleAndTracks();
+    let schedule = response.schedule[API_VERSION][0];
+    let track_halls = response.schedule[API_VERSION][0]["tracks"];
+    let tracks = response.tracks[API_VERSION][0];
+    let day_1_schedule = schedule[DATE_ONE];
+    let day_2_schedule = schedule[DATE_TWO];
     updateScheduleForADay(day_1_schedule, tracks, $(".schedule-table-1 tbody"));
     updateScheduleForADay(day_2_schedule, tracks, $(".schedule-table-2 tbody"));
     updateTrackHall(track_halls, '.track-hall');
     eventDescription(tracks);
 }
 
-function eventDescription(tracks){
+function leftPad(input, outputLength = 2, padChar = '0'){
+    input = input.toString();
+    if (input.length >= outputLength){
+        return input;
+    }
+    else {
+        return padChar.repeat(outputLength - input.length) + input;
+    }
+}
+
+function eventDescription(tracks) {
     for(var i=0; i<talk_count; i++){
-        $("#talkno"+i).click(function(){
+        $("#talkno"+ leftPad(i)).click(function(){
             var talk_id = this.id.substring(6,this.id.length);
-            var talk_title = talk_id<10 ? tracks["0"+String(talk_id)]["title"] : tracks[String(talk_id)]["title"];
-            var talk_description = talk_id<10 ? tracks["0"+String(talk_id)]["description"] : tracks[String(talk_id)]["description"];
-            if(talk_id<10 ? tracks["0"+String(talk_id)]["speaker"] : tracks[String(talk_id)]["speaker"]){
-                var talk_speaker_name = talk_id<10 ? tracks["0"+String(talk_id)]["speaker"]["name"] : tracks[String(talk_id)]["speaker"]["name"];
-                var talk_speaker_info = talk_id<10 ? tracks["0"+String(talk_id)]["speaker"]["info"] : tracks[String(talk_id)]["speaker"]["info"];
-                var talk_speaker_image = talk_id<10 ? tracks["0"+String(talk_id)]["speaker"]["photo"] : tracks[String(talk_id)]["speaker"]["photo"];
+            var talk_title = tracks[String(talk_id)]["title"];
+            var talk_description = tracks[String(talk_id)]["description"];
+            if(tracks[String(talk_id)]["speaker"]){
+                var talk_speaker_name = tracks[String(talk_id)]["speaker"]["name"];
+                var talk_speaker_info = tracks[String(talk_id)]["speaker"]["info"];
+                var talk_speaker_image = tracks[String(talk_id)]["speaker"]["photo"];
             }
             $('#talk_title')[0].innerHTML = talk_title;
             $('#talk_desc')[0].innerHTML = talk_description;
@@ -5279,28 +5303,32 @@ function updateScheduleForADay(schedule, tracks, table_body) {
         var display_title = speaker_name !== '' && typeof speaker_name !== 'undefined' ? title + ' by ' + speaker_name : title;
         var current_day_track = schedule[i].track;
 
+        // Keynotes and Breakfast/Lunch - things common to all tracks
         if (current_day_track == 'all' || typeof current_day_track == "undefined") {
-            schedule_rows.push([time_duration, display_title, '', '']);
+            schedule_rows.push([time_duration, display_title, 'schedule-common'. talk_id]);
+        // Talks Track
         } else if (current_day_track == '1') {
-            schedule_rows.push([time_duration, display_title]);
+            schedule_rows.push([time_duration, display_title, 'schedule-talk', talk_id]);
+        // Workshops Track
         } else {
-            var index_of_last_row = schedule_rows.length - 1;
-            schedule_rows[index_of_last_row].push(display_title);
+            schedule_rows.push([time_duration, display_title, 'schedule-workshop', talk_id]);
         }
     }
-    insertTableRows(table_body, schedule_rows, 0);
+    insertTableRows(table_body, schedule_rows);
 }
 
 function insertTableRows(table, rows) {
 	var row_html = '';
 	$(rows).each(function() {
         var row = $(this);
-        row_html += '<tr>' +
-                       '<td class="first_col">' + row[0] +'</td>' +
-                       '<td class="second_col" id=talkno' + ((row[1]!='') ? talk_count++ : -1) + '>' + row[1] +'</td>' +
-                       '<td class="third_col" id=talkno' + ((row[2]!='') ? talk_count++ : -1) + '>' + row[2] +'</td>' +
-                       '<td class="fourth_col" id=talkno' + ((row[3]!='') ? talk_count++ : -1) + '>' + row[3] +'</td>' +
-                    '</tr>'
+        // By default workshops stay hidden
+        row_html += `<tr class="${row[2] == 'schedule-workshop'? row[2] + ' table-row-hidden' : row[2]}">
+                       <td class="first_col">${row[0]}</td>
+                       <td class="second_col" id=talkno${((row[1]!='') ? row[3] || '-1' : -1)}>${row[1]}</td>
+                    </tr>`
+        if (row[1] != ''){
+            talk_count++; // Used for mapping the talk to its description, so incrementing is important
+        }
     });
 
 	$(table).append(row_html);
@@ -5313,6 +5341,6 @@ function updateTrackHall(track_halls, selector) {
 }
 
 
-$( document ).ready(function() {
+$(document).ready(function() {
     updateSchedule();
 });

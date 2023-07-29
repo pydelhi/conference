@@ -1,7 +1,9 @@
 {
   "0.0.1": [
     {
-      "tracks": ["Main Hall", "Hall 2"],
+      "tracks": [
+        "Title"
+      ],
       "2023-08-19": [
         {
           "talk_id": "00",
@@ -19,9 +21,9 @@
         },
         {
           "talk_id": "02",
-          "title": "Keynote By Sarabjot Singh ",
+          "title": "Keynote",
           "start_time": "09:10",
-          "end_time": "9:50",
+          "end_time": "09:50",
           "track": "all"
         },
         {
@@ -32,8 +34,15 @@
           "track": "all"
         },
         {
+          "talk_id": "17",
+          "title": "Workshop By Coredge",
+          "start_time": "10:20",
+          "end_time": "11:40",
+          "track": "2"
+        },
+        {
           "talk_id": "04",
-          "title": "Deploying Python on the edge: Mistakes, pain and learnings of scaling Python applications on millions of IoT devices ",
+          "title": "Deploying Python on the edge: Mistakes, pain and learnings of scaling Python applications on millions of IoT devices",
           "start_time": "10:30",
           "end_time": "11:00",
           "track": "1"
@@ -51,6 +60,13 @@
           "start_time": "11:30",
           "end_time": "12:00",
           "track": "1"
+        },
+        {
+          "talk_id": "18",
+          "title": "Quantum Quest: Exploring Quantum Computing in Python",
+          "start_time": "11:40",
+          "end_time": "01:00",
+          "track": "2"
         },
         {
           "talk_id": "07",
@@ -78,14 +94,21 @@
           "title": "4 Lightning Talks",
           "start_time": "01:50",
           "end_time": "02:30",
-          "track": "1"
+          "track": "all"
         },
         {
           "talk_id": "11",
-          "title": "Keynote By Coredge",
+          "title": "Keynote",
           "start_time": "02:30",
           "end_time": "03:10",
           "track": "all"
+        },
+        {
+          "talk_id": "19",
+          "title": "Scaling ML Models on SageMaker",
+          "start_time": "03:10",
+          "end_time": "05:10",
+          "track": "2"
         },
         {
           "talk_id": "12",
@@ -96,21 +119,21 @@
         },
         {
           "talk_id": "13",
-          "title": "Django Custom Permissions and Authorization: Implementing Fine-Grained Access Control ",
+          "title": "Django Custom Permissions and Authorization: Implementing Fine-Grained Access Control",
           "start_time": "03:40",
           "end_time": "04:10",
           "track": "1"
         },
         {
           "talk_id": "14",
-          "title": " Open Source Culture: Fostering Inclusivity and Diversity in Tech Communities ",
+          "title": " Open Source Culture: Fostering Inclusivity and Diversity in Tech Communities",
           "start_time": "04:10",
           "end_time": "04:40",
           "track": "1"
         },
         {
           "talk_id": "15",
-          "title": "Python Inspector - Look Ma No Hands! ",
+          "title": "Python Inspector - Look Ma No Hands!",
           "start_time": "04:40",
           "end_time": "05:10",
           "track": "1"
@@ -121,28 +144,7 @@
           "start_time": "05:10",
           "end_time": "06:00",
           "track": "all"
-        },
-        {
-          "talk_id": "17",
-          "title": "Workshop By Coredge",
-          "start_time": "10:20",
-          "end_time": "11:40",
-          "track": "2"
-         },
-        {
-          "talk_id": "18",
-          "title": "Quantum Quest: Exploring Quantum Computing in Python ",
-          "start_time": "11:40",
-          "end_time": "01:00",
-          "track": "2"
-         },
-         {
-          "talk_id": "19",
-          "title": "Scaling ML Models on SageMaker  ",
-          "start_time": "03:10",
-          "end_time": "05:10",
-          "track": "2"
-         }
+        }
       ],
       "2023-08-20": [
         {
@@ -154,9 +156,9 @@
         },
         {
           "talk_id": "21",
-          "title": "Keynote AWS ",
+          "title": "Keynote",
           "start_time": "09:00",
-          "end_time": "9:40",
+          "end_time": "09:40",
           "track": "all"
         },
         {
@@ -165,6 +167,13 @@
           "start_time": "10:00",
           "end_time": "10:30",
           "track": "all"
+        },
+        {
+          "talk_id": "36",
+          "title": " To be done",
+          "start_time": "10:00",
+          "end_time": "11:30",
+          "track": "2"
         },
         {
           "talk_id": "23",
@@ -179,6 +188,13 @@
           "start_time": "11:00",
           "end_time": "11:30",
           "track": "1"
+        },
+        {
+          "talk_id": "37",
+          "title": " To be done",
+          "start_time": "11:30",
+          "end_time": "12:00",
+          "track": "2"
         },
         {
           "talk_id": "25",
@@ -224,6 +240,13 @@
           "track": "1"
         },
         {
+          "talk_id": "38",
+          "title": "Sanic Unleashed: Mastering Asynchronous Unit Testing in Python",
+          "start_time": "02:30",
+          "end_time": "03:10",
+          "track": "2"
+        },
+        {
           "talk_id": "31",
           "title": "Harnessing the Power of Web Scraping: A Practical Guide with Python",
           "start_time": "03:00",
@@ -231,71 +254,46 @@
           "track": "1"
         },
         {
+          "talk_id": "39",
+          "title": "Best practices for continuous Integration in Python",
+          "start_time": "03:10",
+          "end_time": "03:50",
+          "track": "2"
+        },
+        {
           "talk_id": "32",
-          "title": "Level up your Python Wizadary with LLM's : Unleashing the true power of ChatGPT ",
+          "title": "Level up your Python Wizadary with LLM's : Unleashing the true power of ChatGPT",
           "start_time": "03:30",
           "end_time": "04:00",
           "track": "1"
         },
         {
           "talk_id": "33",
-          "title": " Tata 1MG Talk  ",
+          "title": "Simplifying API Development in Python: Harnessing Pydantic Models and Mako Templates for Streamlined Validation and Formatting",
           "start_time": "04:00",
           "end_time": "04:30",
           "track": "1"
+        },
+        {
+          "talk_id": "40",
+          "title": "BOF",
+          "start_time": "04:00",
+          "end_time": "05:00",
+          "track": "2"
         },
         {
           "talk_id": "34",
           "title": "Introduction to the World of Research and Research Papers",
           "start_time": "04:30",
           "end_time": "05:00",
-          "track": "all"
-
+          "track": "1"
         },
         {
           "talk_id": "35",
-          "title": "Evening Tea , Closing ceremony/ Feedback session",
+          "title": "Evening Tea, Closing Ceremony/Feedback session",
           "start_time": "05:00",
           "end_time": "06:00",
           "track": "all"
-        }
-
-        {
-          "talk_id": "36",
-          "title": " To be done ",
-          "start_time": "10:00",
-          "end_time": "11:30",
-          "track": "2"
-        }
-
-        {
-          "talk_id": "37",
-          "title": " To be done ",
-          "start_time": "11:30",
-          "end_time": "12:00",
-          "track": "2"
-        }
-        
-        {
-          "talk_id": "36",
-          "title": " Tata 1MG Talk  ",
-          "start_time": "02:30",
-          "end_time": "03:10",
-          "track": "2"
-        }
-        {
-          "talk_id": "37",
-          "title": " Tata 1MG Talk  ",
-          "start_time": "03:10",
-          "end_time": "03:50",
-          "track": "2"
-        }
-        {
-          "talk_id": "36",
-          "title": " BOF ",
-          "start_time": "04:00",
-          "end_time": "05:00",
-          "track": "2"
         }
       ]
     }
