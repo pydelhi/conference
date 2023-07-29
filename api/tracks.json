@@ -16,7 +16,7 @@
 				"description": "Opening Ceremony with PyDelhi Community and Delhi University Guests",
 				"type": "default",
 				"speaker": {
-					"name": "Dr Sanjeev Singh",
+					"name": " ",
 					"info": "Official opening of PyDelhiConf 2023. Our presenters Anuvrat Parashar and Dr Sanjeev Singh, would be introducing our special guests to the audience and asking them to speak a few word about the event.",
 					"photo": "http://www.newscaststudio.com/wp-content/uploads/2016/07/2016-rio-olympics-opening-ceremony-promo.png"
 				}
@@ -88,7 +88,7 @@
 				"speaker": {
 					"name": "Peeyush Aggarwal",
 					"info": "I work as a backend engineer at airbases where I deal with credit cards and real time transactions. Airbase is the 3rd startup I am working with. Both the two startups I worked earlier were acquired. One of those was a marketing automation startup where I worked as a backend and devops engineer. The other one was a AI chatbot startup where I worked as an NLP engineer.",
-					"photo": "",
+					"photo": "https://media.licdn.com/dms/image/C5103AQHepJGluDdPpA/profile-displayphoto-shrink_400_400/0/1533559693467?e=1695859200&v=beta&t=3UpvaMN6-LPgnb3SfV7FrlqQXrUY12y-PINQYMiSvGQ",
 					"social": [
 						{
 							"twitter": "",
@@ -105,7 +105,7 @@
 				"speaker": {
 					"name": "Shantanu",
 					"info": "Developer",
-					"photo": "https://lh3.googleusercontent.com/-lNLUWSZgn4c/AAAAAAAAAAI/AAAAAAAAAng/1Iz3uTFhRcM/s640/photo.jpg",
+					"photo": " ",
 					"social": [
 						{
 							"twitter": "",
@@ -202,7 +202,7 @@
 				"speaker": {
 					"name": "PS Solanki",
 					"info": "My name is Pankaj Singh Solanki. I am a Senior Backend Engineer at certa. I work on enhancements to the integration abilities of Certa products and work closely with engineering, product and external teams.I am an avid computer science enthusiast and I love to stay on top of the most recent tech trends. I am very active in open source communities (github/pssolanki111). I also maintain and participate in many communities across discord, gitter and slack.",
-					"photo": "",
+					"photo": "https://media.licdn.com/dms/image/D4D03AQFs0kqXc7J3Yg/profile-displayphoto-shrink_400_400/0/1683993648309?e=1695859200&v=beta&t=khswT31Pb3FmTMfIdovnVNs5_mSc0ZZaAoOCIMWDWuE",
 					"social": [
 						{
 							"twitter": "http://twitter.com/_pssolanki",
@@ -342,7 +342,7 @@
 				"speaker": {
 					"name": "Sachin Punyani",
 					"info": "Principal BD (AI/ML, Analytics, IoT, HPC) & Quantum Computing Evangelist - India and South Asia at Amazon Web Services (AWS)",
-					"photo": "",
+					"photo": "https://media.licdn.com/dms/image/C4D03AQH-PGvka-OhoQ/profile-displayphoto-shrink_400_400/0/1598376311693?e=1695859200&v=beta&t=XReeHzswrQIbWmumghKkrXf34VqL_j1JU8o4fvSANPk",
 					"social": [
 						{
 							"twitter": "",
@@ -422,7 +422,7 @@
 				"speaker": {
 					"name": "Abdeali Kothari",
 					"info": "In this talk, we will first clarify the common misconception of what a language is. And what the Python language is.And go into various alternatives of the standard CPython that are available, and the key reason they exist (i.e. why not use CPython?)Then we will go into some of the choices CPython has made - specifically about being interpreted vs compiled.",
-					"photo": "",
+					"photo": "https://media.licdn.com/dms/image/C4E03AQHsneIL1V3Rjg/profile-displayphoto-shrink_400_400/0/1516498423530?e=1695859200&v=beta&t=2Bgvlso4SpvNiPHpIAlo7Wqb1u5blFkWzNG7KJibCy0",
 					"social": [
 						{
 							"twitter": "https://twitter.com/AbdealiLoKo",
@@ -442,7 +442,7 @@
 				"speaker": {
 					"name": "Tushar Sadhwani",
 					"info": "The plan is to write a really simple, but working interpreter that can run Python code, with zero dependencies.",
-					"photo": "https://twitter.com/sadhlife/photo",
+					"photo": "https://avatars.githubusercontent.com/u/43412083?v=4",
 					"social": [
 						{
 							"twitter": " https://twitter.com/sadhlife",
@@ -501,8 +501,8 @@
 				"description": "This talk will showcase how to build a real-time, multi-client log streaming service using Python and Server-Sent Events. Attendees will learn how to create a solution that delivers live log data to multiple clients simultaneously as well as understand the tradeoffs of choosing different technologies.",
 				"speaker": {
 					"name": "Yuvraj Singh Pathania",
-					"info": "In this talk, we will explore how to build a real-time log reading service using Python and Server-Sent Events. We’ll dive into the high-level architecture of the service, including the server, clients, and log generator. You'll learn how to establish a connection between the client and server, how to ensure that the latest added logs are sent to the client, tailing the consecutive logs and handling potential technical issues that may arise.",
-					"photo": "https://twitter.com/yuvrajsp01/photo",
+					"info": "Software Engineer @CloudSEK || Backend & AI enthusiast",
+					"photo": "https://media.licdn.com/dms/image/C4D03AQE3RNIWF3CRyg/profile-displayphoto-shrink_400_400/0/1662976952085?e=1695859200&v=beta&t=tdbS4gdWBjrmQep-L7Y-5v-uRMbf_fdIP2TP1sjA4Zw",
 					"social": [
 						{
 							"twitter": "https://twitter.com/yuvrajsp01",
@@ -562,7 +562,7 @@
 				"speaker": {
 					"name": "Mohith Bansal",
 					"info": "Celery is a distributed system that allows application to process tasks asyncrhronously and allows task scheduling as well. Along with AMQP brokers and result store, celery allows the task to be processed in real-time.But if your message queues have variable amount of load and needs a scaling solution to help you scale the celery workers based on the load instead of keeping bigger instance running and save cost as well, this talk can be insightful to you.",
-					"photo": "https://twitter.com/miphilomath/photo",
+					"photo": "https://media.licdn.com/dms/image/D4D35AQHTimssAOWMCA/profile-framedphoto-shrink_400_400/0/1690440022134?e=1691204400&v=beta&t=O52zZiF9AVn4adNmXVvE6xFmiALAPNI3_qH6926yru0",
 					"social": [
 						{
 							"twitter": "https://twitter.com/miphilomath",
@@ -622,7 +622,7 @@
 				"speaker": {
 					"name": "Prashant Chaturvedi",
 					"info": "Software Developer at 1MG with 3 years of experience, Prashant is currently working on the common order taking system. He has previously excelled in the diagnostics team, where he managed and enhanced diagnostic systems. Additionally, he contributed significantly to the health records team, successfully implementing real-time digitization of records.",
-					"photo": "https://drive.google.com/file/d/1E8xQCU0kpp1U6H4wf7gqSA4t4O_5NNJq/view?usp=sharing",
+					"photo": "https://drive.google.com/file/d/1E8xQCU0kpp1U6H4wf7gqSA4t4O_5NNJq/preview",
 					"social": [
 						{
 							"twitter": "",
