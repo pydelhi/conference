@@ -9954,6 +9954,12 @@ h4 {
   margin-bottom: 40px;
 }
 
+.sponsor-title {
+  font-size:6rem;
+  font-weight:300;
+  line-height:1.2;
+}
+
 .section-bg {
   background: url('../img/section-bg.png') no-repeat center top #fafafa;
 }
@@ -11526,7 +11532,7 @@ h4 {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  background: #ffffff;
+  background: transparent;
   line-height: 100px;
   text-align: center;
   margin-right: 10px;
@@ -11534,7 +11540,7 @@ h4 {
   display: inline-block;
 }
 
-@media (min-width: 740px) {
+@media (min-width: 992px) {
   .sponsor-item.platinum {
     height: 160px;
     width: 416px;
@@ -11542,7 +11548,7 @@ h4 {
   }
 }
 
-@media (min-width: 740px) {
+@media (min-width: 992px) {
   .sponsor-item.gold {
     height: 100px;
     width: 100px;
@@ -12572,8 +12578,9 @@ a {
 
 .sponsor-img {
 
-  height: 100%;
-  padding: 0.5em;
+  max-width: 100%;
+  /* width: 100%; */
+  /* padding: 0.5em; */
 }
 
 .supporters-img {
@@ -12933,10 +12940,22 @@ section#schedule_table {
     grid-template-columns: 1fr 1fr;
   }
 
-  .sponsor-item.platinum.sponsor-img-platinum {
-    max-width: 800px;
-    height: calc(160px * 1.5);
-    width: calc(416px *1.5);
+  .sponsor-img-coredge {
+    max-height: 125px;
+    
+  }
+
+  .sponsor-img-aws{
+    max-height: 125px;
+  }
+
+  .sponsor-img-gold{
+    max-height: 100px;
+    /* width: 500px; */
+  }
+
+  .sponsor-img-silver{
+    max-height: 100px;
   }
 
   #section-sponsors{
@@ -13052,15 +13071,26 @@ section#schedule_table {
     text-align: center;
   }
 
-  .sponsor-item.platinum.sponsor-img-platinum {
-    max-width: 350px;
-    height: calc(100px * 1.4);
+  .sponsor-img-coredge {
+    /* max-width: 350px; */
+    max-height: 100px;
   }
 
-  .sponsor-item.platinum.sponsor-img-gold {
-    max-width: 350px;
-    height: calc(100px * 1.2);
+  .sponsor-img-aws {
+    /* max-width: 350px; */
+    max-height: 100px;
   }
+
+  .sponsor-img-gold {
+    /* max-width: 350px; */
+    max-height: 75px
+  }
+
+  .sponsor-img-silver {
+    /* max-width: 350px; */
+    max-height: 75px
+  }
+
   #section-schedule .time {
     text-align: center;
     width: 30%;

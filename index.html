@@ -32,13 +32,10 @@
   <meta property="og:url" content="https://conference.pydelhi.org/" />
   <meta property="og:site_name" content="PyDelhi Conference" />
 
-  <!-- Favicon and Touch Icons
-========================================================= -->
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <!-- /Favicon
-========================================================= -->
+  
+
   <!-- Bootstrap styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!--<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
   <!-- /Bootstrap Styles -->
   <!-- Google Web Fonts -->
@@ -59,7 +56,14 @@
   <!--<link href="css/styles.css" rel="stylesheet">-->
   <!-- /Main Styles -->
   <!-- Main stylesheet containing everything -->
+
   <link href="css/main.css" rel="stylesheet">
+
+  <!-- Favicon and Touch Icons
+========================================================= -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<!-- /Favicon -->
 </head>
 
 <body>
@@ -310,10 +314,8 @@
         ================================================== -->
     <div class="section-sponsors inverted-section2 section-padding " id="section-sponsors">
       <div class="container">
-        <!-- Section title -->
-        <div class="section-title-wrapper">
-          <h2 class="title-section">Proudly sponsored by</h2>
-          <p>As a Sponsor for the conference one can avail and enable, you get 
+        <h2 class="title-section flex text-center">Proudly sponsored by</h2>
+          <p class="flex">As a Sponsor for the conference one can avail and enable, you get 
             a platform to showcase your product or service to a wide range of
             technology enthusiasts. You also get a chance to network and
             interact with all sorts of prospective leads that rarely gather under one 
@@ -322,43 +324,56 @@
               <strong class="highlight-link"> Sponsorship Prospectus </strong>
             </a>
           </p>
-       
-       
-       
-       
-          <div class="sponsors-list" id="sponsors-carousel" style="text-align: center">
-            <!-- Platinum Sponsors -->
-              <div>
-                  <h1>Platinum</h1>
-                  <div class="sponsor-item platinum sponsor-img-platinum">
-                    <a href="https://coredge.io/"><img src="img/coredge-logo.png" alt="Sponsorship prospectus below." class="sponsor-img"></a>
+      </div>
+          
+      <div class="block w-100 section-title-wrapper">
+        <!-- Section title -->
+          
+          <div class="sponsors-list justify-content-center align-items-center" id="sponsors-carousel" style="text-align: center">
+            <div class="col">
+                <!-- Platinum Sponsors -->
+              <h1 class="row gy-10 my-3 sponsor-title justify-content-center">Platinum</h1>
+              <div class="d-none d-lg-block">
+                <div class="row justify-content-between align-content-around w-100">
+                  <div class="sponsor-item platinum sponsor-img col-lg-6 justify-content-center align-items-center mb-10 text-center">
+                    <a href="https://coredge.io/" class="text-center"><img src="img/coredge-logo.png" alt="Sponsorship prospectus below." class="sponsor-img-coredge text-center"></a>
                   </div>
-                  <div class="sponsor-item platinum sponsor-img-platinum">
-                    <a href="https://aws.amazon.com/"><img src="img/AWS-Logo.jpg" alt="Sponsorship prospectus below." class="sponsor-img" /></a>
+                  <div class="sponsor-item platinum sponsor-img-platinum col-lg-6 justify-content-center align-items-center w-100">
+                    <a href="https://aws.amazon.com/" class="w-100"><img src="img/AWS-Logo.png" alt="Sponsorship prospectus below." class="sponsor-img-aws text-center"/></a>
                   </div>
+                </div>
+                  
               </div>
+              <div class="d-block d-lg-none row mb-5 justify-content-between align-content-around w-100">
+                <div class="sponsor-item platinum sponsor-img mb-3 row justify-content-center align-items-center mb-10 text-center">
+                  <a href="https://coredge.io/" class="text-center"><img src="img/coredge-logo.png" alt="Sponsorship prospectus below." class="sponsor-img-coredge text-center"></a>
+                </div>
+                <div class="sponsor-item platinum sponsor-img-platinum mb-3 row justify-content-center align-items-center w-100">
+                  <a href="https://aws.amazon.com/" class="w-100"><img src="img/AWS-Logo.png" alt="Sponsorship prospectus below." class="sponsor-img-aws text-center"/></a>
+                </div>
+            </div>
+
             <!-- Gold Sponsors -->
             <!-- Uncomment to add a new section -->
-              <div>
-                <h1>Gold</h1>
-                <div class="sponsor-item platinum sponsor-img-gold">
-                  <a href="#"><img src="img/your-logo-here.png" alt="Sponsorship prospectus below." class="sponsor-img"></a>
+              <h2 class="row gy-10 my-3 sponsor-title justify-content-center">Gold</h2>
+              <div class="row gy-10 justify-content-center">
+                <div class="sponsor-item platinum sponsor-img">
+                  <a href="#"><img src="img/your-logo-here.png" alt="Sponsorship prospectus below." class="sponsor-img-gold"></a>
                 </div>
               </div>
             <!-- Silver Sponsors -->
-              <div>
-                <h1>Silver</h1>
-                <div class="sponsor-item platinum">
+              <h3 class="row gy-10 my-3 sponsor-title justify-content-center">Silver</h3>
+              <div class="row gy-10 justify-content-center align-items-center">
+                <div class="sponsor-item platinum sponsor-img mx-auto">
                   <a href="https://www.getcerta.com/"><img src="img/certa-logo.png" alt="Sponsorship prospectus below"
-                      class="sponsor-img">
+                      class="sponsor-img-silver ">
                   </a>
                 </div>
-            </div>  
-              
+            </div> 
+            </div> 
             <!-- item -->
             
           </div>
-        </div>
       </div>
     </div>
     <!-- /SECTION: Sponsors
@@ -776,7 +791,7 @@
  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script>
     // Display faq items
     function generateFaqHtml(faqs){
