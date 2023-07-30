@@ -13119,6 +13119,10 @@ section#schedule_table {
   font-size: 28px;
 }
 
+.designation-wrapper {
+  font-size: 18px;
+}
+
 .designation {
   margin: 0;
 }
@@ -13182,4 +13186,8 @@ main#tos-container {
 
 #section-schedule td.first_col{
   text-align: center;
+}
+
+table:is(.schedule-table-1, .schedule-table-2) td {
+  font-size: 18px;
 }
