@@ -13185,3 +13185,17 @@ main#tos-container {
 table:is(.schedule-table-1, .schedule-table-2) td {
   font-size: 18px;
 }
+
+div[id^='section-'] {
+  scroll-margin-top: 0.6em;
+}
+
+/* Adjusting for sticky header when browser scrolls to a section */
+div[id^='section-']::before {
+  display: block; 
+  content: " "; 
+  margin-top: -100px; 
+  height: 125px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
