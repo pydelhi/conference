@@ -5269,7 +5269,6 @@ function eventDescription(tracks) {
                 // If speaker has any socials
                 socials = tracks[String(talk_id)]["speaker"]["social"][0] ?? []
                 for (const [platform, url] of Object.entries(socials)) {
-                    console.log(`${platform}: ${url}`);
                     if (url.toString().trim() == "") continue;
                     let iconHtml = `<a href="${url}" class="speaker-social-icon social-icon"><i class="fa fa-${platform == "website" ? 'globe' : platform}" aria-hidden="true"></i></a>`.trim();
                     icons.push(iconHtml);
