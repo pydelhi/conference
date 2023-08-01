@@ -12951,6 +12951,27 @@ section#schedule_table {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
+  #talk_desc {
+    text-align: left;
+    padding: 0 20px;
+  }
+
+  #speaker_info {
+    margin: 0 !important;
+    padding: 0 20px;
+  }
+
+  #talk_description #talk_speaker_info {
+    margin-left: 180px;
+  }
+
+  #talk_description #talk_title {
+    margin-top: -10px;
+    width: 80%;
+    margin: -10px auto;
+  }
+
 }
 
 #section-schedule .time {
@@ -13086,6 +13107,10 @@ section#schedule_table {
     background: url('../img/bgmask2.png') #04cd8f;
     background-size: 600%;
   }
+
+  #talk_speaker #talk_speaker_image {
+    margin-left: 50%;
+  }
 }
 
 #keynote-wrapper {
@@ -13205,4 +13230,21 @@ div[id^='section-']::before {
   height: 125px; 
   visibility: hidden; 
   pointer-events: none;
+}
+
+#speaker-socials {
+  margin: 8px 0;
+}
+
+.speaker-social-icon {
+  font-size: 28px;
+  margin-right: 12px;
+}
+
+#talk_description #talk_title {
+  font-weight: bold;
+}
+
+#talk_speaker_image {
+  border-radius: 20px;
 }
