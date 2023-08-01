@@ -597,17 +597,17 @@
 			},
 			"32": {
 				"type": "talk",
-				"title": "Level up your Python Wizadary with LLM's : Unleashing the true power of ChatGPT",
-				"description": "Elevate your skills as we take a crash course on prompt engineering, tools, and hands-on techniques for you to practically build, debug and write Python faster and more accurately.After this talk, I aim to transform ChatGPT from a rubber ducky to your ultimate coding ally.",
+				"title": "To be Updated",
+				"description": "TBD",
 				"speaker": {
-					"name": "Vipul Gupta",
-					"info": "Leverage ChatGPT for code exploration accurately: Learn how to use ChatGPT as a virtual coding companion to explore Python concepts, libraries, and best practices. I intend to share insights into where it lies, fails, or just hallucinate to find the answer. Example: Asking for suggestions on how to improve a code snippet and then asking to execute those suggestions will lead to much better results + improve your understanding as well.",
-					"photo": "https://avatars.githubusercontent.com/u/22801822?v=4",
+					"name": "To Be Updated",
+					"info": "to be updated",
+					"photo": "",
 					"social": [
 						{
 							"twitter": "",
-							"github": "https://github.com/vipulgupta2048/",
-							"website": "https://mixster.dev/",
+							"github": "",
+							"website": "",
 							"facebook": "",
 							"linkedin": "",
 							"proposal": ""
