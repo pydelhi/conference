@@ -7,7 +7,7 @@
 				"type": "default",
 				"speaker": {
 					"name": "",
-					"info": " The team of PyDelhi would help you to get registered for the event.\n Please lineup on the registeration counter at the entrance of the venue.",
+					"info": " The team of PyDelhi would help you to get registered for the event.\n Please lineup on the registration counter at the entrance of the venue.",
 					"photo": "https://cdn2.iconfinder.com/data/icons/healer-flat-vol-1/201/registration-reservation-admission-cashier-512.png"
 				}
 			},
@@ -52,7 +52,7 @@
 				"type": "talk",
 				"speaker": {
 					"name": "Vipul Gupta",
-					"info": "Vipul Gupta is a software developer specializing in IoT applications, open-source docs, and sustaining communities.Occasionally reads, meticulously documents, and continuously automates, Vipul has been part of various programs like Google Summer of Code, & Google Code-in as a mentor.",
+					"info": "Vipul Gupta is a software developer specializing in IoT applications, open-source docs, and sustaining communities. Occasionally reads, meticulously documents, and continuously automates, Vipul has been part of various programs like Google Summer of Code, & Google Code-in as a mentor.",
 					"photo": "https://avatars.githubusercontent.com/u/22801822?v=4",
 					"social": [
 						{
@@ -83,7 +83,7 @@
 			},
 			"06": {
 				"title": "Python dictionaries under the hood",
-				"description": "While interviewing a lot of engineerings for my team in the past two years, I discovered how incorrectly people perceive the implementation of hashmaps / dictionaries in Python.In this talk, we go through the core implementation of a python dictionary and debunk such misconceptions.",
+				"description": "While interviewing a lot of engineers for my team in the past two years, I discovered how incorrectly people perceive the implementation of hashmaps / dictionaries in Python.In this talk, we go through the core implementation of a python dictionary and debunk such misconceptions.",
 				"type": "talk",
 				"speaker": {
 					"name": "Peeyush Aggarwal",
@@ -121,7 +121,7 @@
 				"description": "Are you tired of lengthy testing pipelines? Whether it's waiting for tests to complete, dealing with flaky test cases, or re-running tests due to merges, it can be frustrating. If you can relate, then this is the talk for you.",
 				"speaker": {
 					"name": "Martin Siby",
-					"info": " Martin Siby  works As a Senior Backend Engineer at Certa, I have the privilege of working on solving third-party ingestion challenges for enterprises like Walmart. My focus lies in serverless technology and cloud integration using Python.Beyond my professional endeavours, I find joy in optimizing infrastructure and pipelines as a hobby. It’s a fascinating adventure that keeps me on my toes, constantly seeking ways to improve and streamline systems.",
+					"info": " Martin Siby  works As a Senior Backend Engineer at Certa, I have the privilege of working on solving third-party ingestion challenges for enterprises like Walmart. My focus lies in serverless technology and cloud integration using Python.Beyond my professional endeavours, I find joy in optimizing infrastructure and pipelines as a hobby. It's a fascinating adventure that keeps me on my toes, constantly seeking ways to improve and streamline systems.",
 					"photo": "https://media.licdn.com/dms/image/D5603AQFnsCxZoWghlw/profile-displayphoto-shrink_400_400/0/1667543336542?e=1695859200&v=beta&t=Bx4w0D6N3h1NLssSYGydxxqhJrEM8bwS0fCJpvnAKsw",
 					"social": [
 						{
@@ -201,7 +201,7 @@
 				"description": "Discover the art of efficient data processing with AWS Step Functions! Let's dive into a world of streamlined workflows, scalable solutions, and seamless automation as we unravel the secrets to transforming your data processing pipelines into a well-oiled (state) machine.",
 				"speaker": {
 					"name": "PS Solanki",
-					"info": "My name is Pankaj Singh Solanki. I am a Senior Backend Engineer at certa. I work on enhancements to the integration abilities of Certa products and work closely with engineering, product and external teams.I am an avid computer science enthusiast and I love to stay on top of the most recent tech trends. I am very active in open source communities (github/pssolanki111). I also maintain and participate in many communities across discord, gitter and slack.",
+					"info": "My name is Pankaj Singh Solanki. I am a Senior Backend Engineer at Certa. I work on enhancements to the integration abilities of Certa products and work closely with engineering, product and external teams.I am an avid computer science enthusiast and I love to stay on top of the most recent tech trends. I am very active in open source communities (github/pssolanki111). I also maintain and participate in many communities across discord, gitter and slack.",
 					"photo": "https://media.licdn.com/dms/image/D4D03AQFs0kqXc7J3Yg/profile-displayphoto-shrink_400_400/0/1683993648309?e=1695859200&v=beta&t=khswT31Pb3FmTMfIdovnVNs5_mSc0ZZaAoOCIMWDWuE",
 					"social": [
 						{
@@ -338,7 +338,7 @@
 			"19": {
 				"type": "Workshop",
 				"title": "Scaling ML Models on SageMaker",
-				"description": "Scaling ML Models using SageMaker , this is a Hands on Workshop with experts from AWS",
+				"description": "Scaling ML Models using SageMaker, this is a Hands on Workshop with experts from AWS",
 				"speaker": {
 					"name": "Sachin Punyani",
 					"info": "Principal BD (AI/ML, Analytics, IoT, HPC) & Quantum Computing Evangelist - India and South Asia at Amazon Web Services (AWS)",
@@ -418,10 +418,10 @@
 			"23": {
 				"type": "Talk",
 				"title": "What are JIT Compilers",
-				"description": "We all know Python is an interpreted programming language - but is it really? does it have to be ?Let’s clarify the misconceptions of what Python really is … and go into concepts of compilers and interpreters to understand what kind of a beast python really is !",
+				"description": "We all know Python is an interpreted programming language - but is it really? does it have to be? Let's clarify the misconceptions of what Python really is … and go into concepts of compilers and interpreters to understand what kind of a beast python really is !",
 				"speaker": {
 					"name": "Abdeali Kothari",
-					"info": "In this talk, we will first clarify the common misconception of what a language is. And what the Python language is.And go into various alternatives of the standard CPython that are available, and the key reason they exist (i.e. why not use CPython?)Then we will go into some of the choices CPython has made - specifically about being interpreted vs compiled.",
+					"info": "In this talk, we will first clarify the common misconception of what a language is. And what the Python language is.And go into various alternatives of the standard CPython that are available, and the key reason they exist (i.e. why not use CPython?) Then we will go into some of the choices CPython has made - specifically about being interpreted vs compiled.",
 					"photo": "https://media.licdn.com/dms/image/C4E03AQHsneIL1V3Rjg/profile-displayphoto-shrink_400_400/0/1516498423530?e=1695859200&v=beta&t=2Bgvlso4SpvNiPHpIAlo7Wqb1u5blFkWzNG7KJibCy0",
 					"social": [
 						{
@@ -438,7 +438,7 @@
 			"24": {
 				"type": "Talk",
 				"title": "Writing a Python interpreter from scratch",
-				"description": "Python's interpreter does a lot of things for you: checks the syntax is valid and properly indented, imports modules, and runs your code step by step.But if you’ve ever wondered how exactly it happens, this talk will teach you the whole process, by making a working python interpreter from scratch.",
+				"description": "Python's interpreter does a lot of things for you: checks the syntax is valid and properly indented, imports modules, and runs your code step by step.But if you've ever wondered how exactly it happens, this talk will teach you the whole process, by making a working python interpreter from scratch.",
 				"speaker": {
 					"name": "Tushar Sadhwani",
 					"info": "The plan is to write a really simple, but working interpreter that can run Python code, with zero dependencies.",
@@ -478,7 +478,7 @@
 			"26": {
 				"type": "Talk",
 				"title": "Rust for Python Developers",
-				"description": "Decode the hype around Rust — a language that offers modern solutions for concurrency, memory safety and expressiveness while retaining Python’s readability and C-like performance. Join us to learn about Rust and take away ideas to overcome common woes in the Python world!",
+				"description": "Decode the hype around Rust — a language that offers modern solutions for concurrency, memory safety and expressiveness while retaining Python's readability and C-like performance. Join us to learn about Rust and take away ideas to overcome common woes in the Python world!",
 				"speaker": {
 					"name": "Tushar Malik",
 					"info": "Are you a Python developer looking to expand your horizons and explore new possibilities? Have you ever wondered about the hype surrounding Rust? Join me for a talk on “Rust for Python Developers,” where we'll decode this hype and explore why Python developers should be interested.",
@@ -497,7 +497,7 @@
 			},
 			"27": {
 				"type": "Talk",
-				"title": "From Logs to Live Data: Buildign a Multi-Client Log Streaming Service with Python",
+				"title": "From Logs to Live Data: Building a Multi-Client Log Streaming Service with Python",
 				"description": "This talk will showcase how to build a real-time, multi-client log streaming service using Python and Server-Sent Events. Attendees will learn how to create a solution that delivers live log data to multiple clients simultaneously as well as understand the tradeoffs of choosing different technologies.",
 				"speaker": {
 					"name": "Yuvraj Singh Pathania",
@@ -561,7 +561,7 @@
 				"description": "If you use celery and struggle with scaling your aws infrastructure for your application queue on AWS, this talk will share the solution that works and scales the application based on the queue.",
 				"speaker": {
 					"name": "Mohith Bansal",
-					"info": "Celery is a distributed system that allows application to process tasks asyncrhronously and allows task scheduling as well. Along with AMQP brokers and result store, celery allows the task to be processed in real-time.But if your message queues have variable amount of load and needs a scaling solution to help you scale the celery workers based on the load instead of keeping bigger instance running and save cost as well, this talk can be insightful to you.",
+					"info": "Celery is a distributed system that allows application to process tasks asynchronously and allows task scheduling as well. Along with AMQP brokers and result store, celery allows the task to be processed in real-time.But if your message queues have variable amount of load and needs a scaling solution to help you scale the celery workers based on the load instead of keeping bigger instance running and save cost as well, this talk can be insightful to you.",
 					"photo": "https://media.licdn.com/dms/image/D4D35AQHTimssAOWMCA/profile-framedphoto-shrink_400_400/0/1690440022134?e=1691204400&v=beta&t=O52zZiF9AVn4adNmXVvE6xFmiALAPNI3_qH6926yru0",
 					"social": [
 						{
