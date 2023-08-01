@@ -5280,8 +5280,8 @@ function eventDescription(tracks) {
             if(talk_speaker_name){
                 $('#talk_name')[0].innerHTML = talk_speaker_name;
                 $('#talk_info')[0].innerHTML = talk_speaker_info;
-                $('#talk_speaker_image')[0].src = talk_speaker_image || "/img/default-speaker-image.png";
-                $('#speaker-socials')[0].innerHTML = icons.join("");
+                $('#talk_speaker_image').attr('src', talk_speaker_image.trim() || '/img/default-speaker-image.png')
+                $('#speaker-socials').html(icons.join(''))
             }
             $('#speaker_info').show();
             $('#talk_speaker_image').show(function(){
