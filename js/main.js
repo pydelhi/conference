@@ -5260,17 +5260,29 @@ function eventDescription(tracks) {
             var talk_id = this.id.substring(6,this.id.length);
             var talk_title = tracks[String(talk_id)]["title"];
             var talk_description = tracks[String(talk_id)]["description"];
+            let socials, icons = [];
             if(tracks[String(talk_id)]["speaker"]){
                 var talk_speaker_name = tracks[String(talk_id)]["speaker"]["name"];
                 var talk_speaker_info = tracks[String(talk_id)]["speaker"]["info"];
                 var talk_speaker_image = tracks[String(talk_id)]["speaker"]["photo"];
+
+                // If speaker has any socials
+                socials = tracks[String(talk_id)]["speaker"]["social"][0] ?? []
+                for (const [platform, url] of Object.entries(socials)) {
+                    console.log(`${platform}: ${url}`);
+                    if (url.toString().trim() == "") continue;
+                    let iconHtml = `<a href="${url}" class="speaker-social-icon social-icon"><i class="fa fa-${platform == "website" ? 'globe' : platform}" aria-hidden="true"></i></a>`.trim();
+                    icons.push(iconHtml);
+                  }
             }
+
             $('#talk_title')[0].innerHTML = talk_title;
             $('#talk_desc')[0].innerHTML = talk_description;
             if(talk_speaker_name){
                 $('#talk_name')[0].innerHTML = talk_speaker_name;
                 $('#talk_info')[0].innerHTML = talk_speaker_info;
-                $('#talk_speaker_image')[0].src = talk_speaker_image;
+                $('#talk_speaker_image')[0].src = talk_speaker_image || "/img/default-speaker-image.png";
+                $('#speaker-socials')[0].innerHTML = icons.join("");
             }
             $('#speaker_info').show();
             $('#talk_speaker_image').show(function(){
@@ -5287,8 +5299,8 @@ $('#cross').click(function(){
         $('#talk_name')[0].innerHTML = '';
         $('#talk_info')[0].innerHTML = '';
         $('#talk_speaker_image')[0].src = '';
-        $('#speaker_info').hide();
         $('#talk_speaker_image').hide();
+        $('#speaker_info').hide();
     });
 });
 
