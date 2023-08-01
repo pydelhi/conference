@@ -12939,6 +12939,12 @@ section#schedule_table {
     width: calc(416px *1.5);
   }
 
+  .sponsor-item.platinum.sponsor-img-gold {
+    max-width: 800px;
+    height: calc(160px * 1.25);
+    width: calc(416px *1.25);
+  }
+
   #section-sponsors{
     background: url('../img/bgmask2.png') #04cd8f;
     background-size: 200%;
@@ -13059,8 +13065,9 @@ section#schedule_table {
 
   .sponsor-item.platinum.sponsor-img-gold {
     max-width: 350px;
-    height: calc(100px * 1.2);
+    height: calc(100px * 1.45);
   }
+
   #section-schedule .time {
     text-align: center;
     width: 30%;
