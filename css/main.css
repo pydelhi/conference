@@ -11526,7 +11526,7 @@ h4 {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  background: #ffffff;
+  background: transparent;
   line-height: 100px;
   text-align: center;
   margin-right: 10px;
@@ -12938,11 +12938,15 @@ section#schedule_table {
     height: calc(160px * 1.5);
     width: calc(416px *1.5);
   }
+  
+  .coredge {
+    max-height: 150px;
+  }
 
   .sponsor-item.platinum.sponsor-img-gold {
     max-width: 800px;
-    height: calc(160px * 1.25);
-    width: calc(416px *1.25);
+    height: calc(160px * 1.35);
+    width: calc(416px *1.35);
   }
 
   #section-sponsors{
@@ -13079,14 +13083,22 @@ section#schedule_table {
     text-align: center;
   }
 
-  .sponsor-item.platinum.sponsor-img-platinum {
-    max-width: 350px;
-    height: calc(100px * 1.4);
+  @media (min-width: 480px) {
+    .sponsor-item.platinum.sponsor-img-platinum {
+      /* max-width: 350px;
+      height: calc(100px * 1.4); */
+      margin-left: 0px;
+      margin-right: 50px;
+    }
+  }
+
+  .coredge {
+    max-height: 90px;
   }
 
   .sponsor-item.platinum.sponsor-img-gold {
     max-width: 350px;
-    height: calc(100px * 1.45);
+    height: calc(100px * 1.25);
   }
 
   #section-schedule .time {
