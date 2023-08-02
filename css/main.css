@@ -13085,11 +13085,20 @@ section#schedule_table {
 
   @media (min-width: 480px) {
     .sponsor-item.platinum.sponsor-img-platinum {
-      /* max-width: 350px;
-      height: calc(100px * 1.4); */
-      margin-left: 0px;
+      max-width: 350px;
+      height: calc(100px * 1.4);
+      margin-left: 0;
       margin-right: 50px;
+      padding: 10px;
     }
+  }
+
+  .sponsor-item.platinum.sponsor-img-platinum {
+    max-width: 350px;
+    height: calc(100px * 1.4);
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px;
   }
 
   .coredge {
@@ -13098,7 +13107,7 @@ section#schedule_table {
 
   .sponsor-item.platinum.sponsor-img-gold {
     max-width: 350px;
-    height: calc(100px * 1.25);
+    height: calc(100px * 1.2);
   }
 
   #section-schedule .time {
