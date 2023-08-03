@@ -597,19 +597,19 @@
 			},
 			"32": {
 				"type": "talk",
-				"title": "To be Updated",
-				"description": "TBD",
+				"title": "Diving into Python as an Entrepreneur",
+				"description": "",
 				"speaker": {
-					"name": "To Be Updated",
-					"info": "to be updated",
-					"photo": "",
+					"name": "Zorawar Purohit",
+					"info": "A python programmer and entrepreneur. With a very diverse base of experiences and true stories to share.",
+					"photo": "https://pbs.twimg.com/profile_images/1550242380452077568/2M8oFp2l_400x400.jpg",
 					"social": [
 						{
-							"twitter": "",
-							"github": "",
-							"website": "",
+							"twitter": "http://twitter.com/zorawarpurohit",
+							"github": "https://github.com/engagepy",
+							"website": "https://zorawarpurohit.com/",
 							"facebook": "",
-							"linkedin": "",
+							"linkedin": "https://www.linkedin.com/in/zorawar-purohit-08b73733/",
 							"proposal": ""
 						}
 					]
