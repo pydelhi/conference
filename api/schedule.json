@@ -28,7 +28,7 @@
         },
         {
           "talk_id": "03",
-          "title": "High Tea",
+          "title": "Networking Session",
           "start_time": "10:00",
           "end_time": "10:30",
           "track": "all"
@@ -140,7 +140,7 @@
         },
         {
           "talk_id": "16",
-          "title": "High Tea",
+          "title": "Networking Session",
           "start_time": "05:10",
           "end_time": "06:00",
           "track": "all"
@@ -163,7 +163,7 @@
         },
         {
           "talk_id": "22",
-          "title": " High Tea",
+          "title": " Networking Session",
           "start_time": "10:00",
           "end_time": "10:30",
           "track": "all"
