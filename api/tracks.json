@@ -37,7 +37,7 @@
 				}
 			},
 			"03": {
-				"title": "High Tea",
+				"title": "Networking Session",
 				"description": "Food & Beverages",
 				"type": "default",
 				"speaker": {
@@ -277,7 +277,7 @@
 			},
 			"16": {
 				"type": "default",
-				"title": "High Tea",
+				"title": "Networking Session",
 				"description": "Team Time",
 				"speaker": {
 					"name": "",
@@ -397,7 +397,7 @@
 			},
 			"22": {
 				"type": "default",
-				"title": "High Tea",
+				"title": "Networking Session",
 				"description": "",
 				"speaker": {
 					"name": "",
