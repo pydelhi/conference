@@ -2,7 +2,7 @@
 	"0.0.1": [
 		{
 			"00": {
-				"title": "Registration",
+				"title": "Registration and Breakfast",
 				"description": "Register yourselves and get your goodie bag. Have a great day!",
 				"type": "default",
 				"speaker": {
@@ -357,7 +357,7 @@
 			},
 			"20": {
 				"type": "default",
-				"title": "Registration",
+				"title": "Registration and Breakfast",
 				"description": "Registration",
 				"speaker": {
 					"name": "",
