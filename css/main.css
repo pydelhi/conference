@@ -13057,11 +13057,13 @@ section#schedule_table {
     background-position: 100% 100%;
     background-size: 100%;
     background-repeat: no-repeat;
+    padding-bottom: 5rem;
   }
   
 @media screen and (max-width: 768px) {
   .owl-carousel .owl-item{
     background-image: none;
+    padding-bottom: 5em;
   }
   .intro-content-slide2{
     margin-top: 0;
