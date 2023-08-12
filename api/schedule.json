@@ -98,10 +98,10 @@
         },
         {
           "talk_id": "11",
-          "title": "Keynote",
+          "title": "Keynote: Python as a Gateway Language to Open Source",
           "start_time": "02:30",
           "end_time": "03:10",
-          "track": "all"
+          "track": "1"
         },
         {
           "talk_id": "19",
@@ -156,10 +156,10 @@
         },
         {
           "talk_id": "21",
-          "title": "Keynote",
+          "title": "Keynote: Python: A Catalyst for Builders",
           "start_time": "09:00",
           "end_time": "09:40",
-          "track": "all"
+          "track": "1"
         },
         {
           "talk_id": "22",
