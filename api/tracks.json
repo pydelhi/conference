@@ -176,20 +176,20 @@
 				}
 			},
 			"11": {
-				"type": "Talk",
-				"title": "Keynote",
-				"description": "TBD",
+				"type": "talk",
+				"title": "Keynote: Python as a Gateway Language to Open Source",
+				"description": "Python has emerged as an excellent gateway language to open-source development for several reasons. Its simplicity, versatility, and large community make it an attractive choice for beginners looking to contribute to open-source projects. In this session, we will discuss and explore on what makes python a good candidate as a gateway language to open-source.",
 				"speaker": {
-					"name": "Coredge",
-					"info": "",
-					"photo": "",
+					"name": "Manik Sidana",
+					"info": "A dynamic individual with 15+ years of experience. Throughout his career, Manik has successfully built products from scratch and led multiple teams. Apart from his professional work, he has a strong inclination towards open-source projects and has made significant contributions to projects like OpenStack, Perfkit, CNCF, and others. Moreover, Manik is a key member of the Akraino Technical Steering Committee and serves as the technical lead for the Akraino project Kontour, which focuses on defining Edge KPIs. He possesses expertise in cloud benchmarking, and his passion for coding and reading continues to drive his professional growth.",
+					"photo": "https://media.licdn.com/dms/image/C4D03AQEjs034ZprCsw/profile-displayphoto-shrink_800_800/0/1516556715045?e=1697068800&v=beta&t=DF8hMJSSITRIWqPH0qBKaXJGC9ja3bqcLAurotQcIeQ",
 					"social": [
 						{
-							"twitter": "",
+							"twitter": "https://twitter.com/manik019",
 							"github": "",
 							"website": "",
 							"facebook": "",
-							"linkedin": "",
+							"linkedin": "https://www.linkedin.com/in/maniksidana/",
 							"proposal": ""
 						}
 					]
@@ -376,20 +376,20 @@
 				}
 			},
 			"21": {
-				"type": "keynote",
-				"title": "Keynote",
-				"description": "TBD",
+				"type": "talk",
+				"title": "Keynote: Python: A Catalyst for Builders",
+				"description": "Explore how Python, with its rich ecosystem and versatility, empowers builders across diverse domains. From rapid prototyping to large-scale cloud deployments, delve into Python's transformative role, making development efficient and accessible. From SDLC to MLOps to Generative AI solutions, learn why Python stands as the preferred tool for modern-day innovators aiming for scalable, efficient solutions",
 				"speaker": {
-					"name": "AWS",
-					"info": "",
-					"photo": "",
+					"name": "Sachin Punyani",
+					"info": "Sachin Punyani leads the Business Development of AI/ML, Analytics and IoT for India and South Asia with AWS and is helping AWS customers in modernizing their applications by integrating AI/ML and IoT capabilities in their business solutions. He has helped multiple Govt. and Industry organizations blend their domain expertise with new technology to build solutions that have citizen impact. He is certified in Big Data, Analytics and Machine Learning Specialties and holds multiple master degrees in various branches of IT and carries more than 16 years of experience in architecting and implementing scalable enterprise architectures.",
+					"photo": "https://media.licdn.com/dms/image/C4D03AQH-PGvka-OhoQ/profile-displayphoto-shrink_800_800/0/1598376311693?e=1697068800&v=beta&t=2e7pKr3tAF13-HsoyW7O-aftiiqMpdLICi0DrLYPtMY",
 					"social": [
 						{
 							"twitter": "",
 							"github": "",
 							"website": "",
 							"facebook": "",
-							"linkedin": "",
+							"linkedin": "https://www.linkedin.com/in/sachin-punyani/",
 							"proposal": ""
 						}
 					]
