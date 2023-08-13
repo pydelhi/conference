@@ -202,7 +202,7 @@
 				"speaker": {
 					"name": "PS Solanki",
 					"info": "My name is Pankaj Singh Solanki. I am a Senior Backend Engineer at Certa. I work on enhancements to the integration abilities of Certa products and work closely with engineering, product and external teams.I am an avid computer science enthusiast and I love to stay on top of the most recent tech trends. I am very active in open source communities (github/pssolanki111). I also maintain and participate in many communities across discord, gitter and slack.",
-					"photo": "https://media.licdn.com/dms/image/D4D03AQFs0kqXc7J3Yg/profile-displayphoto-shrink_400_400/0/1683993648309?e=1695859200&v=beta&t=khswT31Pb3FmTMfIdovnVNs5_mSc0ZZaAoOCIMWDWuE",
+					"photo": "https://media.licdn.com/dms/image/D4D03AQH-uCRhx8SuNQ/profile-displayphoto-shrink_800_800/0/1691381696662?e=1697673600&v=beta&t=W6PglMvdh8Fv0saPtxnz72cmJpYrWC6c8vqe-PWWfak",
 					"social": [
 						{
 							"twitter": "http://twitter.com/_pssolanki",
@@ -262,7 +262,7 @@
 				"speaker": {
 					"name": "Tushar Goel",
 					"info": "python-inspector is a tool to resolve Python dependencies without actually building or installing anything and does not depend on the runtime operating system and Python version to resolve a dependencies graph. This grew out of a need to resolve dependencies on demand and anywhere. In contrast, pip does not support resolving dependencies without installing or building them. These installations and the underlying dependency resolutions are only for the current Python version and runtime used to run pip that may not be the target version and OS we want to resolve dependencies for.",
-					"photo": "",
+					"photo": "https://media.licdn.com/dms/image/C4E03AQFtDZd3FQWkkA/profile-displayphoto-shrink_800_800/0/1596570555063?e=1697673600&v=beta&t=VWVXB-tadQAQivxMMPmmw_VocmvlQR_7s9Q3PAs5UBY",
 					"social": [
 						{
 							"twitter": "https://twitter.com/caught_nd_bowld",
@@ -297,19 +297,19 @@
 			},
 			"17": {
 				"type": "Workshop",
-				"title": "Workshop By Coredge",
-				"description": "TBD",
+				"title": "Unleash the Power of Python: Automated Testing for Units, Functions, and APIs",
+				"description": "In today's rapidly evolving software landscape, robust testing is paramount to deliver high-quality products. Manual testing is time-consuming and error-prone, often resulting in inefficiencies and bottlenecks. This workshop is designed to empower you with the knowledge and tools required to automate your testing workflows.",
 				"speaker": {
-					"name": "",
-					"info": "",
-					"photo": "",
+					"name": "Shailendra Pratap Singh",
+					"info": "An enigmatic professional with 20 years of experience, Head of Quality Assurance at Coredge, dedicated to driving excellence in software quality and automation. Holds a master's degree in computer applications and has served as Quality Head, QA Department Head, and Automation Architect. Contributed to shaping quality standards at Rakuten, XEBIA, Oracle, and Birlasoft.",
+					"photo": "https://media.licdn.com/dms/image/D4D03AQHAK9vaxerrtg/profile-displayphoto-shrink_800_800/0/1667495038950?e=1697673600&v=beta&t=CQvKm5DdBlHWgHJ4Bt78yPnh7MKkBXh4BcYWNC_r6LY",
 					"social": [
 						{
-							"twitter": "",
+							"twitter": "https://twitter.com/QAShailendra",
 							"github": "",
 							"website": "",
 							"facebook": "",
-							"linkedin": "",
+							"linkedin": "https://www.linkedin.com/in/shailendra-pratap-singh-38268222/",
 							"proposal": ""
 						}
 					]
@@ -422,7 +422,7 @@
 				"speaker": {
 					"name": "Abdeali Kothari",
 					"info": "In this talk, we will first clarify the common misconception of what a language is. And what the Python language is.And go into various alternatives of the standard CPython that are available, and the key reason they exist (i.e. why not use CPython?) Then we will go into some of the choices CPython has made - specifically about being interpreted vs compiled.",
-					"photo": "https://media.licdn.com/dms/image/C4E03AQHsneIL1V3Rjg/profile-displayphoto-shrink_400_400/0/1516498423530?e=1695859200&v=beta&t=2Bgvlso4SpvNiPHpIAlo7Wqb1u5blFkWzNG7KJibCy0",
+					"photo": "/img/abdeali-kothari.jpeg",
 					"social": [
 						{
 							"twitter": "https://twitter.com/AbdealiLoKo",
@@ -462,7 +462,7 @@
 				"speaker": {
 					"name": "Abdeali Kothari",
 					"info": "I have tried multiple frameworks for these tasks. With loads of attempts with selenium, webdriver, cypress, etc. and even hacky approaches like AutoIt, recorders, karma, etc. I finally stumbled upon the combination of playwright + python which has worked phenomenally well for us. I'd like to discuss this case study as I am sure this is a problem many people in the world must be facing. I have seen many discussions about the issues E2E testing poses - but never a “solution” to them, which is what I'd like to discuss.",
-					"photo": "",
+					"photo": "/img/abdeali-kothari.jpeg",
 					"social": [
 						{
 							"twitter": "https://twitter.com/AbdealiLoKo",
@@ -562,7 +562,7 @@
 				"speaker": {
 					"name": "Mohith Bansal",
 					"info": "Celery is a distributed system that allows application to process tasks asynchronously and allows task scheduling as well. Along with AMQP brokers and result store, celery allows the task to be processed in real-time.But if your message queues have variable amount of load and needs a scaling solution to help you scale the celery workers based on the load instead of keeping bigger instance running and save cost as well, this talk can be insightful to you.",
-					"photo": "https://media.licdn.com/dms/image/D4D35AQHTimssAOWMCA/profile-framedphoto-shrink_400_400/0/1690440022134?e=1691204400&v=beta&t=O52zZiF9AVn4adNmXVvE6xFmiALAPNI3_qH6926yru0",
+					"photo": "https://pbs.twimg.com/profile_images/1222957461201547264/DpQEa7VE_400x400.jpg",
 					"social": [
 						{
 							"twitter": "https://twitter.com/miphilomath",
@@ -597,19 +597,19 @@
 			},
 			"32": {
 				"type": "talk",
-				"title": "Diving into Python as an Entrepreneur",
-				"description": "Share my pre-dev adventures in the ocean and on an island.\nLiving on an island with no internet to finding doors in technology.\nPerspective on gig economy and India as a software export hub.\nCode samples from my learning phase to projects that I am pursuing now.\nChallenges and nudges that keep programmers going.\nNeed for open source collaboration for enthusiasts & professionals.",
+				"title": "Three Factors Blocking Contributions to Your Open Source Projects",
+				"description": "",
 				"speaker": {
-					"name": "Zorawar Purohit",
-					"info": "A python programmer and entrepreneur. With a very diverse base of experiences and true stories to share.",
-					"photo": "https://pbs.twimg.com/profile_images/1550242380452077568/2M8oFp2l_400x400.jpg",
+					"name": "Saurav Jain",
+					"info": "Saurav is an Open Source Evangelist and Pythonista from the last 4 years in the industry; he is also working as a Community Manager at Amplication. He has successfully contributed 100s of new contributors to OS projects in his career.",
+					"photo": "https://media.licdn.com/dms/image/D4D03AQFxachL8Q_M-Q/profile-displayphoto-shrink_800_800/0/1680504988942?e=1697673600&v=beta&t=7g_yXfKv_FKo1kwcJjG1A9K1Bf-SIq71Mb9pIgPM4Lk",
 					"social": [
 						{
-							"twitter": "http://twitter.com/zorawarpurohit",
-							"github": "https://github.com/engagepy",
-							"website": "https://zorawarpurohit.com/",
+							"twitter": "https://twitter.com/Sauain",
+							"github": "",
+							"website": "",
 							"facebook": "",
-							"linkedin": "https://www.linkedin.com/in/zorawar-purohit-08b73733/",
+							"linkedin": "https://www.linkedin.com/in/saurav-jain-384625147/",
 							"proposal": ""
 						}
 					]
@@ -622,14 +622,14 @@
 				"speaker": {
 					"name": "Prashant Chaturvedi",
 					"info": "Software Developer at 1MG with 3 years of experience, Prashant is currently working on the common order taking system. He has previously excelled in the diagnostics team, where he managed and enhanced diagnostic systems. Additionally, he contributed significantly to the health records team, successfully implementing real-time digitization of records.",
-					"photo": "https://drive.google.com/file/d/1E8xQCU0kpp1U6H4wf7gqSA4t4O_5NNJq/preview",
+					"photo": "https://media.licdn.com/dms/image/D4D03AQFJnbxXK9WitQ/profile-displayphoto-shrink_800_800/0/1690461907938?e=1697673600&v=beta&t=MMFApLN_NC18XouUcG4w44L9liR1RJRpjJFEZldRE7w",
 					"social": [
 						{
-							"twitter": "",
+							"twitter": "https://twitter.com/prashantchat11",
 							"github": "",
 							"website": "",
 							"facebook": "",
-							"linkedin": "",
+							"linkedin": "https://www.linkedin.com/in/prashantvedi11/",
 							"proposal": ""
 						}
 					]
@@ -676,20 +676,20 @@
 				}
 			},
 			"36": {
-				"type": "default",
-				"title": "To Be Decided",
+				"type": "Workshop",
+				"title": "Data Visualisation in Python",
 				"description": "",
 				"speaker": {
-					"name": "",
-					"info": "",
-					"photo": "",
+					"name": "Jaidev Deshpande",
+					"info": "Associate Director Tech @ Gramener",
+					"photo": "https://media.licdn.com/dms/image/C5103AQE_YAqu_x8DmA/profile-displayphoto-shrink_800_800/0/1574873034524?e=1697673600&v=beta&t=xDBIcCZfiJW_f4_GHTtmq6OnDiwzDLNtvKpmYppZD9o",
 					"social": [
 						{
-							"twitter": "",
+							"twitter": "https://twitter.com/jaidevd",
 							"github": "",
 							"website": "",
 							"facebook": "",
-							"linkedin": "",
+							"linkedin": "https://www.linkedin.com/in/jaidevd/",
 							"proposal": ""
 						}
 					]
@@ -722,14 +722,14 @@
 				"speaker": {
 					"name": "Akshita Dixit",
 					"info": "Akshita has been working with 1MG for the last 7 months. She works with the Cart Team at the company as a Backend Developer. Apart from her role at 1MG, she is  a Hackathon Coach at MLH (Major League Hacking) and shares her knowledge to inspire and guide aspiring developers. Further she manages MLH Fellows as a Pod Leader for the Fellowship. Beyond her professional engagements, she also does freelance technical writing for tech companies and startups.",
-					"photo": "https://drive.google.com/file/d/142wczpg4uT09o3Mbgk0J_O-s0XW9xIuR/view?usp=sharing",
+					"photo": "https://media.licdn.com/dms/image/D4D03AQFGx2SO99nJ5A/profile-displayphoto-shrink_800_800/0/1680695651316?e=1697673600&v=beta&t=9s6VHIIl3owoVU1g19Abv9N7jMY9w7GqvbAvIDrKFuY",
 					"social": [
 						{
-							"twitter": "",
+							"twitter": "https://twitter.com/plastic96_",
 							"github": "",
 							"website": "",
 							"facebook": "",
-							"linkedin": "",
+							"linkedin": "https://www.linkedin.com/in/akshitadixit/",
 							"proposal": ""
 						}
 					]
@@ -742,14 +742,14 @@
 				"speaker": {
 					"name": "Dollar Dhingra",
 					"info": "",
-					"photo": "",
+					"photo": "https://media.licdn.com/dms/image/C4D03AQEwqOCbrP-ndA/profile-displayphoto-shrink_800_800/0/1609328221457?e=1697673600&v=beta&t=nix3o4R_7MC1JFqKObCrtAItcYUbOoSSTM_HNcpNAfc",
 					"social": [
 						{
-							"twitter": "",
+							"twitter": "https://twitter.com/dollardhingra13",
 							"github": "",
 							"website": "",
 							"facebook": "",
-							"linkedin": "",
+							"linkedin": "https://www.linkedin.com/in/dollardhingra/",
 							"proposal": ""
 						}
 					]
