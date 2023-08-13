@@ -35,7 +35,7 @@
         },
         {
           "talk_id": "17",
-          "title": "Workshop By Coredge",
+          "title": "Unleash the Power of Python: Automated Testing for Units, Functions, and APIs",
           "start_time": "10:20",
           "end_time": "11:40",
           "track": "2"
@@ -170,7 +170,7 @@
         },
         {
           "talk_id": "36",
-          "title": " To be done",
+          "title": "Data Visualisation in Python",
           "start_time": "10:00",
           "end_time": "11:30",
           "track": "2"
@@ -262,7 +262,7 @@
         },
         {
           "talk_id": "32",
-          "title": "TBD",
+          "title": "Three Factors Blocking Contributions to Your Open Source Projects",
           "start_time": "03:30",
           "end_time": "04:00",
           "track": "1"
