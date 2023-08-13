@@ -696,20 +696,20 @@
 				}
 			},
 			"37": {
-				"type": "default",
-				"title": "To Be Decided",
-				"description": "",
+				"type": "Workshop",
+				"title": "Making apps with Kivy",
+				"description": "We will go through a couple of template githib repos that guide you through making a intermediate level kivy app and package it.  There would be a mini sprint to make a app yourself. The best app of the lot would would earn a surprise gift. :)",
 				"speaker": {
-					"name": "",
+					"name": "Akshay Arora",
 					"info": "",
-					"photo": "",
+					"photo": "https://media.licdn.com/dms/image/D4D03AQGTe3rWRTMl3A/profile-displayphoto-shrink_800_800/0/1689768075100?e=1697673600&v=beta&t=vjZDYtw4pJcJ8rNyHK599VAVsKZElcF3rvNaoIv0c84",
 					"social": [
 						{
-							"twitter": "",
-							"github": "",
+							"twitter": "https://twitter.com/quanon_akkshay",
+							"github": "https://github.com/akshayaurora",
 							"website": "",
 							"facebook": "",
-							"linkedin": "",
+							"linkedin": "https://www.linkedin.com/in/quanon/",
 							"proposal": ""
 						}
 					]
