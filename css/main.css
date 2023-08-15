@@ -12928,6 +12928,14 @@ section#schedule_table {
     margin-right: -45px;
   }
 
+  .keynote-row {
+    display: flex;
+  }
+
+  .keynote-row .keynote:not(:last-child) {
+    margin-right: 20px;
+  }
+
   .keynote {
     width: 60%;
     grid-template-columns: 1fr 1fr;
