@@ -5307,6 +5307,7 @@ function updateScheduleForADay(schedule, tracks, table_body) {
     var schedule_rows = [];
     for (var i = 0; i < schedule.length; i++) {
 		var talk_id = schedule[i].talk_id;
+        const type = tracks[talk_id].type
         var entity_details = schedule[i];
         var title = entity_details.title;
         var speaker_name = tracks[talk_id].hasOwnProperty('speaker') ? tracks[talk_id].speaker.name : '';
@@ -5316,7 +5317,11 @@ function updateScheduleForADay(schedule, tracks, table_body) {
 
         // Keynotes and Breakfast/Lunch - things common to all tracks
         if (current_day_track == 'all' || typeof current_day_track == "undefined") {
-            schedule_rows.push([time_duration, display_title, 'schedule-common'. talk_id]);
+            if (type == 'keynote') {
+                schedule_rows.push([time_duration, display_title, 'schedule-keynote', talk_id]);
+            } else {
+                schedule_rows.push([time_duration, display_title, 'schedule-common', talk_id]);
+            }
         // Talks Track
         } else if (current_day_track == '1') {
             schedule_rows.push([time_duration, display_title, 'schedule-talk', talk_id]);
@@ -5333,11 +5338,11 @@ function insertTableRows(table, rows) {
 	$(rows).each(function() {
         var row = $(this);
         // By default workshops stay hidden
-        row_html += `<tr class="${row[2] == 'schedule-workshop'? row[2] + ' table-row-hidden' : row[2]}">
+        row_html += `<tr class="${row[2] == 'schedule-workshop' ? row[2] + ' table-row-hidden' : row[2]}">
                        <td class="first_col">${row[0]}</td>
-                       <td class="second_col" id=talkno${((row[1]!='') ? row[3] || '-1' : -1)}>${row[1]}</td>
+                       <td class="second_col" id=talkno${row[1] != '' ? row[2] == 'schedule-keynote' ? row[3] || - 1 : -1 : -1}>${row[1]}</td>
                     </tr>`
-        if (row[1] != ''){
+        if (row[1] != '') {
             talk_count++; // Used for mapping the talk to its description, so incrementing is important
         }
     });
