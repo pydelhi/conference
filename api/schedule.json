@@ -62,8 +62,8 @@
           "track": "1"
         },
         {
-          "talk_id": "18",
-          "title": "Quantum Quest: Exploring Quantum Computing in Python",
+          "talk_id": "37",
+          "title": "Making apps with Kivy",
           "start_time": "11:40",
           "end_time": "01:00",
           "track": "2"
@@ -188,13 +188,6 @@
           "start_time": "11:00",
           "end_time": "11:30",
           "track": "1"
-        },
-        {
-          "talk_id": "37",
-          "title": "Making apps with Kivy",
-          "start_time": "11:30",
-          "end_time": "12:00",
-          "track": "2"
         },
         {
           "talk_id": "25",

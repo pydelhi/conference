@@ -176,7 +176,7 @@
 				}
 			},
 			"11": {
-				"type": "talk",
+				"type": "keynote",
 				"title": "Keynote: Python as a Gateway Language to Open Source",
 				"description": "Python has emerged as an excellent gateway language to open-source development for several reasons. Its simplicity, versatility, and large community make it an attractive choice for beginners looking to contribute to open-source projects. In this session, we will discuss and explore on what makes python a good candidate as a gateway language to open-source.",
 				"speaker": {
@@ -196,7 +196,7 @@
 				}
 			},
 			"12": {
-				"type": "Talk",
+				"type": "talk",
 				"title": "From chaos to order - Leveraging AWS Step Functions for Streamlined Data Processing",
 				"description": "Discover the art of efficient data processing with AWS Step Functions! Let's dive into a world of streamlined workflows, scalable solutions, and seamless automation as we unravel the secrets to transforming your data processing pipelines into a well-oiled (state) machine.",
 				"speaker": {
@@ -216,7 +216,7 @@
 				}
 			},
 			"13": {
-				"type": "Talk",
+				"type": "talk",
 				"title": "Django Custom Permissions and Authorization: Implementing Fine-Grained Access Control",
 				"description": "I invite you to join me in exploring the world of fine-grained access control in Django! In our tech talk on “Custom Permissions & Authorization,” we will go through customizing permissions, implementing RBAC, managing dynamic access, and ensuring rock-solid security.",
 				"speaker": {
@@ -236,7 +236,7 @@
 				}
 			},
 			"14": {
-				"type": "Talk",
+				"type": "talk",
 				"title": "Open Source Culture: Fostering Inclusivity and Diversity in Tech Communities",
 				"description": "My talk will focus on the importance of creating a diverse and inclusive tech community and how open source culture can help us achieve this goal. We will discuss the benefits of working in an inclusive environment, and how you can get involved in open-source projects.",
 				"speaker": {
@@ -256,7 +256,7 @@
 				}
 			},
 			"15": {
-				"type": "Talk",
+				"type": "talk",
 				"title": "Python Inspector - Look Ma No Hands!",
 				"description": "Do you know pip does not support reporting resolved dependencies without actually installing them in a build and depends on run-time environment for the resolution? Python-Inspector comes to rescue here by doing platform independent resolution without building anything : )",
 				"speaker": {
@@ -296,7 +296,7 @@
 				}
 			},
 			"17": {
-				"type": "Workshop",
+				"type": "workshop",
 				"title": "Unleash the Power of Python: Automated Testing for Units, Functions, and APIs",
 				"description": "In today's rapidly evolving software landscape, robust testing is paramount to deliver high-quality products. Manual testing is time-consuming and error-prone, often resulting in inefficiencies and bottlenecks. This workshop is designed to empower you with the knowledge and tools required to automate your testing workflows.",
 				"speaker": {
@@ -316,7 +316,7 @@
 				}
 			},
 			"18": {
-				"type": "Workshop",
+				"type": "workshop",
 				"title": "Quantum Quest: Exploring Quantum Computing in Python",
 				"description": "Join us on a captivating journey through the realm of Quantum Computing with Python! Discover the extraordinary potential of qubits, unravel mind-bending concepts like superposition and entanglement, and witness how Python empowers us to harness the power of quantum algorithms.",
 				"speaker": {
@@ -336,7 +336,7 @@
 				}
 			},
 			"19": {
-				"type": "Workshop",
+				"type": "workshop",
 				"title": "Scaling ML Models on SageMaker",
 				"description": "Scaling ML Models using SageMaker, this is a Hands on Workshop with experts from AWS",
 				"speaker": {
@@ -376,7 +376,7 @@
 				}
 			},
 			"21": {
-				"type": "talk",
+				"type": "keynote",
 				"title": "Keynote: Python: A Catalyst for Builders",
 				"description": "Explore how Python, with its rich ecosystem and versatility, empowers builders across diverse domains. From rapid prototyping to large-scale cloud deployments, delve into Python's transformative role, making development efficient and accessible. From SDLC to MLOps to Generative AI solutions, learn why Python stands as the preferred tool for modern-day innovators aiming for scalable, efficient solutions",
 				"speaker": {
