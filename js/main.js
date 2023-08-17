@@ -5297,6 +5297,7 @@ $('#cross').click(function(){
         $('#talk_desc')[0].innerHTML = '';
         $('#talk_name')[0].innerHTML = '';
         $('#talk_info')[0].innerHTML = '';
+        $('#speaker-socials')[0].innerHTML = '';
         $('#talk_speaker_image')[0].src = '';
         $('#talk_speaker_image').hide();
         $('#speaker_info').hide();
@@ -5317,11 +5318,7 @@ function updateScheduleForADay(schedule, tracks, table_body) {
 
         // Keynotes and Breakfast/Lunch - things common to all tracks
         if (current_day_track == 'all' || typeof current_day_track == "undefined") {
-            if (type == 'keynote') {
-                schedule_rows.push([time_duration, display_title, 'schedule-keynote', talk_id]);
-            } else {
-                schedule_rows.push([time_duration, display_title, 'schedule-common', talk_id]);
-            }
+            schedule_rows.push([time_duration, display_title, 'schedule-common', talk_id]);
         // Talks Track
         } else if (current_day_track == '1') {
             schedule_rows.push([time_duration, display_title, 'schedule-talk', talk_id]);
@@ -5340,7 +5337,7 @@ function insertTableRows(table, rows) {
         // By default workshops stay hidden
         row_html += `<tr class="${row[2] == 'schedule-workshop' ? row[2] + ' table-row-hidden' : row[2]}">
                        <td class="first_col">${row[0]}</td>
-                       <td class="second_col" id=talkno${row[1] != '' ? row[2] == 'schedule-keynote' ? row[3] || - 1 : -1 : -1}>${row[1]}</td>
+                       <td class="second_col" id=talkno${row[1] != '' ? row[3] : -1}>${row[1]}</td>
                     </tr>`
         if (row[1] != '') {
             talk_count++; // Used for mapping the talk to its description, so incrementing is important
